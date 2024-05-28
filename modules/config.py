@@ -73,7 +73,7 @@ def try_load_deprecated_user_path_config():
         replace_config('fooocus_expansion_path', 'path_fooocus_expansion')
         replace_config('temp_outputs_path', 'path_outputs')
 
-        if deprecated_config_dict.get("default_model", None) == 'juggernautXL_version6Rundiffusion.safetensors':
+        if deprecated_config_dict.get("default_model", None) == 'Rakibuniverse.V2.1.safetensors':
             os.replace('user_path_config.txt', 'user_path_config-deprecated.txt')
             print('Config updated successfully in silence. '
                   'A backup of previous config is written to "user_path_config-deprecated.txt".')
@@ -356,9 +356,7 @@ default_vae = get_config_item_or_set_default(
 default_styles = get_config_item_or_set_default(
     key='default_styles',
     default_value=[
-        "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus V2"
     ],
     validator=lambda x: isinstance(x, list) and all(y in modules.sdxl_styles.legal_style_names for y in x)
 )
@@ -386,7 +384,7 @@ default_advanced_checkbox = get_config_item_or_set_default(
 )
 default_max_image_number = get_config_item_or_set_default(
     key='default_max_image_number',
-    default_value=32,
+    default_value=5,
     validator=lambda x: isinstance(x, int) and x >= 1
 )
 default_output_format = get_config_item_or_set_default(
@@ -396,7 +394,7 @@ default_output_format = get_config_item_or_set_default(
 )
 default_image_number = get_config_item_or_set_default(
     key='default_image_number',
-    default_value=2,
+    default_value=1,
     validator=lambda x: isinstance(x, int) and 1 <= x <= default_max_image_number
 )
 checkpoint_downloads = get_config_item_or_set_default(
@@ -421,7 +419,7 @@ available_aspect_ratios = get_config_item_or_set_default(
 )
 default_aspect_ratio = get_config_item_or_set_default(
     key='default_aspect_ratio',
-    default_value='1152*896' if '1152*896' in available_aspect_ratios else available_aspect_ratios[0],
+    default_value='1216*832' if '1216*832' in available_aspect_ratios else available_aspect_ratios[0],
     validator=lambda x: x in available_aspect_ratios
 )
 default_inpaint_engine_version = get_config_item_or_set_default(
