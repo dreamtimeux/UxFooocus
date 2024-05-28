@@ -1,11 +1,8 @@
+
 [
     {
         "name": "Fooocus Enhance",
         "negative_prompt": "(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3)"
-    },
-    {
-        "name": "Fooocus Semi Realistic",
-        "negative_prompt": "(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3)"
     },
     {
         "name": "Fooocus Sharp",
@@ -30,5 +27,176 @@
         "name": "Fooocus Cinematic",
         "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
         "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },{
+    "name": "Rakib Minimalistic Vector",
+    "prompt": "minimalistic vector illustration {prompt} . clean lines, simple shapes, flat design, geometric, abstract, modern, sleek, monochrome, minimalist aesthetic",
+    "negative_prompt": "busy, cluttered, chaotic, detailed, realistic, textured, colorful, intricate, ornate, elaborate"
+  },
+  {
+    "name": "Rakib Minimalistic Vector Logo",
+    "prompt": "minimalistic vector logo design {prompt} . minimalist, simple, scalable, versatile, iconic, monogram, brand identity, sleek, geometric, abstract",
+    "negative_prompt": "complex, detailed, ornate, colorful, textured, intricate, busy, cluttered, chaotic, realistic"
+  },
+  {
+    "name": "Rakib Minimalistic Vector Icon",
+    "prompt": "minimalistic vector icon set {prompt} . simple, clear, recognizable, scalable, versatile, flat design, modern, monochrome",
+    "negative_prompt": "detailed, realistic, textured, colorful, intricate, busy, cluttered, chaotic, ornate, complex"
+  }, {
+    "name": "SR Rakib Minimalistic vector",
+    "prompt": "minimalistic vector art {prompt} . clean lines, subtle gradients, understated elegance, serene atmosphere",
+    "negative_prompt": "cluttered, busy, noisy, complex, chaotic, overcrowded, cluttered"
+  },
+    {
+    "name": "Simple Shapes 1",
+    "prompt": "simple shapes illustration {prompt} . basic geometry, limited color palette, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Basic Icons",
+    "prompt": "basic icons illustration {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Flat Design",
+    "prompt": "flat design illustration {prompt} . clean lines, limited color palette, geometric shapes, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Geometric Patterns",
+    "prompt": "geometric patterns illustration {prompt} . repeating shapes, limited color palette, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Simple Typography",
+    "prompt": "simple typography illustration {prompt} . clean lines, limited color palette, geometric shapes, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Basic Grids",
+    "prompt": "basic grids illustration {prompt} . simple layout, limited color palette, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Simple Icons",
+    "prompt": "simple icons illustration {prompt} . basic shapes, limited color palette, flat design, minimalist style", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Clean Lines",
+    "prompt": "clean lines illustration {prompt} . precise drawing, limited color palette, geometric shapes, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Basic Illustration",
+    "prompt": "basic illustration illustration {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Simple Compositions",
+    "prompt": "simple compositions illustration {prompt} . clean lines, limited color palette, geometric shapes, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Minimalist Graphics",
+    "prompt": "minimalist graphics illustration {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Basic Color Palette",
+    "prompt": "basic color palette illustration {prompt} . simple shapes, limited color palette, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Simple Shapes Composition",
+    "prompt": "simple shapes composition illustration {prompt} . basic geometry, limited color palette, flat design, subtle shadows", 
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+    {
+     "name": "Basic Illustration Style", 
+     "prompt": "basic illustration style {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Simple Flat Design", 
+     "prompt": "simple flat design illustration {prompt} . clean lines, limited color palette, geometric shapes, flat design, subtle shadows", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Basic Minimalist Design", 
+     "prompt": "basic minimalist design illustration {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Simple Graphic Illustration", 
+     "prompt": "simple graphic illustration {prompt} . basic geometry, limited color palette, flat design, subtle shadows", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Basic Simple Design", 
+     "prompt": "basic simple design illustration {prompt} . clean lines, limited color palette, geometric shapes, flat design, subtle shadows", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Minimalist Graphics Style", 
+     "prompt": "minimalist graphics style illustration {prompt} . simple shapes, limited color palette, flat design, minimalist style", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+   {
+     "name": "Simple Flat Illustration", 
+     "prompt": "simple flat illustration {prompt} . basic geometry, limited color palette, flat design, subtle shadows", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+     {
+    "name": "Monochromatic",
+    "prompt": "simple monochromatic illustration {prompt} . single-color scheme, limited shapes, flat design, subtle shadows",
+    "negative_prompt": "multiple colors, intricate patterns, busy background, detailed textures, complex compositions"
+  },
+  {
+    "name": "Geometric",
+    "prompt": "simple geometric illustration {prompt} . clean lines, geometric shapes, limited color palette, flat design, minimal embellishments",
+    "negative_prompt": "organic shapes, intricate details, busy background, bold colors, complex compositions"
+  },
+  {
+    "name": "Simple Shapes 2",
+    "prompt": "simple shape-based illustration {prompt} . basic shapes, limited color scheme, flat design, subtle shadows",
+    "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+  },
+  ...
+  {
+    "name": "40 Flat",
+    "prompt": "flat illustration {prompt} with 40% of the composition dedicated to negative space. limited color palette, clean lines, minimal embellishments",
+    "negative_prompt": "busy background, detailed textures, intricate patterns, bold colors, complex compositions"
+  },
+     {
+    "name": "Limited Color", 
+    "prompt": "simple illustration {prompt} with limited color palette (max 3 colors). flat design, clean lines, minimal embellishments", 
+    "negative_prompt": "multiple colors, intricate patterns, busy background, detailed textures, complex compositions"
+   },
+   {
+    "name": "Negative Space", 
+    "prompt": "flat illustration {prompt} with significant negative space. limited color palette, clean lines, minimal embellishments", 
+     "negative_prompt": "busy background, detailed textures, intricate patterns, bold colors, complex compositions"
+   },
+   ...
+   {
+    "name": "Simplify Shapes", 
+    "prompt": "illustration {prompt} where shapes are simplified and reduced to basic forms. limited color palette, flat design, minimal embellishments", 
+     "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
+   },
+    {
+    "name": "Clean Lines", 
+     "prompt": "illustration {prompt} with clean lines and minimal embellishments. limited color palette, flat design, subtle shadows", 
+      "negative_prompt": "busy background, intricate patterns, detailed textures, bold colors, complex compositions"
+    },
+    {
+    "name": "Minimal Patterns", 
+     "prompt": "simple illustration {prompt} with minimal repeating patterns. limited color palette, flat design, clean lines", 
+      "negative_prompt": "intricate patterns, busy background, detailed textures, bold colors, complex compositions"
+    },
+    ...
+    {
+    "name": "Simple Forms", 
+     "prompt": "illustration {prompt} featuring simple forms and shapes. limited color palette, flat design, minimal embellishments", 
+      "negative_prompt": "detailed textures, intricate patterns, busy background, bold colors, complex compositions"
     }
 ]
