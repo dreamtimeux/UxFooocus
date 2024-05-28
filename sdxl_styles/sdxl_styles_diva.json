@@ -393,5 +393,105 @@
         "name": "Whimsical and Playful",
         "prompt": "Whimsical and Playful, {prompt}, imaginative, fantastical, bight colors, stylized, happy, Whimsical and Playful",
         "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, drab, boring, moody"
+    },
+     {
+        "name": "geometric shapes line art",
+        "prompt": "line art drawing geometric shapes. bold, graphic, minimalist, modern, vector graphics",
+        "negative_prompt": "soft focus, watercolor, blurry, messy, cluttered"
+    },
+    {
+        "name": "animals line art",
+        "prompt": "line art drawing cute animals. simple, playful, colorful, whimsical, cartoon-like, illustration style",
+        "negative_prompt": "realistic, detailed, 3D, photorealistic, textured"
+    },
+    {
+        "name": "fantasy creatures line art",
+        "prompt": "line art drawing fantasy creatures. mystical, mythical, magical, otherworldly, dreamy, surreal",
+        "negative_prompt": "realistic, grounded, mundane, ordinary, plain, unremarkable"
+    },
+    {
+        "name": "buildings line art",
+        "prompt": "line art drawing modern buildings. sleek, futuristic, minimalist, geometric, architectural style",
+        "negative_prompt": "historic, antique, ornate, decorated, cluttered"
+    },
+    {
+        "name": "landscapes line art",
+        "prompt": "line art drawing serene landscapes. peaceful, calming, natural, atmospheric, impressionist style",
+        "negative_prompt": "busy, noisy, urban, chaotic, polluted"
+    },
+    {
+        "name": "portraits line art",
+        "prompt": "line art drawing simple portraits. minimalist, graphic, modern, illustration style",
+        "negative_prompt": "realistic, detailed, 3D, photorealistic, textured"
+    },
+    {
+        "name": "flowers line art",
+        "prompt": "line art drawing beautiful flowers. delicate, elegant, intricate, botanical, illustrative style",
+        "negative_prompt": "messy, chaotic, disorganized, cluttered, overgrown"
+    },
+    {
+        "name": "cars line art",
+        "prompt": "line art drawing cool cars. sleek, modern, futuristic, minimalist, graphic style",
+        "negative_prompt": "old-fashioned, antique, rusty, worn-out, dilapidated"
+    },
+    {
+        "name": "food line art",
+        "prompt": "line art drawing delicious food. colorful, appetizing, illustrative, stylized, graphic style",
+        "negative_prompt": "messy, dirty, rotten, spoiled, unappetizing"
+    },
+    {
+        "name": "objects line art",
+        "prompt": "line art drawing everyday objects. simple, minimalist, modern, graphic style",
+        "negative_prompt": "cluttered, messy, disorganized, chaotic, overwhelming"
+    },
+    {
+        "name": "emotions line art",
+        "prompt": "line art drawing emotional expressions. expressive, dynamic, illustrative, stylized, symbolic style",
+        "negative_prompt": "flat, lifeless, unemotional, apathetic, disconnected"
+    },
+    {
+        "name": "faces line art",
+        "prompt": "line art drawing facial expressions. emotive, expressive, graphic, minimalist, illustration style",
+        "negative_prompt": "neutral, blank, expressionless, bored, disinterested"
+    },
+    {
+        "name": "architecture line art",
+        "prompt": "line art drawing iconic architecture. modern, sleek, futuristic, geometric, architectural style",
+        "negative_prompt": "historic, antique, ornate, decorated, cluttered"
+    },
+    {
+        "name": "trees line art",
+        "prompt": "line art drawing majestic trees. tall, sturdy, branchy, leafy, botanical, illustrative style",
+        "negative_prompt": "bare, skeletal, dead, dying, wilted"
+    },
+    {
+        "name": "bodies line art",
+        "prompt": "line art drawing human bodies. simple, minimalist, modern, graphic, illustration style",
+        "negative_prompt": "realistic, detailed, 3D, photorealistic, textured"
+    },
+    {
+        "name": "houses line art",
+        "prompt": "line art drawing cozy houses. warm, inviting, illustrative, stylized, graphic style",
+        "negative_prompt": "old-fashioned, dilapidated, run-down, abandoned, neglected"
+    },
+    {
+        "name": "water line art",
+        "prompt": "line art drawing beautiful water scenes. peaceful, calming, natural, atmospheric, impressionist style",
+        "negative_prompt": "dirty, polluted, murky, cloudy, choppy"
+    },
+    {
+        "name": "fantasy line art", 
+        "prompt": "line art drawing fantasy worlds. mystical, mythical, magical, otherworldly, dreamy, surreal",
+        "negative_prompt": "realistic, grounded, mundane, ordinary, plain, unremarkable"
+    },
+    {
+        "name": "cities line art",
+        "prompt": "line art drawing vibrant cities. busy, bustling, urban, chaotic, graphic style",
+        "negative_prompt": "empty, deserted, quiet, peaceful, serene"
+    },
+    {
+        "name": "plants line art", 
+        "prompt": "line art drawing lush plants. green, leafy, branchy, botanical, illustrative style",
+        "negative_prompt": "bare, skeletal, dead, dying, wilted"
     }
 ]
