@@ -1,312 +1,707 @@
 [
   {
-    "name": "MK Chromolithography",
-    "prompt": "Chromolithograph {prompt}. Vibrant colors, intricate details, rich color saturation, meticulous registration, multi-layered printing, decorative elements, historical charm, artistic reproductions, commercial posters, nostalgic, ornate compositions.",
-    "negative_prompt": "monochromatic, simple designs, limited color palette, imprecise registration, minimalistic, modern aesthetic, digital appearance."
-  },
-  {
-    "name": "MK Cross Processing Print",
-    "prompt": "Cross processing print {prompt}. Experimental color shifts, unconventional tonalities, vibrant and surreal hues, heightened contrasts, unpredictable results, artistic unpredictability, retro and vintage feel, dynamic color interplay, abstract and dreamlike.",
-    "negative_prompt": "predictable color tones, traditional processing, realistic color representation, subdued contrasts, standard photographic aesthetics."
-  },
-  {
-    "name": "MK Dufaycolor Photograph",
-    "prompt": "Dufaycolor photograph {prompt}. Vintage color palette, distinctive color rendering, soft and dreamy atmosphere, historical charm, unique color process, grainy texture, evocative mood, nostalgic aesthetic, hand-tinted appearance, artistic patina.",
-    "negative_prompt": "modern color reproduction, hyperrealistic tones, sharp and clear details, digital precision, contemporary aesthetic."
-  },
-  {
-    "name": "MK Herbarium",
-    "prompt": "Herbarium drawing{prompt}. Botanical accuracy, old botanical book illustration, detailed illustrations, pressed plants, delicate and precise linework, scientific documentation, meticulous presentation, educational purpose, organic compositions, timeless aesthetic, naturalistic beauty.",
-    "negative_prompt": "abstract representation, vibrant colors, artistic interpretation, chaotic compositions, fantastical elements, digital appearance."
-  },
-  {
-    "name": "MK Punk Collage",
-    "prompt": "punk collage style {prompt} . mixed media, papercut,textured paper, overlapping, ripped posters, safety pins, chaotic layers, graffiti-style elements, anarchy symbols, vintage photos, cut-and-paste aesthetic, bold typography, distorted images, political messages, urban decay, distressed textures, newspaper clippings, spray paint, rebellious icons, DIY spirit, vivid colors, punk band logos, edgy and raw compositions, ",
-    "negative_prompt": "conventional,blurry, noisy, low contrast"
-  },
-  {
-    "name": "MK mosaic",
-    "prompt": "mosaic style {prompt} . fragmented, assembled, colorful, highly detailed",
-    "negative_prompt": "whole, unbroken, monochrome"
-  },
-  {
-    "name": "MK Van Gogh",
-    "prompt": "Oil painting by Van Gogh {prompt} . Expressive, impasto, swirling brushwork, vibrant, brush strokes, Brushstroke-heavy, Textured, Impasto, Colorful, Dynamic, Bold, Distinctive, Vibrant, Whirling, Expressive, Dramatic, Swirling, Layered, Intense, Contrastive, Atmospheric, Luminous, Textural, Evocative, SpiraledVan Gogh style",
-    "negative_prompt": "realistic, photorealistic, calm, straight lines, signature, frame, text, watermark"
-  },
-  {
-    "name": "MK Coloring Book",
-    "prompt": "centered black and white high contrast line drawing, coloring book style,{prompt} . monochrome, blank white background",
-    "negative_prompt": "greyscale, gradients,shadows,shadow, colored, Red, Blue, Yellow, Green, Orange, Purple, Pink, Brown, Gray, Beige, Turquoise, Lavender, Cyan, Magenta, Olive, Indigo, black background"
-  },
-  {
-    "name": "MK Singer Sargent",
-    "prompt": "Oil painting by John Singer Sargent {prompt}. Elegant, refined, masterful technique,realistic portrayal, subtle play of light, captivating expression, rich details, harmonious colors, skillful composition, brush strokes, chiaroscuro.",
-    "negative_prompt": "realistic, photorealistic, abstract, overly stylized, excessive contrasts, distorted,bright colors,disorder."
-  },
-  {
-    "name": "MK Pollock",
-    "prompt": "Oil painting by Jackson Pollock {prompt}. Abstract expressionism, drip painting, chaotic composition, energetic, spontaneous, unconventional technique, dynamic, bold, distinctive, vibrant, intense, expressive, energetic, layered, non-representational, gestural.",
-    "negative_prompt": "(realistic:1.5), (photorealistic:1.5), representational, calm, ordered composition, precise lines, detailed forms, subdued colors, quiet, static, traditional, figurative."
-  },
-  {
-    "name": "MK Basquiat",
-    "prompt": "Artwork by Jean-Michel Basquiat {prompt}. Neo-expressionism, street art influence, graffiti-inspired, raw, energetic, bold colors, dynamic composition, chaotic, layered, textural, expressive, spontaneous, distinctive, symbolic,energetic brushstrokes.",
-    "negative_prompt": "(realistic:1.5), (photorealistic:1.5), calm, precise lines, conventional composition, subdued"
-  },
-  {
-    "name": "MK Andy Warhol",
-    "prompt": "Artwork in the style of Andy Warhol {prompt}. Pop art, vibrant colors, bold compositions, repetition of iconic imagery, celebrity culture, commercial aesthetics, mass production influence, stylized simplicity, cultural commentary, graphical elements, distinctive portraits.",
-    "negative_prompt": "subdued colors, realistic, lack of repetition, minimalistic."
-  },
-  {
-    "name": "MK Halftone print",
-    "prompt": "Halftone print of {prompt}. Dot matrix pattern, grayscale tones, vintage aesthetic, newspaper print vibe, stylized dots, visual texture, black and white contrasts, retro appearance, artistic pointillism,pop culture, (Roy Lichtenstein style:1.5).",
-    "negative_prompt": "smooth gradients, continuous tones, vibrant colors."
-  },
-  {
-    "name": "MK Gond Painting",
-    "prompt": "Gond painting {prompt}. Intricate patterns, vibrant colors, detailed motifs, nature-inspired themes, tribal folklore, fine lines, intricate detailing, storytelling compositions, mystical and folkloric, cultural richness.",
-    "negative_prompt": "monochromatic, abstract shapes, minimalistic."
-  },
-  {
-    "name": "MK Albumen Print",
-    "prompt": "Albumen print {prompt}. Sepia tones, fine details, subtle tonal gradations, delicate highlights, vintage aesthetic, soft and muted atmosphere, historical charm, rich textures, meticulous craftsmanship, classic photographic technique, vignetting.",
-    "negative_prompt": "vibrant colors, high contrast, modern, digital appearance, sharp details, contemporary style."
-  },
-  {
-    "name": "MK Aquatint Print",
-    "prompt": "Aquatint print {prompt}. Soft tonal gradations, atmospheric effects, velvety textures, rich contrasts, fine details, etching process, delicate lines, nuanced shading, expressive and moody atmosphere, artistic depth.",
-    "negative_prompt": "sharp contrasts, bold lines, minimalistic."
-  },
-  {
-    "name": "MK Anthotype Print",
-    "prompt": "Anthotype print {prompt}. Monochrome dye, soft and muted colors, organic textures, ephemeral and delicate appearance, low details, watercolor canvas, low contrast, overexposed, silhouette, textured paper.",
-    "negative_prompt": "vibrant synthetic dyes, bold and saturated colors."
-  },
-  {
-    "name": "MK Inuit Carving",
-    "prompt": "A sculpture made of ivory, {prompt} made of . Sculptures, Inuit art style, intricate carvings, natural materials, storytelling motifs, arctic wildlife themes, symbolic representations, cultural traditions, earthy tones, harmonious compositions, spiritual and mythological elements.",
-    "negative_prompt": "abstract, vibrant colors."
-  },
-  {
-    "name": "MK Bromoil Print",
-    "prompt": "Bromoil print {prompt}. Painterly effects, sepia tones, textured surfaces, rich contrasts, expressive brushwork, tonal variations, vintage aesthetic, atmospheric mood, handmade quality, artistic experimentation, darkroom craftsmanship, vignetting.",
-    "negative_prompt": "smooth surfaces, minimal brushwork, contemporary digital appearance."
-  },
-  {
-    "name": "MK Calotype Print",
-    "prompt": "Calotype print {prompt}. Soft focus, subtle tonal range, paper negative process, fine details, vintage aesthetic, artistic experimentation, atmospheric mood, early photographic charm, handmade quality, vignetting.",
-    "negative_prompt": "sharp focus, bold contrasts, modern aesthetic, digital photography."
-  },
-  {
-    "name": "MK Color Sketchnote",
-    "prompt": "Color sketchnote {prompt}. Hand-drawn elements, vibrant colors, visual hierarchy, playful illustrations, varied typography, graphic icons, organic and dynamic layout, personalized touches, creative expression, engaging storytelling.",
-    "negative_prompt": "monochromatic, geometric layout."
-  },
-  {
-    "name": "MK Cibulak Porcelain",
-    "prompt": "A sculpture made of blue pattern porcelain of {prompt}. Classic design, blue and white color scheme, intricate detailing, floral motifs, onion-shaped elements, historical charm, rococo, white ware, cobalt blue, underglaze pattern, fine craftsmanship, traditional elegance, delicate patterns, vintage aesthetic, Meissen, Blue Onion pattern, Cibulak.",
-    "negative_prompt": "tea, teapot, cup, teacup,bright colors, bold and modern design, absence of intricate detailing, lack of floral motifs, non-traditional shapes."
-  },
-  {
-    "name": "MK Alcohol Ink Art",
-    "prompt": "Alcohol ink art {prompt}. Fluid and vibrant colors, unpredictable patterns, organic textures, translucent layers, abstract compositions, ethereal and dreamy effects, free-flowing movement, expressive brushstrokes, contemporary aesthetic, wet textured paper.",
-    "negative_prompt": "monochromatic, controlled patterns."
-  },
-  {
-    "name": "MK One Line Art",
-    "prompt": "One line art {prompt}. Continuous and unbroken black line, minimalistic, simplicity, economical use of space, flowing and dynamic, symbolic representations, contemporary aesthetic, evocative and abstract, white background.",
-    "negative_prompt": "disjointed lines, complexity, complex detailing."
-  },
-  {
-    "name": "MK Blacklight Paint",
-    "prompt": "Blacklight paint {prompt}. Fluorescent pigments, vibrant and surreal colors, ethereal glow, otherworldly effects, dynamic and psychedelic compositions, neon aesthetics, transformative in ultraviolet light, contemporary and experimental.",
-    "negative_prompt": "muted colors, traditional and realistic compositions."
-  },
-  {
-    "name": "MK Carnival Glass",
-    "prompt": "A sculpture made of Carnival glass, {prompt}. Iridescent surfaces, vibrant colors, intricate patterns, opalescent hues, reflective and prismatic effects, Art Nouveau and Art Deco influences, vintage charm, intricate detailing, lustrous and luminous appearance, Carnival Glass style.",
-    "negative_prompt": "non-iridescent surfaces, muted colors, absence of intricate patterns, lack of opalescent hues, modern and minimalist aesthetic."
-  },
-  {
-    "name": "MK Cyanotype Print",
-    "prompt": "Cyanotype print {prompt}. Prussian blue tones, distinctive coloration, high contrast, blueprint aesthetics, atmospheric mood, sun-exposed paper, silhouette effects, delicate details, historical charm, handmade and experimental quality.",
-    "negative_prompt": "vibrant colors, low contrast, modern and polished appearance."
-  },
-  {
-    "name": "MK Cross-Stitching",
-    "prompt": "Cross-stitching {prompt}. Intricate patterns, embroidery thread, sewing, fine details, precise stitches, textile artistry, symmetrical designs, varied color palette, traditional and contemporary motifs, handmade and crafted,canvas, nostalgic charm.",
-    "negative_prompt": "paper, paint, ink, photography."
-  },
-  {
-    "name": "MK Encaustic Paint",
-    "prompt": "Encaustic paint {prompt}. Textured surfaces, translucent layers, luminous quality, wax medium, rich color saturation, fluid and organic shapes, contemporary and historical influences, mixed media elements, atmospheric depth.",
-    "negative_prompt": "flat surfaces, opaque layers, lack of wax medium, muted color palette, absence of textured surfaces, non-mixed media."
-  },
-  {
-    "name": "MK Embroidery",
-    "prompt": "Embroidery {prompt}. Intricate stitching, embroidery thread, fine details, varied thread textures, textile artistry, embellished surfaces, diverse color palette, traditional and contemporary motifs, handmade and crafted, tactile and ornate.",
-    "negative_prompt": "minimalist, monochromatic."
-  },
-  {
-    "name": "MK Gyotaku",
-    "prompt": "Gyotaku {prompt}. Fish impressions, realistic details, ink rubbings, textured surfaces, traditional Japanese art form, nature-inspired compositions, artistic representation of marine life, black and white contrasts, cultural significance.",
-    "negative_prompt": "photography."
-  },
-  {
-    "name": "MK Luminogram",
-    "prompt": "Luminogram {prompt}. Photogram technique, ethereal and abstract effects, light and shadow interplay, luminous quality, experimental process, direct light exposure, unique and unpredictable results, artistic experimentation.",
-    "negative_prompt": ""
-  },
-  {
-    "name": "MK Lite Brite Art",
-    "prompt": "Lite Brite art {prompt}. Luminous and colorful designs, pixelated compositions, retro aesthetic, glowing effects, creative patterns, interactive and playful, nostalgic charm, vibrant and dynamic arrangements.",
-    "negative_prompt": "monochromatic."
-  },
-  {
-    "name": "MK Mokume-gane",
-    "prompt": "Mokume-gane {prompt}. Wood-grain patterns, mixed metal layers, intricate and organic designs, traditional Japanese metalwork, harmonious color combinations, artisanal craftsmanship, unique and layered textures, cultural and historical significance.",
-    "negative_prompt": "uniform metal surfaces."
-  },
-  {
-    "name": "Pebble Art",
-    "prompt": "a sculpture made of peebles, {prompt}. Pebble art style,natural materials, textured surfaces, balanced compositions, organic forms, harmonious arrangements, tactile and 3D effects, beach-inspired aesthetic, creative storytelling, artisanal craftsmanship.",
-    "negative_prompt": "non-natural materials, lack of textured surfaces, imbalanced compositions, absence of organic forms, non-tactile appearance."
-  },
-  {
-    "name": "MK Palekh",
-    "prompt": "Palekh art {prompt}. Miniature paintings, intricate details, vivid colors, folkloric themes, lacquer finish, storytelling compositions, symbolic elements, Russian folklore influence, cultural and historical significance.",
-    "negative_prompt": "large-scale paintings."
-  },
-  {
-    "name": "MK Suminagashi",
-    "prompt": "Suminagashi {prompt}. Floating ink patterns, marbled effects, delicate and ethereal designs, water-based ink, fluid and unpredictable compositions, meditative process, monochromatic or subtle color palette, Japanese artistic tradition.",
-    "negative_prompt": "vibrant and bold color palette."
-  },
-  {
-    "name": "MK Scrimshaw",
-    "prompt": "A Scrimshaw engraving of {prompt}. Intricate engravings on a spermwhale's teeth, marine motifs, detailed scenes, nautical themes, black and white contrasts, historical craftsmanship, artisanal carving, storytelling compositions, maritime heritage.",
-    "negative_prompt": "colorful, modern."
-  },
-  {
-    "name": "MK Shibori",
-    "prompt": "Shibori {prompt}. Textured fabric, intricate patterns, resist-dyeing technique, indigo or vibrant colors, organic and flowing designs, Japanese textile art, cultural tradition, tactile and visual interest.",
-    "negative_prompt": "monochromatic."
-  },
-  {
-    "name": "MK Vitreous Enamel",
-    "prompt": "A sculpture made of Vitreous enamel {prompt}. Smooth and glossy surfaces, vibrant colors, glass-like finish, durable and resilient, intricate detailing, traditional and contemporary applications, artistic craftsmanship, jewelry and decorative objects, , Vitreous enamel, colored glass.",
-    "negative_prompt": "rough surfaces, muted colors."
-  },
-  {
-    "name": "MK Ukiyo-e",
-    "prompt": "Ukiyo-e {prompt}. Woodblock prints, vibrant colors, intricate details, depictions of landscapes, kabuki actors, beautiful women, cultural scenes, traditional Japanese art, artistic craftsmanship, historical significance.",
-    "negative_prompt": "absence of woodblock prints, muted colors, lack of intricate details, non-traditional Japanese themes, absence of cultural scenes."
-  },
-  {
-    "name": "MK vintage-airline-poster",
-    "prompt": "vintage airline poster {prompt} . classic aviation fonts, pastel colors, elegant aircraft illustrations, scenic destinations, distressed textures, retro travel allure",
-    "negative_prompt": "modern fonts, bold colors, hyper-realistic, sleek design"
-  },
-  {
-    "name": "MK vintage-travel-poster",
-    "prompt": "vintage travel poster {prompt} . retro fonts, muted colors, scenic illustrations, iconic landmarks, distressed textures, nostalgic vibes",
-    "negative_prompt": "modern fonts, vibrant colors, hyper-realistic, sleek design"
-  },
-  {
-    "name": "MK bauhaus-style",
-    "prompt": "Bauhaus-inspired {prompt} . minimalism, geometric precision, primary colors, sans-serif typography, asymmetry, functional design",
-    "negative_prompt": "ornate, intricate, excessive detail, complex patterns, serif typography"
-  },
-  {
-    "name": "MK afrofuturism",
-    "prompt": "Afrofuturism illustration {prompt} . vibrant colors, futuristic elements, cultural symbolism, cosmic imagery, dynamic patterns, empowering narratives",
-    "negative_prompt": "monochromatic"
-  },
-  {
-    "name": "MK atompunk",
-    "prompt": "Atompunk illustation, {prompt} . retro-futuristic, atomic age aesthetics, sleek lines, metallic textures, futuristic technology, optimism, energy",
-    "negative_prompt": "organic, natural textures, rustic, dystopian"
-  },
-  {
-    "name": "MK constructivism",
-    "prompt": "Constructivism {prompt} . geometric abstraction, bold colors, industrial aesthetics, dynamic compositions, utilitarian design, revolutionary spirit",
-    "negative_prompt": "organic shapes, muted colors, ornate elements, traditional"
-  },
-  {
-    "name": "MK chicano-art",
-    "prompt": "Chicano art {prompt} . bold colors, cultural symbolism, muralism, lowrider aesthetics, barrio life, political messages, social activism, Mexico",
-    "negative_prompt": "monochromatic, minimalist, mainstream aesthetics"
-  },
-  {
-    "name": "MK de-stijl",
-    "prompt": "De Stijl Art {prompt} . neoplasticism, primary colors, geometric abstraction, horizontal and vertical lines, simplicity, harmony, utopian ideals",
-    "negative_prompt": "complex patterns, muted colors, ornate elements, asymmetry"
-  },
-  {
-    "name": "MK dayak-art",
-    "prompt": "Dayak art sculpture of {prompt} . intricate patterns, nature-inspired motifs, vibrant colors, traditional craftsmanship, cultural symbolism, storytelling",
-    "negative_prompt": "minimalist, monochromatic, modern"
-  },
-  {
-    "name": "MK fayum-portrait",
-    "prompt": "Fayum portrait {prompt} . encaustic painting, realistic facial features, warm earth tones, serene expressions, ancient Egyptian influences",
-    "negative_prompt": "abstract, vibrant colors, exaggerated features, modern"
-  },
-  {
-    "name": "MK illuminated-manuscript",
-    "prompt": "Illuminated manuscript {prompt} . intricate calligraphy, rich colors, detailed illustrations, gold leaf accents, ornate borders, religious, historical, medieval",
-    "negative_prompt": "modern typography, minimalist design, monochromatic, abstract themes"
-  },
-  {
-    "name": "MK kalighat-painting",
-    "prompt": "Kalighat painting {prompt} . bold lines, vibrant colors, narrative storytelling, cultural motifs, flat compositions, expressive characters",
-    "negative_prompt": "subdued colors, intricate details, realistic portrayal, modern aesthetics"
-  },
-  {
-    "name": "MK madhubani-painting",
-    "prompt": "Madhubani painting {prompt} . intricate patterns, vibrant colors, nature-inspired motifs, cultural storytelling, symmetry, folk art aesthetics",
-    "negative_prompt": "abstract, muted colors, minimalistic design, modern aesthetics"
-  },
-  {
-    "name": "MK pictorialism",
-    "prompt": "Pictorialism illustration{prompt} . soft focus, atmospheric effects, artistic interpretation, tonality, muted colors, evocative storytelling",
-    "negative_prompt": "sharp focus, high contrast, realistic depiction, vivid colors"
-  },
-  {
-    "name": "MK pichwai-painting",
-    "prompt": "Pichwai painting {prompt} . intricate detailing, vibrant colors, religious themes, nature motifs, devotional storytelling, gold leaf accents",
-    "negative_prompt": "minimalist, subdued colors, abstract design"
-  },
-  {
-    "name": "MK patachitra-painting",
-    "prompt": "Patachitra painting {prompt} . bold outlines, vibrant colors, intricate detailing, mythological themes, storytelling, traditional craftsmanship",
-    "negative_prompt": "subdued colors, minimalistic, abstract, modern aesthetics"
-  },
-  {
-    "name": "MK samoan-art-inspired",
-    "prompt": "Samoan art-inspired wooden sculpture {prompt} . traditional motifs, natural elements, bold colors, cultural symbolism, storytelling, craftsmanship",
-    "negative_prompt": "modern aesthetics, minimalist, abstract"
-  },
-  {
-    "name": "MK tlingit-art",
-    "prompt": "Tlingit art {prompt} . formline design, natural elements, animal motifs, bold colors, cultural storytelling, traditional craftsmanship, Alaska traditional art, (totem:1.5)",
-    "negative_prompt": ""
-  },
-  {
-    "name": "MK adnate-style",
-    "prompt": "Painting by Adnate {prompt} . realistic portraits, street art, large-scale murals, subdued color palette, social narratives",
-    "negative_prompt": "abstract, vibrant colors, small-scale art"
-  },
-  {
-    "name": "MK ron-english-style",
-    "prompt": "Painting by Ron English {prompt} . pop-surrealism, cultural subversion, iconic mash-ups, vibrant and bold colors, satirical commentary",
-    "negative_prompt": "traditional, monochromatic"
-  },
-  {
-    "name": "MK shepard-fairey-style",
-    "prompt": "Painting by Shepard Fairey {prompt} . street art, political activism, iconic stencils, bold typography, high contrast, red, black, and white color palette",
-    "negative_prompt": "traditional, muted colors"
-  }
+        "name": "Logo Design Styles",
+        "prompt": "Logo Design, {prompt}, dynamic graphic art, vector art, minimalist, professional logo design",
+        "negative_prompt": "old-fashioned, chaotic, childish, unprofessional, cluttered"
+    },
+    {
+        "name": "Vintage Logo Design",
+        "prompt": "Vintage, retro, classic, old-school, antique, nostalgic, vintage logo design",
+        "negative_prompt": "modern, futuristic, contemporary, sleek, high-tech"
+    },
+    {
+        "name": "Flat Logo Design",
+        "prompt": "Flat, simple, two-dimensional, flat design, flat logo design",
+        "negative_prompt": "3D, textured, gradient, glossy, shiny"
+    },
+    {
+        "name": "Monogram Logo Design",
+        "prompt": "Monogram, lettermark, initials, typographic logo design, monogram logo design",
+        "negative_prompt": "illustrative, pictorial, emblem, mascot, abstract"
+    },
+    {
+        "name": "Geometric Logo Design",
+        "prompt": "Geometric, shapes, lines, symmetry, geometric logo design",
+        "negative_prompt": "organic, fluid, irregular, asymmetrical, freeform"
+    },
+    {
+        "name": "Wordmark Logo Design",
+        "prompt": "Wordmark, logotype, typography, text-based logo design, wordmark logo design",
+        "negative_prompt": "symbol, icon, emblem, pictorial, abstract"
+    },
+    {
+        "name": "Badge Logo Design",
+        "prompt": "Badge, crest, shield, insignia, emblem, badge logo design",
+        "negative_prompt": "minimalist, sleek, modern, simple, clean"
+    },
+    {
+        "name": "Mascot Logo Design",
+        "prompt": "Mascot, character, cartoon, playful, mascot logo design",
+        "negative_prompt": "formal, serious, corporate, minimalist, abstract"
+    },
+    {
+        "name": "Abstract Logo Design",
+        "prompt": "Abstract, artistic, conceptual, non-representational, abstract logo design",
+        "negative_prompt": "literal, representational, figurative, concrete, realistic"
+    },
+    {
+        "name": "Illustrative Logo Design",
+        "prompt": "Illustrative, pictorial, imagery, illustration, illustrative logo design",
+        "negative_prompt": "typographic, abstract, minimalist, symbolic, geometric"
+    },
+    {
+        "name": "Minimalist Logo Design",
+        "prompt": "Minimalist, simplicity, clean, sleek, minimalist logo design",
+        "negative_prompt": "complex, intricate, detailed, ornate, decorative"
+    },
+    {
+        "name": "Emblem Logo Design",
+        "prompt": "Emblem, symbol, badge, insignia, emblem logo design",
+        "negative_prompt": "abstract, minimalist, modern, sleek, simple"
+    },
+    {
+        "name": "Dynamic Logo Design",
+        "prompt": "Dynamic, movement, energy, kinetic, dynamic logo design",
+        "negative_prompt": "static, stationary, stagnant, inert, motionless"
+    },
+    {
+        "name": "Luxury Logo Design",
+        "prompt": "Luxury, premium, high-end, elegant, luxury logo design",
+        "negative_prompt": "budget, cheap, affordable, basic, low-cost"
+    },
+    {
+        "name": "Corporate Logo Design",
+        "prompt": "Corporate, professional, business, enterprise, corporate logo design",
+        "negative_prompt": "casual, informal, playful, creative, artistic"
+    },
+    {
+        "name": "Tech Logo Design",
+        "prompt": "Tech, technology, futuristic, innovation, tech logo design",
+        "negative_prompt": "traditional, outdated, old-fashioned, retro, vintage"
+    },
+    {
+        "name": "Gaming Logo Design",
+        "prompt": "Gaming, esports, gamer, video games, gaming logo design",
+        "negative_prompt": "business, corporate, professional, serious, formal"
+    },
+    {
+        "name": "Fashion Logo Design",
+        "prompt": "Fashion, stylish, trendy, chic, fashion logo design",
+        "negative_prompt": "outdated, unfashionable, old-fashioned, traditional, dull"
+    },
+    {
+        "name": "Food Logo Design",
+        "prompt": "Food, culinary, restaurant, gastronomy, food logo design",
+        "negative_prompt": "non-food, industrial, technological, corporate, professional"
+    },
+    {
+        "name": "Artistic Logo Design",
+        "prompt": "Artistic, creative, expressive, imaginative, artistic logo design",
+        "negative_prompt": "plain, unadorned, unembellished, uninspired, pedestrian"
+    },{
+        "name": "Photography Logo Design",
+        "prompt": "Photography, photographer, camera, lens, photography logo design",
+        "negative_prompt": "non-photographic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Music Logo Design",
+        "prompt": "Music, musician, musical, notes, instruments, music logo design",
+        "negative_prompt": "non-musical, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Fitness Logo Design",
+        "prompt": "Fitness, gym, exercise, health, wellness, fitness logo design",
+        "negative_prompt": "sedentary, inactive, unhealthy, non-fitness, unrelated"
+    },
+    {
+        "name": "Real Estate Logo Design",
+        "prompt": "Real Estate, property, homes, houses, real estate logo design",
+        "negative_prompt": "virtual, digital, intangible, unrelated, off-topic"
+    },
+    {
+        "name": "Travel Logo Design",
+        "prompt": "Travel, tourism, destinations, journey, travel logo design",
+        "negative_prompt": "stationary, immobile, non-travel, unrelated, off-topic"
+    },
+    {
+        "name": "Education Logo Design",
+        "prompt": "Education, learning, school, knowledge, education logo design",
+        "negative_prompt": "unlearned, ignorant, uneducated, non-educational, off-topic"
+    },
+    {
+        "name": "Healthcare Logo Design",
+        "prompt": "Healthcare, medical, wellness, hospital, healthcare logo design",
+        "negative_prompt": "non-healthcare, irrelevant, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Finance Logo Design",
+        "prompt": "Finance, banking, money, investment, finance logo design",
+        "negative_prompt": "non-financial, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Legal Logo Design",
+        "prompt": "Legal, law, justice, attorney, legal logo design",
+        "negative_prompt": "illegal, unlawful, criminal, non-legal, unrelated"
+    },
+    {
+        "name": "Pet Logo Design",
+        "prompt": "Pet, animal, veterinarian, cute, pet logo design",
+        "negative_prompt": "inhumane, cruel, unkind, non-pet, unrelated"
+    },
+    {
+        "name": "Environmental Logo Design",
+        "prompt": "Environmental, eco-friendly, green, sustainability, environmental logo design",
+        "negative_prompt": "non-environmental, unsustainable, harmful, unrelated, off-topic"
+    },
+    {
+        "name": "Technology Logo Design",
+        "prompt": "Technology, digital, innovation, hi-tech, technology logo design",
+        "negative_prompt": "non-technological, analog, outdated, unrelated, off-topic"
+    },
+    {
+        "name": "Automotive Logo Design",
+        "prompt": "Automotive, cars, vehicles, automobile, automotive logo design",
+        "negative_prompt": "non-automotive, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Cosmetic Logo Design",
+        "prompt": "Cosmetic, beauty, skincare, makeup, cosmetic logo design",
+        "negative_prompt": "ugly, unattractive, non-cosmetic, unrelated, off-topic"
+    },
+    {
+        "name": "Interior Design Logo Design",
+        "prompt": "Interior Design, home decor, architecture, interior design logo design",
+        "negative_prompt": "external, exterior, non-interior, unrelated, off-topic"
+    },
+    {
+        "name": "Event Planning Logo Design",
+        "prompt": "Event Planning, party, celebration, occasion, event planning logo design",
+        "negative_prompt": "non-event, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Restaurant Logo Design",
+        "prompt": "Restaurant, dining, food, cuisine, restaurant logo design",
+        "negative_prompt": "non-restaurant, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Marketing Logo Design",
+        "prompt": "Marketing, advertising, promotion, branding, marketing logo design",
+        "negative_prompt": "non-marketing, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Entertainment Logo Design",
+        "prompt": "Entertainment, fun, enjoyment, leisure, entertainment logo design",
+        "negative_prompt": "boring, dull, uninteresting, non-entertainment, unrelated"
+    },
+    {
+        "name": "Art Logo Design",
+        "prompt": "Art, creativity, imagination, expression, art logo design",
+        "negative_prompt": "unartistic, non-art, uninspired, unrelated, off-topic"
+    },
+    {
+        "name": "Technology Startup Logo Design",
+        "prompt": "Technology Startup, innovation, disruption, tech, technology startup logo design",
+        "negative_prompt": "stagnant, old-fashioned, traditional, non-startup, unrelated"
+    },
+    {
+        "name": "Eco-Friendly Logo Design",
+        "prompt": "Eco-Friendly, sustainability, green, environment, eco-friendly logo design",
+        "negative_prompt": "unsustainable, harmful, wasteful, non-eco-friendly, unrelated"
+    },
+    {
+        "name": "Charity Logo Design",
+        "prompt": "Charity, nonprofit, philanthropy, giving, charity logo design",
+        "negative_prompt": "selfish, greedy, non-charitable, unrelated, off-topic"
+    },
+    {
+        "name": "Sports Logo Design",
+        "prompt": "Sports, athletics, competition, fitness, sports logo design",
+        "negative_prompt": "sedentary, inactive, non-sporty, unrelated, off-topic"
+    },
+    {
+        "name": "Fashion Boutique Logo Design",
+        "prompt": "Fashion Boutique, clothing, style, chic, fashion boutique logo design",
+        "negative_prompt": "unstylish, unfashionable, outdated, non-boutique, unrelated"
+    },
+    {
+        "name": "Coffee Shop Logo Design",
+        "prompt": "Coffee Shop, cafe, espresso, coffee, coffee shop logo design",
+        "negative_prompt": "non-coffee, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Web Design Logo Design",
+        "prompt": "Web Design, website, internet, online, web design logo design",
+        "negative_prompt": "non-web, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Yoga Logo Design",
+        "prompt": "Yoga, meditation, mindfulness, balance, yoga logo design",
+        "negative_prompt": "chaotic, stressful, non-yoga, unrelated, off-topic"
+    },
+    {
+        "name": "Juice Bar Logo Design",
+        "prompt": "Juice Bar, smoothie, healthy, organic, juice bar logo design",
+        "negative_prompt": "unhealthy, processed, non-juice, unrelated, off-topic"
+    },
+    {
+        "name": "DIY Logo Design",
+        "prompt": "DIY, handmade, crafts, artisan, DIY logo design",
+        "negative_prompt": "mass-produced, factory-made, non-DIY, unrelated, off-topic"
+    },{
+        "name": "Pet Grooming Logo Design",
+        "prompt": "Pet Grooming, grooming, pets, animals, pet grooming logo design",
+        "negative_prompt": "ungroomed, messy, dirty, non-grooming, unrelated"
+    },
+    {
+        "name": "Wedding Planner Logo Design",
+        "prompt": "Wedding Planner, weddings, marriage, love, wedding planner logo design",
+        "negative_prompt": "non-wedding, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Architecture Logo Design",
+        "prompt": "Architecture, buildings, structures, design, architecture logo design",
+        "negative_prompt": "non-architectural, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Graphic Design Logo Design",
+        "prompt": "Graphic Design, visuals, graphics, creativity, graphic design logo design",
+        "negative_prompt": "non-graphic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Landscaping Logo Design",
+        "prompt": "Landscaping, gardens, outdoors, nature, landscaping logo design",
+        "negative_prompt": "indoor, non-landscaping, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Tattoo Studio Logo Design",
+        "prompt": "Tattoo Studio, tattoos, ink, body art, tattoo studio logo design",
+        "negative_prompt": "non-tattoo, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Law Firm Logo Design",
+        "prompt": "Law Firm, legal, justice, attorney, law firm logo design",
+        "negative_prompt": "illegal, non-legal, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Consulting Logo Design",
+        "prompt": "Consulting, advice, expertise, consultancy, consulting logo design",
+        "negative_prompt": "non-consulting, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Architecture Firm Logo Design",
+        "prompt": "Architecture Firm, buildings, structures, design, architecture firm logo design",
+        "negative_prompt": "non-architectural, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Medical Clinic Logo Design",
+        "prompt": "Medical Clinic, healthcare, doctor, wellness, medical clinic logo design",
+        "negative_prompt": "non-medical, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Beauty Salon Logo Design",
+        "prompt": "Beauty Salon, hair, nails, spa, beauty salon logo design",
+        "negative_prompt": "non-beauty, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Fitness Studio Logo Design",
+        "prompt": "Fitness Studio, gym, exercise, health, fitness studio logo design",
+        "negative_prompt": "sedentary, inactive, non-fitness, unrelated, off-topic"
+    },
+    {
+        "name": "Digital Marketing Logo Design",
+        "prompt": "Digital Marketing, online, internet, promotion, digital marketing logo design",
+        "negative_prompt": "non-digital, offline, unrelated, irrelevant, off-topic"
+    },
+    {
+        "name": "Coffeehouse Logo Design",
+        "prompt": "Coffeehouse, cafe, espresso, coffee, coffeehouse logo design",
+        "negative_prompt": "non-coffee, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Mobile App Logo Design",
+        "prompt": "Mobile App, smartphone, technology, app, mobile app logo design",
+        "negative_prompt": "non-mobile, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Fitness Apparel Logo Design",
+        "prompt": "Fitness Apparel, sportswear, workout, exercise, fitness apparel logo design",
+        "negative_prompt": "sedentary, inactive, non-fitness, unrelated, off-topic"
+    },
+    {
+        "name": "Daycare Logo Design",
+        "prompt": "Daycare, childcare, children, preschool, daycare logo design",
+        "negative_prompt": "non-daycare, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Financial Advisor Logo Design",
+        "prompt": "Financial Advisor, finance, investment, money, financial advisor logo design",
+        "negative_prompt": "non-financial, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Digital Agency Logo Design",
+        "prompt": "Digital Agency, online, internet, marketing, digital agency logo design",
+        "negative_prompt": "non-digital, offline, unrelated, irrelevant, off-topic"
+    },
+    {
+        "name": "Landscape Design Logo Design",
+        "prompt": "Landscape Design, gardening, outdoors, nature, landscape design logo design",
+        "negative_prompt": "indoor, non-landscape, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Financial Planning Logo Design",
+        "prompt": "Financial Planning, finance, investment, money, financial planning logo design",
+        "negative_prompt": "non-financial, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Tech Startup Logo Design",
+        "prompt": "Tech Startup, technology, innovation, startup, tech startup logo design",
+        "negative_prompt": "stagnant, old-fashioned, traditional, non-startup, unrelated"
+    },
+    {
+        "name": "Nutritionist Logo Design",
+        "prompt": "Nutritionist, diet, health, wellness, nutritionist logo design",
+        "negative_prompt": "unhealthy, non-nutrition, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Fashion Brand Logo Design",
+        "prompt": "Fashion Brand, clothing, style, chic, fashion brand logo design",
+        "negative_prompt": "unstylish, unfashionable, outdated, non-brand, unrelated"
+    },
+    {
+        "name": "Graphic Novel Logo Design",
+        "prompt": "Graphic Novel, comics, illustrations, storytelling, graphic novel logo design",
+        "negative_prompt": "non-graphic, unrelated, irrelevant, off-topic, off-theme"
+    },{
+        "name": "T-Shirt Design",
+        "prompt": "T-Shirt Design, apparel, clothing, fashion, t-shirt design",
+        "negative_prompt": "non-apparel, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Typography T-Shirt Design",
+        "prompt": "Typography, fonts, letters, words, typography t-shirt design",
+        "negative_prompt": "non-typographic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Graphic T-Shirt Design",
+        "prompt": "Graphic, illustration, artwork, visuals, graphic t-shirt design",
+        "negative_prompt": "non-graphic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Vintage T-Shirt Design",
+        "prompt": "Vintage, retro, classic, old-school, vintage t-shirt design",
+        "negative_prompt": "modern, futuristic, contemporary, unrelated, off-topic"
+    },
+    {
+        "name": "Pop Culture T-Shirt Design",
+        "prompt": "Pop Culture, media, entertainment, celebrities, pop culture t-shirt design",
+        "negative_prompt": "non-pop culture, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Minimalist T-Shirt Design",
+        "prompt": "Minimalist, simplicity, clean, sleek, minimalist t-shirt design",
+        "negative_prompt": "complex, intricate, detailed, unrelated, off-topic"
+    },
+    {
+        "name": "Abstract T-Shirt Design",
+        "prompt": "Abstract, artistic, conceptual, non-representational, abstract t-shirt design",
+        "negative_prompt": "literal, representational, figurative, unrelated, off-topic"
+    },
+    {
+        "name": "Geometric T-Shirt Design",
+        "prompt": "Geometric, shapes, lines, symmetry, geometric t-shirt design",
+        "negative_prompt": "organic, fluid, irregular, unrelated, off-topic"
+    },
+    {
+        "name": "Illustrative T-Shirt Design",
+        "prompt": "Illustrative, pictorial, imagery, illustration, illustrative t-shirt design",
+        "negative_prompt": "typographic, abstract, minimalist, unrelated, off-topic"
+    },
+    {
+        "name": "Animal T-Shirt Design",
+        "prompt": "Animal, wildlife, pets, creatures, animal t-shirt design",
+        "negative_prompt": "non-animal, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Nature T-Shirt Design",
+        "prompt": "Nature, outdoors, environment, landscape, nature t-shirt design",
+        "negative_prompt": "urban, indoor, non-nature, unrelated, off-topic"
+    },
+    {
+        "name": "Space T-Shirt Design",
+        "prompt": "Space, cosmos, stars, planets, space t-shirt design",
+        "negative_prompt": "terrestrial, earthly, non-space, unrelated, off-topic"
+    },
+    {
+        "name": "Sci-Fi T-Shirt Design",
+        "prompt": "Sci-Fi, science fiction, futuristic, space, sci-fi t-shirt design",
+        "negative_prompt": "non-sci-fi, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Fantasy T-Shirt Design",
+        "prompt": "Fantasy, mythical, magical, creatures, fantasy t-shirt design",
+        "negative_prompt": "realistic, non-fantasy, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Gaming T-Shirt Design",
+        "prompt": "Gaming, video games, gamer, gaming culture, gaming t-shirt design",
+        "negative_prompt": "non-gaming, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Sports T-Shirt Design",
+        "prompt": "Sports, athletics, competition, fitness, sports t-shirt design",
+        "negative_prompt": "sedentary, inactive, non-sporty, unrelated, off-topic"
+    },
+    {
+        "name": "Music T-Shirt Design",
+        "prompt": "Music, musician, musical, notes, music t-shirt design",
+        "negative_prompt": "non-music, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Foodie T-Shirt Design",
+        "prompt": "Foodie, culinary, gastronomy, food culture, foodie t-shirt design",
+        "negative_prompt": "non-foodie, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Travel T-Shirt Design",
+        "prompt": "Travel, tourism, destinations, adventure, travel t-shirt design",
+        "negative_prompt": "stationary, immobile, non-travel, unrelated, off-topic"
+    },
+    {
+        "name": "Artistic T-Shirt Design",
+        "prompt": "Artistic, creative, expressive, imaginative, artistic t-shirt design",
+        "negative_prompt": "plain, unadorned, unembellished, unrelated, off-topic"
+    },{
+        "name": "Circle T-Shirt Design",
+        "prompt": "Circle, round, circular, sphere, circle t-shirt design",
+        "negative_prompt": "non-circular, square, rectangle, unrelated, off-topic"
+    },
+    {
+        "name": "Geometric Circle T-Shirt Design",
+        "prompt": "Geometric Circle, shapes, lines, symmetry, geometric circle t-shirt design",
+        "negative_prompt": "organic, fluid, irregular, unrelated, off-topic"
+    },
+    {
+        "name": "Mandala T-Shirt Design",
+        "prompt": "Mandala, spiritual, sacred geometry, intricate, mandala t-shirt design",
+        "negative_prompt": "non-mandala, simple, plain, unrelated, off-topic"
+    },
+    {
+        "name": "Sun T-Shirt Design",
+        "prompt": "Sun, solar, sunshine, brightness, sun t-shirt design",
+        "negative_prompt": "moon, darkness, night, unrelated, off-topic"
+    },
+    {
+        "name": "Moon T-Shirt Design",
+        "prompt": "Moon, lunar, night, celestial, moon t-shirt design",
+        "negative_prompt": "sun, daylight, brightness, unrelated, off-topic"
+    },
+    {
+        "name": "Planets T-Shirt Design",
+        "prompt": "Planets, cosmos, solar system, space, planets t-shirt design",
+        "negative_prompt": "earth, terrestrial, non-planetary, unrelated, off-topic"
+    },
+    {
+        "name": "Galaxy T-Shirt Design",
+        "prompt": "Galaxy, universe, stars, cosmos, galaxy t-shirt design",
+        "negative_prompt": "earth, terrestrial, non-galactic, unrelated, off-topic"
+    },
+    {
+        "name": "Infinity Symbol T-Shirt Design",
+        "prompt": "Infinity Symbol, eternity, endless, infinite, infinity symbol t-shirt design",
+        "negative_prompt": "finite, limited, bounded, unrelated, off-topic"
+    },
+    {
+        "name": "Yin Yang T-Shirt Design",
+        "prompt": "Yin Yang, balance, harmony, duality, yin yang t-shirt design",
+        "negative_prompt": "imbalance, disharmony, chaos, unrelated, off-topic"
+    },
+    {
+        "name": "Zen Circle T-Shirt Design",
+        "prompt": "Zen Circle, enlightenment, meditation, simplicity, zen circle t-shirt design",
+        "negative_prompt": "complexity, chaos, distraction, unrelated, off-topic"
+    },
+    {
+        "name": "Target Circle T-Shirt Design",
+        "prompt": "Target Circle, aim, goal, precision, target circle t-shirt design",
+        "negative_prompt": "miss, off-target, imprecision, unrelated, off-topic"
+    },
+    {
+        "name": "Bubble T-Shirt Design",
+        "prompt": "Bubble, spheres, round, bubbles, bubble t-shirt design",
+        "negative_prompt": "flat, deflated, popped, unrelated, off-topic"
+    },
+    {
+        "name": "Wheel T-Shirt Design",
+        "prompt": "Wheel, tire, rotation, circular, wheel t-shirt design",
+        "negative_prompt": "square, immobile, stationary, unrelated, off-topic"
+    },
+    {
+        "name": "Clock T-Shirt Design",
+        "prompt": "Clock, time, hours, minutes, clock t-shirt design",
+        "negative_prompt": "timeless, eternal, unrelated, off-topic"
+    },
+    {
+        "name": "Record T-Shirt Design",
+        "prompt": "Record, vinyl, music, retro, record t-shirt design",
+        "negative_prompt": "digital, non-musical, unrelated, off-topic"
+    },
+    {
+        "name": "Porthole T-Shirt Design",
+        "prompt": "Porthole, ship, nautical, round window, porthole t-shirt design",
+        "negative_prompt": "square window, land-based, unrelated, off-topic"
+    },
+    {
+        "name": "Wheel of Fortune T-Shirt Design",
+        "prompt": "Wheel of Fortune, luck, chance, fate, wheel of fortune t-shirt design",
+        "negative_prompt": "misfortune, unlucky, unrelated, off-topic"
+    },
+    {
+        "name": "Rosette T-Shirt Design",
+        "prompt": "Rosette, floral, ornament, award, rosette t-shirt design",
+        "negative_prompt": "plain, unadorned, simple, unrelated, off-topic"
+    },
+    {
+        "name": "Coin T-Shirt Design",
+        "prompt": "Coin, currency, money, circular, coin t-shirt design",
+        "negative_prompt": "square, non-monetary, unrelated, off-topic"
+    },
+    {
+        "name": "Lifebuoy T-Shirt Design",
+        "prompt": "Lifebuoy, safety, rescue, nautical, lifebuoy t-shirt design",
+        "negative_prompt": "danger, peril, unrelated, off-topic"
+    },{
+        "name": "T-Shirt Logo Design",
+        "prompt": "T-Shirt Logo Design, apparel, clothing, fashion, t-shirt logo design",
+        "negative_prompt": "non-apparel, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Typography T-Shirt Logo Design",
+        "prompt": "Typography, fonts, letters, words, typography t-shirt logo design",
+        "negative_prompt": "non-typographic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Graphic T-Shirt Logo Design",
+        "prompt": "Graphic, illustration, artwork, visuals, graphic t-shirt logo design",
+        "negative_prompt": "non-graphic, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Vintage T-Shirt Logo Design",
+        "prompt": "Vintage, retro, classic, old-school, vintage t-shirt logo design",
+        "negative_prompt": "modern, futuristic, contemporary, unrelated, off-topic"
+    },
+    {
+        "name": "Pop Culture T-Shirt Logo Design",
+        "prompt": "Pop Culture, media, entertainment, celebrities, pop culture t-shirt logo design",
+        "negative_prompt": "non-pop culture, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Minimalist T-Shirt Logo Design",
+        "prompt": "Minimalist, simplicity, clean, sleek, minimalist t-shirt logo design",
+        "negative_prompt": "complex, intricate, detailed, unrelated, off-topic"
+    },
+    {
+        "name": "Abstract T-Shirt Logo Design",
+        "prompt": "Abstract, artistic, conceptual, non-representational, abstract t-shirt logo design",
+        "negative_prompt": "literal, representational, figurative, unrelated, off-topic"
+    },
+    {
+        "name": "Geometric T-Shirt Logo Design",
+        "prompt": "Geometric, shapes, lines, symmetry, geometric t-shirt logo design",
+        "negative_prompt": "organic, fluid, irregular, unrelated, off-topic"
+    },
+    {
+        "name": "Illustrative T-Shirt Logo Design",
+        "prompt": "Illustrative, pictorial, imagery, illustration, illustrative t-shirt logo design",
+        "negative_prompt": "typographic, abstract, minimalist, unrelated, off-topic"
+    },
+    {
+        "name": "Animal T-Shirt Logo Design",
+        "prompt": "Animal, wildlife, pets, creatures, animal t-shirt logo design",
+        "negative_prompt": "non-animal, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Nature T-Shirt Logo Design",
+        "prompt": "Nature, outdoors, environment, landscape, nature t-shirt logo design",
+        "negative_prompt": "urban, indoor, non-nature, unrelated, off-topic"
+    },
+    {
+        "name": "Space T-Shirt Logo Design",
+        "prompt": "Space, cosmos, stars, planets, space t-shirt logo design",
+        "negative_prompt": "terrestrial, earthly, non-space, unrelated, off-topic"
+    },
+    {
+        "name": "Sci-Fi T-Shirt Logo Design",
+        "prompt": "Sci-Fi, science fiction, futuristic, space, sci-fi t-shirt logo design",
+        "negative_prompt": "non-sci-fi, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Fantasy T-Shirt Logo Design",
+        "prompt": "Fantasy, mythical, magical, creatures, fantasy t-shirt logo design",
+        "negative_prompt": "realistic, non-fantasy, unrelated, off-topic, off-theme"
+    },
+    {
+        "name": "Gaming T-Shirt Logo Design",
+        "prompt": "Gaming, video games, gamer, gaming culture, gaming t-shirt logo design",
+        "negative_prompt": "non-gaming, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Sports T-Shirt Logo Design",
+        "prompt": "Sports, athletics, competition, fitness, sports t-shirt logo design",
+        "negative_prompt": "sedentary, inactive, non-sporty, unrelated, off-topic"
+    },
+    {
+        "name": "Music T-Shirt Logo Design",
+        "prompt": "Music, musician, musical, notes, music t-shirt logo design",
+        "negative_prompt": "non-music, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Foodie T-Shirt Logo Design",
+        "prompt": "Foodie, culinary, gastronomy, food culture, foodie t-shirt logo design",
+        "negative_prompt": "non-foodie, unrelated, irrelevant, off-topic, off-theme"
+    },
+    {
+        "name": "Travel T-Shirt Logo Design",
+        "prompt": "Travel, tourism, destinations, adventure, travel t-shirt logo design",
+        "negative_prompt": "stationary, immobile, non-travel, unrelated, off-topic"
+    },
+    {
+        "name": "Artistic T-Shirt Logo Design",
+        "prompt": "Artistic, creative, expressive, imaginative, artistic t-shirt logo design",
+        "negative_prompt": "plain, unadorned, unembellished, unrelated, off-topic"
+    },
+    {
+        "name": "Circle T-Shirt Logo Design",
+        "prompt": "Circle, round, circular, sphere, circle t-shirt logo design",
+        "negative_prompt": "non-circular, square, rectangle, unrelated, off-topic"
+    },
+    {
+        "name": "Gradient T-Shirt Logo Design",
+        "prompt": "Gradient, color, transition, blend, gradient t-shirt logo design",
+        "negative_prompt": "solid color, non-gradient, unrelated, off-topic"
+    },
+    {
+        "name": "Watercolor T-Shirt Logo Design",
+        "prompt": "Watercolor, painting, art, brush strokes, watercolor t-shirt logo design",
+        "negative_prompt": "non-watercolor, unrelated, off-topic"
+    },
+    {
+        "name": "Vintage Badge T-Shirt Logo Design",
+        "prompt": "Vintage Badge, retro, classic, insignia, vintage badge t-shirt logo design",
+        "negative_prompt": "modern, futuristic, contemporary, unrelated, off-topic"
+    },
+    {
+        "name": "Retro Pattern T-Shirt Logo Design",
+        "prompt": "Retro Pattern, vintage, classic, nostalgic, retro pattern t-shirt logo design",
+        "negative_prompt": "modern, futuristic, contemporary, unrelated, off-topic"
+    },
+    {
+        "name": "Abstract Symbol T-Shirt Logo Design",
+        "prompt": "Abstract Symbol, symbolic, abstract, representation, abstract symbol t-shirt logo design",
+        "negative_prompt": "literal, representational, figurative, unrelated, off-topic"
+    },
+    {
+        "name": "Sport Team T-Shirt Logo Design",
+        "prompt": "Sport Team, athletics, competition, team spirit, sport team t-shirt logo design",
+        "negative_prompt": "non-sporty, individual, unrelated, off-topic"
+    }
 ]
