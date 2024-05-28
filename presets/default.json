@@ -1,5 +1,5 @@
 {
-    "default_model": "Rakibuniverse.V2.1.safetensors",
+    "default_model": "SDXL-Flash.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -9,15 +9,15 @@
             0.2
         ],
             
-      [
+       [
             true,
-            "tcd.safetensors",
-            0.7
+            "None",
+            1.0
         ],
         [
             true,
-            "sdxl_lightning_4step_lora.safetensors",
-            0.7
+            "None",
+            1.0
         ],
          [
             true,
@@ -44,13 +44,11 @@
     ],
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
-        "Rakibuniverse.V2.1.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/Rakibuniverse.V2.1.safetensors"
+        "SDXL-Flash.safetensors": "https://huggingface.co/sd-community/sdxl-flash/resolve/main/SDXL-Flash.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "mymj.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/mymj.safetensors",
-         "tcd.safetensors": "https://huggingface.co/rafiislam/Lora/resolve/main/tcd.safetensors",
-         "sdxl_lightning_4step_lora.safetensors": "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_4step_lora.safetensors"
+        "mymj.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/mymj.safetensors"
     },
     "previous_default_models": [
         "rakibuniverselightv6.safetensors",
