@@ -1,5 +1,5 @@
 {
-    "default_model": "SDXL-Flash.safetensors",
+    "default_model": "Epicrealismxl_Hades.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -44,7 +44,7 @@
     ],
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
-        "SDXL-Flash.safetensors": "https://huggingface.co/sd-community/sdxl-flash/resolve/main/SDXL-Flash.safetensors"
+        "Epicrealismxl_Hades.safetensors": "https://huggingface.co/rafiislam/MixModel/resolve/main/Epicrealismxl_Hades.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
