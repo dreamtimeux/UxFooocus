@@ -1,5 +1,3284 @@
 [
+   {
+    "name": "Abstract Vector",
+    "prompt": "abstract vector art {prompt} . geometric shapes, vibrant colors, vector illustration, digital art, modern, contemporary, fluid lines",
+    "negative_prompt": "realism, photography, analog, black and white, chaotic, messy, disorganized"
+  },
+  {
+    "name": "Watercolor Vector",
+    "prompt": "watercolor-style vector painting {prompt} . soft edges, translucent colors, digital watercolor, painterly, artistic, flowing, delicate",
+    "negative_prompt": "sharp lines, pixelated, blocky, mechanical, artificial, unnatural"
+  },
+  {
+    "name": "Pop Art Vector",
+    "prompt": "pop art vector illustration {prompt} . bold colors, comic book style, celebrities, cultural icons, Andy Warhol inspired, pop culture",
+    "negative_prompt": "monochromatic, subtle, understated, dull, lifeless, unexciting"
+  },
+  {
+    "name": "Minimalist Vector",
+    "prompt": "minimalist vector design {prompt} . simplicity, clean lines, minimalistic, minimalist art, white space, elegant, Zen",
+    "negative_prompt": "complex, cluttered, chaotic, overdone, intricate, busy"
+  },
+  {
+    "name": "Graffiti Vector",
+    "prompt": "graffiti-style vector art {prompt} . urban, street art, spray paint, graffiti tags, rebellious, edgy, graffiti culture",
+    "negative_prompt": "neat, tidy, conformist, bland, sterile, uninspiring"
+  },
+  {
+    "name": "Vintage Vector",
+    "prompt": "vintage vector artwork {prompt} . retro, nostalgic, vintage design, old-fashioned, aged, antique, classic",
+    "negative_prompt": "modern, contemporary, futuristic, high-tech, cutting-edge"
+  },
+  {
+    "name": "Surreal Vector",
+    "prompt": "surreal vector illustration {prompt} . dreamlike, bizarre, surrealism, fantasy, subconscious, imaginative, mind-bending",
+    "negative_prompt": "realistic, straightforward, ordinary, predictable, uncreative"
+  },
+  {
+    "name": "Neon Vector",
+    "prompt": "neon vector art {prompt} . glowing, neon lights, cyberpunk, futuristic, vibrant, electric, nightlife",
+    "negative_prompt": "dull, dim, lifeless, uninspired, outdated"
+  }, {
+    "name": "Vector Style 1",
+    "prompt": "simple vector illustration {prompt} . clean lines, minimalistic, flat design, geometric shapes",
+    "negative_prompt": "chaotic, messy, cluttered, complex, realistic"
+  },
+  {
+    "name": "Vector Style 2",
+    "prompt": "cartoon vector art {prompt} . bold colors, playful, exaggerated features",
+    "negative_prompt": "dull, monochromatic, lifeless, boring"
+  },
+  {
+    "name": "Vector Style 3",
+    "prompt": "vector icon design {prompt} . sharp edges, scalable, clear symbols",
+    "negative_prompt": "pixelated, blurry, unrecognizable, outdated"
+  },
+  {
+    "name": "Vector Style 4",
+    "prompt": "vector logo {prompt} . corporate, sleek, professional",
+    "negative_prompt": "amateurish, amateur, unrefined, messy"
+  },
+  {
+    "name": "Vector Style 5",
+    "prompt": "infographic vector {prompt} . informative, visually appealing, data-driven",
+    "negative_prompt": "confusing, disorganized, illegible"
+  },
+  {
+    "name": "Vector Style 6",
+    "prompt": "vector pattern {prompt} . repetitive, seamless, decorative",
+    "negative_prompt": "incoherent, jumbled, chaotic"
+  },
+  {
+    "name": "Vector Style 7",
+    "prompt": "vector portrait {prompt} . detailed, lifelike, artistic",
+    "negative_prompt": "simplistic, unrecognizable, amateurish"
+  },
+  {
+    "name": "Vector Style 8",
+    "prompt": "retro vector art {prompt} . vintage, nostalgic, old-school",
+    "negative_prompt": "modern, futuristic, out-of-place"
+  },
+  {
+    "name": "Vector Style 9",
+    "prompt": "abstract vector {prompt} . non-representational, artistic, unique",
+    "negative_prompt": "literal, uninspired, derivative"
+  },
+  {
+    "name": "Vector Style 10",
+    "prompt": "botanical vector {prompt} . floral, natural, organic",
+    "negative_prompt": "artificial, sterile, lifeless"
+  },
+  {
+    "name": "Vector Style 11",
+    "prompt": "vector typography {prompt} . text-based, fonts, graphic",
+    "negative_prompt": "illegible, messy, amateurish"
+  },
+  {
+    "name": "Vector Style 12",
+    "prompt": "vector cityscape {prompt} . urban, city, skyline",
+    "negative_prompt": "rural, countryside, deserted"
+  },
+  {
+    "name": "Vector Style 13",
+    "prompt": "vector technology {prompt} . gadgets, electronics, futuristic",
+    "negative_prompt": "outdated, obsolete, clunky"
+  },
+  {
+    "name": "Vector Style 14",
+    "prompt": "vector animals {prompt} . wildlife, creatures, fauna",
+    "negative_prompt": "extinct, mythical, fictional"
+  },
+  {
+    "name": "Vector Style 15",
+    "prompt": "vintage vector {prompt} . aged, retro, classic",
+    "negative_prompt": "contemporary, modern, fresh"
+  },
+  {
+    "name": "Vector Style 16",
+    "prompt": "vector food illustration {prompt} . delicious, appetizing, culinary",
+    "negative_prompt": "unpalatable, unappetizing, tasteless"
+  },
+  {
+    "name": "Vector Style 17",
+    "prompt": "vector fashion {prompt} . trendy, stylish, haute couture",
+    "negative_prompt": "outdated, unfashionable, frumpy"
+  },
+  {
+    "name": "Vector Style 18",
+    "prompt": "vector travel {prompt} . wanderlust, adventure, exploration",
+    "negative_prompt": "staycation, confinement, isolation"
+  },
+  {
+    "name": "Vector Style 19",
+    "prompt": "vector sports {prompt} . athletic, competitive, energetic",
+    "negative_prompt": "sedentary, lazy, lethargic"
+  },
+  {
+    "name": "Vector Style 20",
+    "prompt": "vector music {prompt} . rhythmic, melodic, harmonious",
+    "negative_prompt": "discordant, cacophonous, jarring"
+  },
+  {
+    "name": "Vector Style 21",
+    "prompt": "vector holidays {prompt} . festive, celebratory, joyous",
+    "negative_prompt": "dreary, mournful, sorrowful"
+  },
+  {
+    "name": "Vector Style 22",
+    "prompt": "vector nature {prompt} . serene, tranquil, scenic",
+    "negative_prompt": "polluted, industrial, dystopian"
+  },
+  {
+    "name": "Vector Style 23",
+    "prompt": "vector fantasy {prompt} . magical, mythical, enchanting",
+    "negative_prompt": "mundane, ordinary, unremarkable"
+  },
+  {
+    "name": "Vector Style 24",
+    "prompt": "vector education {prompt} . informative, instructive, enlightening",
+    "negative_prompt": "ignorant, uninformed, misleading"
+  },
+  {
+    "name": "Vector Style 25",
+    "prompt": "vector health {prompt} . wellness, fitness, vitality",
+    "negative_prompt": "sickly, ailing, unwell"
+  },
+  {
+    "name": "Vector Style 26",
+    "prompt": "vector technology {prompt} . innovative, cutting-edge, futuristic",
+    "negative_prompt": "obsolete, outdated, archaic"
+  },
+  {
+    "name": "Vector Style 27",
+    "prompt": "vector animals {prompt} . wildlife, creatures, fauna",
+    "negative_prompt": "extinct, mythical, fictional"
+  },
+  {
+    "name": "Vector Style 28",
+    "prompt": "vector cityscape {prompt} . urban, city, skyline",
+    "negative_prompt": "rural, countryside, deserted"
+  },
+  {
+    "name": "Vector Style 29",
+    "prompt": "vector fashion {prompt} . trendy, stylish, haute couture",
+    "negative_prompt": "outdated, unfashionable, frumpy"
+  },
+  {
+    "name": "Vector Style 30",
+    "prompt": "vector travel {prompt} . wanderlust, adventure, exploration",
+    "negative_prompt": "staycation, confinement, isolation"
+  },
+  {
+    "name": "Vector Style 31",
+    "prompt": "vector sports {prompt} . athletic, competitive, energetic",
+    "negative_prompt": "sedentary, lazy, lethargic"
+  }, {
+        "name": "Fooocus Sharp",
+        "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy",
+        "negative_prompt": "anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },
     {
+        "name": "Fooocus Masterpiece",
+        "prompt": "(masterpiece), (best quality), (ultra-detailed), {prompt}, illustration, disheveled hair, detailed eyes, perfect composition, moist skin, intricate details, earrings, by wlop",
+        "negative_prompt": "longbody, lowres, bad anatomy, bad hands, missing fingers, pubic hair,extra digit, fewer digits, cropped, worst quality, low quality"
+    },
+    {
+        "name": "Fooocus Photograph",
+        "prompt": "photograph {prompt}, 50mm . cinematic 4k epic detailed 4k epic detailed photograph shot on kodak detailed cinematic hbo dark moody, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage",
+        "negative_prompt": "Brad Pitt, bokeh, depth of field, blurry, cropped, regular face, saturated, contrast, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+    },
+  
+    {
+        "name": "Fooocus Cinematic",
+        "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+        "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },
+  {
+    "name": "Chinese Calligraphy",
+    "prompt": "traditional Chinese calligraphy {prompt} . brush strokes, ink, scroll, masterful, elegant, characters, script, scroll, poetic, graceful",
+    "negative_prompt": "digital, graffiti, messy, illegible, scribbles, chaotic"
+  },
+  {
+    "name": "Chinese Landscape Painting",
+    "prompt": "classic Chinese landscape painting {prompt} . mountains, rivers, ink wash, serene, misty, traditional, nature, poetic",
+    "negative_prompt": "abstract, urban, chaotic, crowded, industrial, dystopian"
+  },
+  {
+    "name": "Chinese Watercolor",
+    "prompt": "Chinese watercolor painting {prompt} . delicate, colorful, ink, paper, traditional, peaceful, brushwork, nature",
+    "negative_prompt": "pixel art, digital, neon, chaotic, abstract, distorted"
+  },
+  {
+    "name": "Chinese Silk Embroidery",
+    "prompt": "Chinese silk embroidery {prompt} . intricate, colorful threads, texture, fabric, traditional, craftsmanship, detailed",
+    "negative_prompt": "crude, pixelated, messy, torn, discolored"
+  },
+  {
+    "name": "Chinese Woodblock Prints",
+    "prompt": "Chinese woodblock prints {prompt} . intricate patterns, wood grain, traditional, cultural, storytelling, detailed",
+    "negative_prompt": "abstract, chaotic, blurry, unrecognizable"
+  },
+  {
+    "name": "Chinese Porcelain Painting",
+    "prompt": "Chinese porcelain painting {prompt} . delicate, fine china, vibrant colors, traditional, ceramics, detailed",
+    "negative_prompt": "sloppy, faded, distorted, smudged"
+  },
+  {
+    "name": "Chinese Paper Cutting",
+    "prompt": "Chinese paper cutting {prompt} . intricate designs, red paper, traditional, scissors, craftsmanship, detailed",
+    "negative_prompt": "crumpled, torn, uneven, jagged"
+  },
+  {
+    "name": "Chinese Brush Painting",
+    "prompt": "traditional Chinese brush painting {prompt} . ink, bamboo, animals, traditional, brushwork, delicate, poetic",
+    "negative_prompt": "digital, graffiti, chaotic, abstract, messy"
+  },
+  {
+    "name": "Chinese Pottery",
+    "prompt": "Chinese pottery {prompt} . clay, glaze, ceramics, traditional, kiln, craftsmanship, intricate",
+    "negative_prompt": "cracked, uneven, broken, misshapen"
+  },
+  {
+    "name": "Chinese Sculpture",
+    "prompt": "Chinese sculpture {prompt} . clay, stone, bronze, traditional, three-dimensional, detailed",
+    "negative_prompt": "shapeless, incomplete, rough, amateurish"
+  },
+  {
+    "name": "Chinese Wood Carving",
+    "prompt": "Chinese wood carving {prompt} . intricate patterns, wood grain, traditional, craftsmanship, detailed",
+    "negative_prompt": "splintered, uneven, crude, distorted"
+  },
+  {
+    "name": "Chinese Opera Masks",
+    "prompt": "Chinese opera masks {prompt} . colorful, traditional, facial expressions, intricate, symbolism",
+    "negative_prompt": "plain, featureless, unrecognizable"
+  },
+  {
+    "name": "Chinese Fan Painting",
+    "prompt": "Chinese fan painting {prompt} . delicate, bamboo, traditional, paper, detailed, craftsmanship",
+    "negative_prompt": "crumpled, torn, sloppy, faded"
+  },
+  {
+    "name": "Chinese Batik",
+    "prompt": "Chinese batik {prompt} . wax resist, vibrant colors, fabric, traditional, detailed",
+    "negative_prompt": "smudged, faded, uneven, distorted"
+  },
+  {
+    "name": "Chinese Ink Wash",
+    "prompt": "Chinese ink wash painting {prompt} . monochromatic, mountains, waterfalls, traditional, serene, ink",
+    "negative_prompt": "colorful, chaotic, abstract, unrecognizable"
+  },
+  {
+    "name": "Chinese Oil Painting",
+    "prompt": "Chinese oil painting {prompt} . canvas, oil colors, traditional, realistic, detailed",
+    "negative_prompt": "smudged, messy, distorted, abstract"
+  },
+  {
+    "name": "Chinese Mural Art",
+    "prompt": "Chinese mural art {prompt} . walls, ancient, traditional, storytelling, detailed",
+    "negative_prompt": "peeling, faded, incomplete, unrecognizable"
+  },
+  {
+    "name": "Chinese Jade Carving",
+    "prompt": "Chinese jade carving {prompt} . precious stone, intricate designs, traditional, craftsmanship",
+    "negative_prompt": "cracked, rough, misshapen, amateurish"
+  },
+  {
+    "name": "Chinese Lacquerware",
+    "prompt": "Chinese lacquerware {prompt} . glossy, intricate designs, traditional, craftsmanship",
+    "negative_prompt": "dull, chipped, uneven, cracked"
+  },
+  {
+    "name": "Chinese Knotting",
+    "prompt": "Chinese knotting {prompt} . intricate, red cord, traditional, symbolism, craftsmanship",
+    "negative_prompt": "tangled, messy, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Bamboo Art",
+    "prompt": "Chinese bamboo art {prompt} . delicate, bamboo, traditional, detailed, craftsmanship",
+    "negative_prompt": "broken, misshapen, rough, amateurish"
+  },
+  {
+    "name": "Chinese Silk Painting",
+    "prompt": "Chinese silk painting {prompt} . delicate, silk fabric, vibrant colors, traditional, detailed",
+    "negative_prompt": "stained, faded, uneven, distorted"
+  },
+  {
+    "name": "Chinese Jade Jewelry",
+    "prompt": "Chinese jade jewelry {prompt} . precious stones, intricate designs, traditional, craftsmanship",
+    "negative_prompt": "plain, cheap, uneven, dull"
+  },
+  {
+    "name": "Chinese Puppetry",
+    "prompt": "Chinese puppetry {prompt} . puppet characters, strings, traditional, storytelling, craftsmanship",
+    "negative_prompt": "lifeless, tangled, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Brush Pen Art",
+    "prompt": "Chinese brush pen art {prompt} . ink, brush strokes, traditional, detailed, craftsmanship",
+    "negative_prompt": "digital, graffiti, chaotic, abstract, messy"
+  },
+  {
+    "name": "Chinese Opera Costumes",
+    "prompt": "Chinese opera costumes {prompt} . colorful, intricate, traditional, theatrical, detailed",
+    "negative_prompt": "plain, dull, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Stone Sculpture",
+    "prompt": "Chinese stone sculpture {prompt} . stone, traditional, three-dimensional, detailed, craftsmanship",
+    "negative_prompt": "shapeless, incomplete, rough, amateurish"
+  },
+  {
+    "name": "Chinese Embroidered Silk",
+    "prompt": "Chinese embroidered silk {prompt} . delicate, colorful threads, fabric, traditional, detailed",
+    "negative_prompt": "crumpled, torn, uneven, jagged"
+  },
+  {
+    "name": "Chinese Miniature Painting",
+    "prompt": "Chinese miniature painting {prompt} . tiny canvas, intricate, traditional, detailed, craftsmanship",
+    "negative_prompt": "sloppy, blurry, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Woodblock Painting",
+    "prompt": "Chinese woodblock painting {prompt} . intricate patterns, wood grain, traditional, detailed, craftsmanship",
+    "negative_prompt": "smeared, chaotic, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Silk Tapestry",
+    "prompt": "Chinese silk tapestry {prompt} . intricate, vibrant colors, fabric, traditional, detailed",
+    "negative_prompt": "tangled, faded, uneven, distorted"
+  },
+  {
+    "name": "Chinese Shadow Puppetry",
+    "prompt": "Chinese shadow puppetry {prompt} . shadow play, intricate puppets, traditional, storytelling, craftsmanship",
+    "negative_prompt": "lifeless, tangled, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Metalwork Art",
+    "prompt": "Chinese metalwork art {prompt} . metal, intricate designs, traditional, detailed, craftsmanship",
+    "negative_prompt": "plain, dull, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Fan Dance",
+    "prompt": "Chinese fan dance {prompt} . fans, traditional, dance, graceful, detailed",
+    "negative_prompt": "awkward, clumsy, uncoordinated, amateurish"
+  },
+  {
+    "name": "Chinese Scroll Painting",
+    "prompt": "Chinese scroll painting {prompt} . long scrolls, ink, traditional, storytelling, detailed",
+    "negative_prompt": "sloppy, faded, incomplete, unrecognizable"
+  },
+  {
+    "name": "Chinese Stone Carving",
+    "prompt": "Chinese stone carving {prompt} . stone, traditional, three-dimensional, detailed, craftsmanship",
+    "negative_prompt": "shapeless, rough, incomplete, amateurish"
+  },
+  {
+    "name": "Chinese Beadwork",
+    "prompt": "Chinese beadwork {prompt} . beads, intricate designs, traditional, detailed, craftsmanship",
+    "negative_prompt": "plain, uneven, dull, amateurish"
+  },
+  {
+    "name": "Chinese Theater Masks",
+    "prompt": "Chinese theater masks {prompt} . colorful, intricate, traditional, theatrical, detailed",
+    "negative_prompt": "plain, dull, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Terracotta Sculpture",
+    "prompt": "Chinese terracotta sculpture {prompt} . clay, traditional, three-dimensional, detailed, craftsmanship",
+    "negative_prompt": "shapeless, rough, incomplete, amateurish"
+  },
+  {
+    "name": "Chinese Knot Art",
+    "prompt": "Chinese knot art {prompt} . intricate, red cord, traditional, symbolic, detailed, craftsmanship",
+    "negative_prompt": "tangled, messy, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Bamboo Furniture",
+    "prompt": "Chinese bamboo furniture {prompt} . bamboo, traditional, functional, intricate, craftsmanship",
+    "negative_prompt": "fragile, wobbly, unsteady, amateurish"
+  },
+  {
+    "name": "Chinese Batik Fabric",
+    "prompt": "Chinese batik fabric {prompt} . wax resist, vibrant colors, fabric, traditional, detailed",
+    "negative_prompt": "smudged, faded, uneven, distorted"
+  },
+  {
+    "name": "Chinese Ink Brushwork",
+    "prompt": "Chinese ink brushwork {prompt} . ink, brush strokes, traditional, detailed, craftsmanship",
+    "negative_prompt": "digital, graffiti, chaotic, abstract, messy"
+  },
+  {
+    "name": "Chinese Opera Masks",
+    "prompt": "Chinese opera masks {prompt} . colorful, intricate, traditional, theatrical, detailed",
+    "negative_prompt": "plain, dull, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Stone Sculpture",
+    "prompt": "Chinese stone sculpture {prompt} . stone, traditional, three-dimensional, detailed, craftsmanship",
+    "negative_prompt": "shapeless, rough, incomplete, amateurish"
+  },
+  {
+    "name": "Chinese Embroidered Silk",
+    "prompt": "Chinese embroidered silk {prompt} . delicate, colorful threads, fabric, traditional, detailed",
+    "negative_prompt": "crumpled, torn, uneven, jagged"
+  },
+  {
+    "name": "Chinese Miniature Painting",
+    "prompt": "Chinese miniature painting {prompt} . tiny canvas, intricate, traditional, detailed, craftsmanship",
+    "negative_prompt": "sloppy, blurry, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Woodblock Painting",
+    "prompt": "Chinese woodblock painting {prompt} . intricate patterns, wood grain, traditional, detailed, craftsmanship",
+    "negative_prompt": "smeared, chaotic, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Silk Tapestry",
+    "prompt": "Chinese silk tapestry {prompt} . intricate, vibrant colors, fabric, traditional, detailed",
+    "negative_prompt": "tangled, faded, uneven, distorted"
+  },
+  {
+    "name": "Chinese Shadow Puppetry",
+    "prompt": "Chinese shadow puppetry {prompt} . shadow play, intricate puppets, traditional, storytelling, craftsmanship",
+    "negative_prompt": "lifeless, tangled, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Metalwork Art",
+    "prompt": "Chinese metalwork art {prompt} . metal, intricate designs, traditional, detailed, craftsmanship",
+    "negative_prompt": "plain, dull, unrecognizable, amateurish"
+  },
+  {
+    "name": "Chinese Fan Dance",
+    "prompt": "Chinese fan dance {prompt} . fans, traditional, dance, graceful, detailed",
+    "negative_prompt": "awkward, clumsy, uncoordinated, amateurish"
+  },
+  {
+    "name": "Chinese Scroll Painting",
+    "prompt": "Chinese scroll painting {prompt} . long scrolls, ink, traditional, storytelling, detailed",
+    "negative_prompt": "sloppy, faded, incomplete, unrecognizable"
+  },
+  {
+    "name": "Chinese Stone Carving",
+    "prompt": "Chinese stone carving {prompt} . stone, traditional, three-dimensional, detailed, craftsmanship",
+    "negative_prompt": "shapeless, rough, incomplete, amateurish"
+  },  {
+    "name": "Traditional Chinese Shan Shui",
+    "prompt": "traditional Chinese Shan Shui landscape {prompt} . ink wash, serene, poetic, mountains, rivers, traditional, nature",
+    "negative_prompt": "abstract, urban, chaotic, crowded, industrial, dystopian"
+  },
+  {
+    "name": "Chinese Bamboo Forests",
+    "prompt": "Chinese bamboo forests {prompt} . lush greenery, tranquil, bamboo shoots, traditional, nature",
+    "negative_prompt": "barren, polluted, deforested, lifeless"
+  },
+  {
+    "name": "Chinese Water Village",
+    "prompt": "traditional Chinese water village {prompt} . canals, traditional architecture, serene, bridges, traditional, cultural",
+    "negative_prompt": "concrete jungle, polluted, chaotic, modern, lifeless"
+  },
+  {
+    "name": "Chinese Rice Terraces",
+    "prompt": "Chinese rice terraces {prompt} . stepped fields, lush green, traditional, agriculture, picturesque",
+    "negative_prompt": "barren, eroded, neglected, damaged"
+  },
+  {
+    "name": "Chinese Zen Gardens",
+    "prompt": "Chinese Zen gardens {prompt} . raked sand, bonsai trees, serene, traditional, meditation",
+    "negative_prompt": "overgrown, cluttered, neglected, chaotic"
+  },
+  {
+    "name": "Chinese Great Wall",
+    "prompt": "Chinese Great Wall {prompt} . ancient, majestic, monumental, historical, architecture",
+    "negative_prompt": "ruined, crumbling, neglected, vandalized"
+  },
+  {
+    "name": "Chinese Mountain Peaks",
+    "prompt": "Chinese mountain peaks {prompt} . towering heights, breathtaking views, traditional, nature",
+    "negative_prompt": "barren, polluted, industrial, obscured"
+  },
+  {
+    "name": "Chinese Bamboo Rafts",
+    "prompt": "Chinese bamboo rafts {prompt} . tranquil waters, bamboo vessels, traditional, leisurely",
+    "negative_prompt": "polluted, noisy, crowded, modern"
+  },
+  {
+    "name": "Chinese Cherry Blossoms",
+    "prompt": "Chinese cherry blossoms {prompt} . delicate blooms, traditional, springtime, picturesque",
+    "negative_prompt": "bare trees, withered, polluted, desolate"
+  },
+  {
+    "name": "Chinese Tea Plantations",
+    "prompt": "Chinese tea plantations {prompt} . lush green fields, traditional, agriculture, picturesque",
+    "negative_prompt": "barren, neglected, overgrown, damaged"
+  },
+  {
+    "name": "Chinese Desert Oasis",
+    "prompt": "Chinese desert oasis {prompt} . palm trees, cool waters, traditional, refreshing, oasis",
+    "negative_prompt": "barren, dried up, polluted, lifeless"
+  },
+  {
+    "name": "Chinese Bamboo Bridges",
+    "prompt": "Chinese bamboo bridges {prompt} . traditional architecture, tranquil, picturesque, traditional",
+    "negative_prompt": "concrete bridges, crowded, noisy, modern"
+  },
+  {
+    "name": "Chinese Lakeside Retreat",
+    "prompt": "Chinese lakeside retreat {prompt} . serene lake, traditional architecture, peaceful, traditional, cultural",
+    "negative_prompt": "polluted lake, modern buildings, crowded, noisy"
+  },
+  {
+    "name": "Chinese Lush Valleys",
+    "prompt": "Chinese lush valleys {prompt} . fertile land, traditional, agriculture, picturesque",
+    "negative_prompt": "barren, polluted, neglected, eroded"
+  },
+  {
+    "name": "Chinese Bamboo Grove",
+    "prompt": "Chinese bamboo grove {prompt} . dense bamboo, tranquil, traditional, nature",
+    "negative_prompt": "barren, polluted, neglected, lifeless"
+  },
+  {
+    "name": "Chinese Mountain Temples",
+    "prompt": "Chinese mountain temples {prompt} . ancient architecture, breathtaking views, traditional, spiritual",
+    "negative_prompt": "ruined temples, vandalized, neglected, desecrated"
+  },
+  {
+    "name": "Chinese Coastal Villages",
+    "prompt": "Chinese coastal villages {prompt} . traditional fishing, serene coast, traditional, cultural",
+    "negative_prompt": "polluted coast, industrial, crowded, noisy"
+  },
+  {
+    "name": "Chinese Bamboo Gardens",
+    "prompt": "Chinese bamboo gardens {prompt} . lush greenery, traditional, tranquil, traditional",
+    "negative_prompt": "overgrown gardens, neglected, chaotic, lifeless"
+  },
+  {
+    "name": "Chinese Ancient Forests",
+    "prompt": "Chinese ancient forests {prompt} . ancient trees, pristine wilderness, traditional, nature",
+    "negative_prompt": "deforested, polluted, industrial, obscured"
+  },
+  {
+    "name": "Chinese Lotus Ponds",
+    "prompt": "Chinese lotus ponds {prompt} . blooming lotus, tranquil waters, traditional, picturesque",
+    "negative_prompt": "polluted ponds, overgrown, neglected, stagnant"
+  },
+  {
+    "name": "Chinese Countryside",
+    "prompt": "Chinese countryside {prompt} . rolling hills, traditional villages, tranquil, traditional, rural",
+    "negative_prompt": "polluted, crowded, noisy, modern"
+  },
+  {
+    "name": "Chinese Sacred Mountains",
+    "prompt": "Chinese sacred mountains {prompt} . ancient peaks, spiritual sites, traditional, breathtaking",
+    "negative_prompt": "barren, polluted, neglected, obscured"
+  },
+  {
+    "name": "Chinese Bamboo Groves",
+    "prompt": "Chinese bamboo groves {prompt} . dense bamboo, tranquil, traditional, nature",
+    "negative_prompt": "barren, polluted, neglected, lifeless"
+  },
+  {
+    "name": "Chinese Bamboo Bridges",
+    "prompt": "Chinese bamboo bridges {prompt} . traditional architecture, tranquil, picturesque, traditional",
+    "negative_prompt": "concrete bridges, crowded, noisy, modern"
+  },
+  {
+    "name": "Chinese Lakeside Retreat",
+    "prompt": "Chinese lakeside retreat {prompt} . serene lake, traditional architecture, peaceful, traditional, cultural",
+    "negative_prompt": "polluted lake, modern buildings, crowded, noisy"
+  },
+  {
+    "name": "Chinese Lush Valleys",
+    "prompt": "Chinese lush valleys {prompt} . fertile land, traditional, agriculture, picturesque",
+    "negative_prompt": "barren, polluted, neglected, eroded"
+  },
+  {
+    "name": "Chinese Bamboo Grove",
+    "prompt": "Chinese bamboo grove {prompt} . dense bamboo, tranquil, traditional, nature",
+    "negative_prompt": "barren, polluted, neglected, lifeless"
+  },
+  {
+    "name": "Chinese Mountain Temples",
+    "prompt": "Chinese mountain temples {prompt} . ancient architecture, breathtaking views, traditional, spiritual",
+    "negative_prompt": "ruined temples, vandalized, neglected, desecrated"
+  },
+  {
+    "name": "Chinese Coastal Villages",
+    "prompt": "Chinese coastal villages {prompt} . traditional fishing, serene coast, traditional, cultural",
+    "negative_prompt": "polluted coast, industrial, crowded, noisy"
+  },
+  {
+    "name": "Chinese Bamboo Gardens",
+    "prompt": "Chinese bamboo gardens {prompt} . lush greenery, traditional, tranquil, traditional",
+    "negative_prompt": "overgrown gardens, neglected, chaotic, lifeless"
+  },
+  {
+    "name": "Chinese Ancient Forests",
+    "prompt": "Chinese ancient forests {prompt} . ancient trees, pristine wilderness, traditional, nature",
+    "negative_prompt": "deforested, polluted, industrial, obscured"
+  },
+  {
+    "name": "Chinese Lotus Ponds",
+    "prompt": "Chinese lotus ponds {prompt} . blooming lotus, tranquil waters, traditional, picturesque",
+    "negative_prompt": "polluted ponds, overgrown, neglected, stagnant"
+  },
+  {
+    "name": "Chinese Countryside",
+    "prompt": "Chinese countryside {prompt} . rolling hills, traditional villages, tranquil, traditional, rural",
+    "negative_prompt": "polluted, crowded, noisy, modern"
+  },
+  {
+    "name": "Chinese Sacred Mountains",
+    "prompt": "Chinese sacred mountains {prompt} . ancient peaks, spiritual sites, traditional, breathtaking",
+    "negative_prompt": "barren, polluted, neglected, obscured"
+  },
+  {
+    "name": "Chinese Bamboo Groves",
+    "prompt": "Chinese bamboo groves {prompt} . dense bamboo, tranquil, traditional, nature",
+    "negative_prompt": "barren, polluted, neglected, lifeless"
+  },
+  {
+    "name": "Chinese Bamboo Bridges",
+    "prompt": "Chinese bamboo bridges {prompt} . traditional architecture, tranquil, picturesque, traditional",
+    "negative_prompt": "concrete bridges, crowded, noisy, modern"
+  },
+  {
+    "name": "Chinese Lakeside Retreat",
+    "prompt": "Chinese lakeside retreat {prompt} . serene lake, traditional architecture, peaceful, traditional, cultural",
+    "negative_prompt": "polluted lake, modern buildings, crowded, noisy"
+  },
+  {
+    "name": "Chinese Lush Valleys",
+    "prompt": "Chinese lush valleys {prompt} . fertile land, traditional, agriculture, picturesque",
+    "negative_prompt": "barren, polluted, neglected, eroded"
+  },
+  {
+    "name": "Chinese Bamboo Grove",
+    "prompt": "Chinese bamboo grove {prompt} . dense bamboo, tranquil, traditional, nature",
+    "negative_prompt": "barren, polluted, neglected, lifeless"
+  },
+  {
+    "name": "Chinese Mountain Temples",
+    "prompt": "Chinese mountain temples {prompt} . ancient architecture, breathtaking views, traditional, spiritual",
+    "negative_prompt": "ruined temples, vandalized, neglected, desecrated"
+  },
+  {
+    "name": "Chinese Coastal Villages",
+    "prompt": "Chinese coastal villages {prompt} . traditional fishing, serene coast, traditional, cultural",
+    "negative_prompt": "polluted coast, industrial, crowded, noisy"
+  },
+  {
+    "name": "Chinese Bamboo Gardens",
+    "prompt": "Chinese bamboo gardens {prompt} . lush greenery, traditional, tranquil, traditional",
+    "negative_prompt": "overgrown gardens, neglected, chaotic, lifeless"
+  },
+  {
+    "name": "Chinese Ancient Forests",
+    "prompt": "Chinese ancient forests {prompt} . ancient trees, pristine wilderness, traditional, nature",
+    "negative_prompt": "deforested, polluted, industrial, obscured"
+  },
+  {
+    "name": "Chinese Lotus Ponds",
+    "prompt": "Chinese lotus ponds {prompt} . blooming lotus, tranquil waters, traditional, picturesque",
+    "negative_prompt": "polluted ponds, overgrown, neglected, stagnant"
+  },
+  {
+    "name": "Chinese Countryside",
+    "prompt": "Chinese countryside {prompt} . rolling hills, traditional villages, tranquil, traditional, rural",
+    "negative_prompt": "polluted, crowded, noisy, modern"
+  },  {
+    "name": "Dress Traditional Hanfu",
+    "prompt": "Chinese traditional Hanfu dress design {prompt} . elegant, historical, intricate, silk, traditional, cultural",
+    "negative_prompt": "modern, plain, synthetic, tacky, uninspired"
+  },
+  {
+    "name": "Chinese Dress Zodiac Inspired",
+    "prompt": "Chinese zodiac-inspired anime dress design {prompt} . unique, vibrant, animal motifs, creative, detailed",
+    "negative_prompt": "generic, uninspired, poorly crafted, mismatched"
+  },
+  {
+    "name": "Dress Ancient Dynasty Robes",
+    "prompt": "Chinese ancient dynasty robes design {prompt} . regal, silk, ornate, traditional, historical",
+    "negative_prompt": "frayed, plain, inaccurate, dull"
+  },
+  {
+    "name": "Chinese Dress Mythology Heroes",
+    "prompt": "Chinese mythology heroes-inspired dress design {prompt} . heroic, mythical, epic, detailed, legendary",
+    "negative_prompt": "forgettable, unimpressive, poorly designed, inaccurate"
+  },
+  {
+    "name": "Dress Taoist Priest Robes",
+    "prompt": "Taoist priest robes-inspired anime dress design {prompt} . mystical, spiritual, symbolic, traditional, detailed",
+    "negative_prompt": "mundane, uninspired, inaccurately designed, generic"
+  },
+  {
+    "name": "Chinese Dress Floral Cheongsam",
+    "prompt": "Chinese floral cheongsam dress design {prompt} . elegant, floral patterns, silk, traditional, feminine",
+    "negative_prompt": "bland, poorly tailored, unattractive, outdated"
+  },
+  {
+    "name": "Chinese Dress Martial Arts Attire",
+    "prompt": "Chinese martial arts attire-inspired dress design {prompt} . dynamic, powerful, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, uncomfortable"
+  },
+  {
+    "name": "Dress Imperial Empress Gown",
+    "prompt": "Chinese imperial empress gown dress design {prompt} . majestic, gold accents, regal, traditional, historical",
+    "negative_prompt": "tacky, plain, inaccurate, poorly made"
+  },
+  {
+    "name": "Dress Terracotta Warrior Armor",
+    "prompt": "Terracotta warrior armor-inspired dress design {prompt} . formidable, ancient, detailed, historical",
+    "negative_prompt": "unconvincing, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Tea Ceremony Attire",
+    "prompt": "Chinese tea ceremony attire-inspired dress design {prompt} . tranquil, graceful, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Opera Costumes",
+    "prompt": "Chinese opera costumes-inspired anime dress design {prompt} . colorful, theatrical, traditional, detailed",
+    "negative_prompt": "dull, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Garden Elegance",
+    "prompt": "Chinese garden elegance-inspired dress design {prompt} . serene, floral motifs, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Dress Journey to the West Inspired",
+    "prompt": "Journey to the West-inspired dress design {prompt} . mythical, adventurous, epic, detailed",
+    "negative_prompt": "forgettable, unimpressive, poorly designed, inaccurate"
+  },
+  {
+    "name": "Chinese Dress Dragon Robes",
+    "prompt": "Chinese dragon robes-inspired dress design {prompt} . powerful, dragon motifs, silk, traditional, detailed",
+    "negative_prompt": "bland, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Modern Dress Chinese Streetwear",
+    "prompt": "Modern Chinese streetwear-inspired dress design {prompt} . trendy, urban, creative, detailed",
+    "negative_prompt": "outdated, uninspired, poorly tailored, unattractive"
+  },
+  {
+    "name": "Chinese Dress Lantern Festival Attire",
+    "prompt": "Chinese lantern festival attire-inspired dress design {prompt} . vibrant, lantern motifs, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Bamboo Forest Outfit",
+    "prompt": "Chinese bamboo forest outfit-inspired dress design {prompt} . tranquil, bamboo motifs, traditional, detailed",
+    "negative_prompt": "bland, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress New Year Glamour",
+    "prompt": "Chinese New Year glamour-inspired dress design {prompt} . festive, red and gold, traditional, detailed",
+    "negative_prompt": "dull, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Opera Masks Couture",
+    "prompt": "Chinese opera masks couture-inspired dress design {prompt} . theatrical, mask motifs, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Silk Road Robes",
+    "prompt": "Chinese Silk Road robes-inspired dress design {prompt} . exotic, intricate patterns, silk, traditional, detailed",
+    "negative_prompt": "plain, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Peony Blossom Dress",
+    "prompt": "Chinese peony blossom dress design {prompt} . elegant, peony motifs, silk, traditional, feminine",
+    "negative_prompt": "bland, poorly tailored, unattractive, outdated"
+  },
+  {
+    "name": "Chinese Dress Kung Fu Uniform",
+    "prompt": "Chinese Kung Fu uniform-inspired dress design {prompt} . dynamic, martial arts, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Red Lantern Elegance",
+    "prompt": "Chinese red lantern elegance-inspired dress design {prompt} . festive, lantern motifs, traditional, detailed",
+    "negative_prompt": "dull, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Mythical Creatures",
+    "prompt": "Chinese mythical creatures-inspired dress design {prompt} . fantastical, magical, detailed, legendary",
+    "negative_prompt": "forgettable, unimpressive, poorly designed, inaccurate"
+  },
+  {
+    "name": "Chinese Dress Watercolor Blossoms",
+    "prompt": "Chinese watercolor blossoms dress design {prompt} . delicate, watercolor patterns, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Calligraphy Couture",
+    "prompt": "Chinese calligraphy couture-inspired dress design {prompt} . artistic, calligraphy motifs, traditional, detailed",
+    "negative_prompt": "bland, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Palace Attire",
+    "prompt": "Chinese palace attire-inspired dress design {prompt} . opulent, luxurious, traditional, detailed",
+    "negative_prompt": "plain, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Dragon Dance Outfit",
+    "prompt": "Chinese dragon dance outfit-inspired dress design {prompt} . festive, dragon dance, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Lunar Eclipse Gown",
+    "prompt": "Chinese lunar eclipse gown dress design {prompt} . mysterious, lunar motifs, traditional, detailed",
+    "negative_prompt": "bland, poorly tailored, unattractive, outdated"
+  },
+  {
+    "name": "Chinese Dress Tea Garden Attire",
+    "prompt": "Chinese tea garden attire-inspired dress design {prompt} . tranquil, tea leaves, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Opera Masks Couture",
+    "prompt": "Chinese opera masks couture-inspired dress design {prompt} . theatrical, mask motifs, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Silk Road Robes",
+    "prompt": "Chinese Silk Road robes-inspired dress design {prompt} . exotic, intricate patterns, silk, traditional, detailed",
+    "negative_prompt": "plain, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Peony Blossom Dress",
+    "prompt": "Chinese peony blossom dress design {prompt} . elegant, peony motifs, silk, traditional, feminine",
+    "negative_prompt": "bland, poorly tailored, unattractive, outdated"
+  },
+  {
+    "name": "Chinese Dress Kung Fu Uniform",
+    "prompt": "Chinese Kung Fu uniform-inspired dress design {prompt} . dynamic, martial arts, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Red Lantern Elegance",
+    "prompt": "Chinese red lantern elegance-inspired dress design {prompt} . festive, lantern motifs, traditional, detailed",
+    "negative_prompt": "dull, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Mythical Creatures",
+    "prompt": "Chinese mythical creatures-inspired dress design {prompt} . fantastical, magical, detailed, legendary",
+    "negative_prompt": "forgettable, unimpressive, poorly designed, inaccurate"
+  },
+  {
+    "name": "Chinese Dress Watercolor Blossoms",
+    "prompt": "Chinese watercolor blossoms dress design {prompt} . delicate, watercolor patterns, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Calligraphy Couture",
+    "prompt": "Chinese calligraphy couture-inspired dress design {prompt} . artistic, calligraphy motifs, traditional, detailed",
+    "negative_prompt": "bland, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Palace Attire",
+    "prompt": "Chinese palace attire-inspired dress design {prompt} . opulent, luxurious, traditional, detailed",
+    "negative_prompt": "plain, uninspired, inaccurately designed, uncomfortable"
+  },
+  {
+    "name": "Chinese Dress Dragon Dance Outfit",
+    "prompt": "Chinese dragon dance outfit-inspired dress design {prompt} . festive, dragon dance, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Chinese Dress Lunar Eclipse Gown",
+    "prompt": "Chinese lunar eclipse gown dress design {prompt} . mysterious, lunar motifs, traditional, detailed",
+    "negative_prompt": "bland, poorly tailored, unattractive, outdated"
+  },
+  {
+    "name": "Chinese Dress Tea Garden Attire",
+    "prompt": "Chinese tea garden attire-inspired dress design {prompt} . tranquil, tea leaves, traditional, detailed",
+    "negative_prompt": "clumsy, uninspired, impractical, unattractive"
+  },
+  {
+    "name": "Sci-Fi Vector",
+    "prompt": "sci-fi vector illustration {prompt} . futuristic, space age, science fiction, otherworldly, hi-tech, cybernetic",
+    "negative_prompt": "historic, ancient, prehistoric, primitive, outdated"
+  },
+  {
+    "name": "Fantasy Vector",
+    "prompt": "fantasy vector art {prompt} . mythical creatures, magical realms, epic fantasy, enchanting, ethereal, whimsical",
+    "negative_prompt": "realistic, mundane, uninspiring, unremarkable"
+  },
+  {
+    "name": "Cartoon Vector",
+    "prompt": "cartoon-style vector illustration {prompt} . playful, animated, caricature, comic strip, humor, fun",
+    "negative_prompt": "serious, somber, humorless, dull, uninspiring"
+  },
+  {
+    "name": "Futuristic Vector",
+    "prompt": "futuristic vector design {prompt} . cutting-edge, futuristic, high-tech, sleek, sci-fi, avant-garde",
+    "negative_prompt": "outdated, old-fashioned, obsolete, retro"
+  },
+  {
+    "name": "Nature Vector",
+    "prompt": "nature-inspired vector art {prompt} . flora, fauna, natural beauty, eco-friendly, organic, environmental",
+    "negative_prompt": "artificial, synthetic, industrial, lifeless"
+  },
+  {
+    "name": "Space Vector",
+    "prompt": "space-themed vector illustration {prompt} . galaxies, stars, cosmic, astronomical, celestial, space exploration",
+    "negative_prompt": "earthbound, mundane, terrestrial, uninspiring"
+  },
+  {
+    "name": "Cyberpunk Vector",
+    "prompt": "cyberpunk vector art {prompt} . dystopian, futuristic, cybernetic, neon-lit, techno-noir, hackers, rebels",
+    "negative_prompt": "conformist, traditional, conservative, low-tech"
+  },
+  {
+    "name": "Retro Vector",
+    "prompt": "retro vector design {prompt} . vintage, nostalgic, retro style, old-school, classic, throwback",
+    "negative_prompt": "modern, contemporary, cutting-edge, futuristic"
+  },
+  {
+    "name": "Manga Vector",
+    "prompt": "manga-style vector illustration {prompt} . Japanese comics, anime-inspired, manga art, manga culture",
+    "negative_prompt": "western, non-Japanese, foreign, out-of-place"
+  },
+  {
+    "name": "Gothic Vector",
+    "prompt": "gothic vector art {prompt} . dark, mysterious, gothic architecture, Gothic culture, Gothic fashion",
+    "negative_prompt": "bright, cheerful, colorful, mundane"
+  },
+  {
+    "name": "Abstract Expressionism Vector",
+    "prompt": "abstract expressionism vector painting {prompt} . spontaneous, emotional, abstract expressionist, gestural art",
+    "negative_prompt": "precise, controlled, meticulous, lifeless"
+  },
+  {
+    "name": "Digital Art Vector",
+    "prompt": "digital art-inspired vector illustration {prompt} . digital painting, digital art, digital medium, hi-tech, computer-generated",
+    "negative_prompt": "analog, traditional, handmade, low-tech"
+  },
+  {
+    "name": "Impressionist Vector",
+    "prompt": "impressionist vector artwork {prompt} . Impressionism, light and color, atmospheric, brushstrokes, plein air",
+    "negative_prompt": "realistic, detailed, photographic, hyper-realism"
+  },
+  {
+    "name": "Cubist Vector",
+    "prompt": "cubist vector design {prompt} . Cubism, abstract, fragmented, multiple perspectives, Picasso-inspired",
+    "negative_prompt": "realistic, cohesive, unified, one-dimensional"
+  },
+  {
+    "name": "Art Deco Vector",
+    "prompt": "Art Deco vector illustration {prompt} . Roaring Twenties, Gatsby era, elegant, geometric, luxury, opulent",
+    "negative_prompt": "minimalist, austere, plain, ordinary"
+  },
+  {
+    "name": "Surrealist Vector",
+    "prompt": "surrealist vector art {prompt} . Salvador Dali, dreamlike, bizarre, surreal, subconscious",
+    "negative_prompt": "realistic, ordinary, everyday, mundane"
+  },
+  {
+    "name": "Vintage Advertisement Vector",
+    "prompt": "vintage advertisement vector {prompt} . retro advertising, vintage ads, nostalgic, advertising art, old-school",
+    "negative_prompt": "modern advertising, contemporary ads, futuristic promotions"
+  },
+  {
+    "name": "Sci-Fi Space Vector",
+    "prompt": "sci-fi space vector illustration {prompt} . futuristic spacecraft, alien worlds, sci-fi landscapes, interstellar travel",
+    "negative_prompt": "mundane landscapes, ordinary spaceships, non-futuristic settings"
+  },
+  {
+    "name": "Fantasy Creatures Vector",
+    "prompt": "fantasy creatures vector art {prompt} . mythical beasts, dragons, unicorns, fantastical creatures, magical",
+    "negative_prompt": "ordinary animals, real-world creatures, non-magical beings"
+  },
+  {
+    "name": "Children's Book Vector",
+    "prompt": "children's book vector illustration {prompt} . whimsical, child-friendly, storybook art, fairy tales, kid's book",
+    "negative_prompt": "adult themes, serious subjects, non-child-friendly content"
+  },
+  {
+    "name": "Steampunk Vector",
+    "prompt": "steampunk vector design {prompt} . Victorian era, steam-powered, industrial, gears, cogs, retro-futuristic",
+    "negative_prompt": "modern technology, futuristic, high-tech, sleek"
+  },
+  {
+    "name": "Cultural Vector",
+    "prompt": "cultural vector artwork {prompt} . cultural heritage, traditions, customs, indigenous art, cultural diversity",
+    "negative_prompt": "cultural appropriation, disrespect, insensitivity, cultural insensitivity"
+  },
+  {
+    "name": "Music Vector",
+    "prompt": "music-inspired vector art {prompt} . musical notes, instruments, music festivals, music culture, rhythm",
+    "negative_prompt": "non-musical themes, silence, dissonance, tone-deaf"
+  },
+  {
+    "name": "Sports Vector",
+    "prompt": "sports-themed vector illustration {prompt} . athletes, sports events, sporting culture, competition, sportsmanship",
+    "negative_prompt": "non-sports themes, sedentary lifestyle, anti-sports, inactivity"
+  },
+  {
+    "name": "Nature Conservation Vector",
+    "prompt": "nature conservation vector design {prompt} . environmental protection, wildlife conservation, eco-conscious, green initiatives",
+    "negative_prompt": "environmental degradation, exploitation, deforestation, pollution"
+  },
+  {
+    "name": "Food Vector",
+    "prompt": "food-themed vector artwork {prompt} . culinary delights, gastronomy, food culture, delicious, mouthwatering",
+    "negative_prompt": "inedible, unappetizing, repulsive, spoiled"
+  },
+  {
+    "name": "Travel Vector",
+    "prompt": "travel-inspired vector art {prompt} . wanderlust, adventure, globetrotting, travel culture, exploration",
+    "negative_prompt": "staycation, homebound, sedentary, travel restrictions"
+  },
+  {
+    "name": "Fashion Vector",
+    "prompt": "fashion-inspired vector illustration {prompt} . haute couture, fashion trends, runway models, style, glamour",
+    "negative_prompt": "unfashionable, outdated, fashion faux pas, style blunders"
+  },
+  {
+    "name": "Film Vector",
+    "prompt": "film-inspired vector design {prompt} . movie posters, cinema, film culture, Hollywood, iconic movie scenes",
+    "negative_prompt": "non-cinematic themes, uninspiring films, unknown movies"
+  },
+  {
+    "name": "History Vector",
+    "prompt": "historical vector art {prompt} . historical events, famous figures, bygone eras, historical culture",
+    "negative_prompt": "historical inaccuracies, revisionism, distorted history, misinformation"
+  },
+  {
+    "name": "Technology Vector",
+    "prompt": "technology-themed vector illustration {prompt} . innovation, tech culture, gadgets, futuristic technology",
+    "negative_prompt": "technological setbacks, outdated tech, tech failures"
+  },
+  {
+    "name": "Education Vector",
+    "prompt": "education-themed vector artwork {prompt} . learning, knowledge, educational culture, academic excellence",
+    "negative_prompt": "anti-education, ignorance, misinformation, academic negligence"
+  },
+  {
+    "name": "Health Vector",
+    "prompt": "health and wellness vector design {prompt} . well-being, fitness culture, healthy living, holistic health",
+    "negative_prompt": "unhealthy lifestyle, neglecting well-being, health risks"
+  },
+  {
+    "name": "Science Vector",
+    "prompt": "science-themed vector art {prompt} . scientific discovery, research culture, laboratory experiments, scientific innovation",
+    "negative_prompt": "anti-science, pseudoscience, scientific fraud, scientific stagnation"
+  },
+  {
+    "name": "Politics Vector",
+    "prompt": "politics-inspired vector illustration {prompt} . political movements, government, democracy, political activism",
+    "negative_prompt": "apolitical, political apathy, indifference, political ignorance"
+  },
+  {
+    "name": "Space Exploration Vector",
+    "prompt": "space exploration vector art {prompt} . NASA, space missions, astronauts, cosmic exploration, space technology",
+    "negative_prompt": "space isolation, space disasters, space failures, abandoned missions"
+  },
+  {
+    "name": "Architecture Vector",
+    "prompt": "architecture-inspired vector design {prompt} . architectural marvels, buildings, urban planning, architectural culture",
+    "negative_prompt": "architectural disasters, architectural failures, design flaws"
+  },
+  {
+    "name": "Mythology Vector",
+    "prompt": "mythology-themed vector artwork {prompt} . gods and goddesses, legends, folklore, mythological creatures",
+    "negative_prompt": "mythological inaccuracies, misrepresentation of myths, disrespect to cultures"
+  },
+  {
+    "name": "Space Fantasy Vector",
+    "prompt": "space fantasy vector illustration {prompt} . cosmic realms, space wizards, intergalactic adventures, epic space fantasy",
+    "negative_prompt": "non-fantastical space, mundane galaxies, unimpressive space journeys"
+  },
+  {
+    "name": "Sci-Fi Robot Vector",
+    "prompt": "sci-fi robot vector art {prompt} . futuristic robots, androids, AI, robotic culture, cybernetics",
+    "negative_prompt": "non-futuristic robots, obsolete AI, uninspiring automatons"
+  },
+  {
+    "name": "Cybersecurity Vector",
+    "prompt": "cybersecurity vector design {prompt} . digital security, cyber threats, hacking prevention, data protection",
+    "negative_prompt": "cybersecurity breaches, security failures, data leaks"
+  },
+  {
+    "name": "Climate Change Vector",
+    "prompt": "climate change vector art {prompt} . environmental crisis, climate action, global warming, eco-awareness",
+    "negative_prompt": "climate denial, environmental destruction, climate indifference"
+  },
+  {
+    "name": "Space Aliens Vector",
+    "prompt": "space aliens vector illustration {prompt} . extraterrestrial life, alien encounters, cosmic beings, alien civilizations",
+    "negative_prompt": "non-alien worlds, terrestrial life, uneventful alien interactions"
+  },
+  {
+    "name": "Psychology Vector",
+    "prompt": "psychology-themed vector artwork {prompt} . human mind, psychological insights, therapy, mental health",
+    "negative_prompt": "psychological stigma, mental health neglect, ignorance of human psyche"
+  },
+  {
+    "name": "Fantasy Landscapes Vector",
+    "prompt": "fantasy landscapes vector design {prompt} . mythical lands, enchanted forests, fantasy realms, epic landscapes",
+    "negative_prompt": "mundane landscapes, ordinary forests, unimpressive terrains"
+  },
+  {
+    "name": "Travel Destinations Vector",
+    "prompt": "travel destinations vector art {prompt} . iconic landmarks, world travel, tourist attractions, travel culture",
+    "negative_prompt": "obscure destinations, unremarkable landmarks, uneventful trips"
+  },
+  {
+    "name": "Botanical Vector",
+    "prompt": "botanical-inspired vector illustration {prompt} . flowers, plants, botanical beauty, horticultural culture",
+    "negative_prompt": "botanical neglect, plant destruction, environmental damage"
+  },
+  {
+    "name": "Cybernetic Animals Vector",
+    "prompt": "cybernetic animals vector art {prompt} . robotic wildlife, technologically enhanced animals, cyber creatures",
+    "negative_prompt": "non-cybernetic animals, natural wildlife, uninspiring fauna"
+  },
+  {
+    "name": "Utopian Vector",
+    "prompt": "utopian vector design {prompt} . ideal society, utopian dreams, perfect world, harmony, peace",
+    "negative_prompt": "dystopian realities, imperfect worlds, societal discord"
+  },
+  {
+    "name": "Holographic Vector",
+    "prompt": "holographic vector artwork {prompt} . holograms, 3D projections, holographic technology, futuristic holography",
+    "negative_prompt": "non-holographic imagery, 2D illusions, uninspiring projections"
+  },
+  {
+    "name": "Time Travel Vector",
+    "prompt": "time travel vector art {prompt} . time machines, temporal paradoxes, historical journeys, time-traveling culture",
+    "negative_prompt": "time stagnation, uneventful history, time travel mishaps"
+  },
+  {
+    "name": "Mythical Beasts Vector",
+    "prompt": "mythical beasts vector illustration {prompt} . legendary creatures, cryptids, mythical monsters, folklore",
+    "negative_prompt": "non-mythical animals, ordinary beasts, uninspiring creatures"
+  },
+  {
+    "name": "Virtual Reality Vector",
+    "prompt": "virtual reality vector design {prompt} . VR technology, immersive experiences, virtual worlds, cybernetic reality",
+    "negative_prompt": "non-virtual experiences, ordinary reality, uninspiring simulations"
+  },
+  {
+    "name": "Fairy Tale Vector",
+    "prompt": "fairy tale vector art {prompt} . fairy tales, folklore, magical stories, enchanting narratives, fairy tale culture",
+    "negative_prompt": "non-fairy tales, mundane stories, uninspiring plots"
+  },
+  {
+    "name": "Space Battles Vector",
+    "prompt": "space battles vector artwork {prompt} . epic space battles, intergalactic conflicts, cosmic warfare, space war culture",
+    "negative_prompt": "peaceful space, non-battle scenes, uneventful space conflicts"
+  },
+  {
+    "name": "Superhero Vector",
+    "prompt": "superhero vector illustration {prompt} . superheroes, superpowers, comic book heroes, heroic culture",
+    "negative_prompt": "non-heroic themes, ordinary individuals, uninspiring characters"
+  },
+  {
+    "name": "Underwater World Vector",
+    "prompt": "underwater world vector design {prompt} . oceanic wonders, marine life, underwater exploration, aquatic culture",
+    "negative_prompt": "non-aquatic scenes, land-based settings, uninspiring underwater scenes"
+  },
+  {
+    "name": "Mythical Realms Vector",
+    "prompt": "mythical realms vector art {prompt} . otherworldly dimensions, mystical landscapes, enchanted realms, mythical culture",
+    "negative_prompt": "non-mythical dimensions, ordinary landscapes, uninspiring realms"
+  },
+  {
+    "name": "Time-Lapse Vector",
+    "prompt": "time-lapse vector artwork {prompt} . time-lapse photography, temporal acceleration, changing landscapes, time-lapse culture",
+    "negative_prompt": "real-time scenes, static images, uneventful timelines"
+  },
+  {
+    "name": "Futuristic City Vector",
+    "prompt": "futuristic city vector illustration {prompt} . futuristic metropolis, cyberpunk cityscapes, urban development, city culture",
+    "negative_prompt": "non-futuristic cities, historical towns, uninspiring urban settings"
+  },
+  {
+    "name": "Virtual Worlds Vector",
+    "prompt": "virtual worlds vector design {prompt} . digital realms, virtual universes, cyberspace, virtual reality culture",
+    "negative_prompt": "non-virtual worlds, real-life settings, uninspiring virtual environments"
+  },
+  {
+    "name": "Medieval Fantasy Vector",
+    "prompt": "medieval fantasy vector art {prompt} . knights, castles, mythical creatures, medieval culture, fantasy kingdoms",
+    "negative_prompt": "non-medieval themes, contemporary settings, uninspiring historical scenes"
+  },
+  {
+    "name": "Artificial Intelligence Vector",
+    "prompt": "artificial intelligence vector artwork {prompt} . AI technology, machine learning, digital minds, AI culture",
+    "negative_prompt": "non-AI topics, human intelligence, uninspiring digital concepts"
+  },
+  {
+    "name": "Ancient Civilizations Vector",
+    "prompt": "ancient civilizations vector illustration {prompt} . ancient history, archaeological wonders, lost civilizations, historical culture",
+    "negative_prompt": "non-ancient times, modern history, uninspiring historical periods"
+  },
+  {
+    "name": "Time Travel Adventures Vector",
+    "prompt": "time travel adventures vector design {prompt} . time-traveling escapades, historical journeys, temporal adventures",
+    "negative_prompt": "time stagnation, uneventful history, time travel mishaps"
+  },
+  {
+    "name": "Urban Jungle Vector",
+    "prompt": "urban jungle vector art {prompt} . city wildlife, concrete jungles, urban wildlife, urban culture",
+    "negative_prompt": "non-urban settings, rural landscapes, uninspiring urban scenes"
+  },
+  {
+    "name": "Mythical Heroes Vector",
+    "prompt": "mythical heroes vector artwork {prompt} . legendary heroes, heroic tales, mythical champions, folklore",
+    "negative_prompt": "non-mythical heroes, ordinary individuals, uninspiring characters"
+  },
+  {
+    "name": "Steampunk Adventures Vector",
+    "prompt": "steampunk adventures vector illustration {prompt} . Victorian era, steam-powered adventures, retro-futuristic escapades",
+    "negative_prompt": "modern technology, futuristic settings, high-tech journeys"
+  },
+  {
+    "name": "Digital Transformation Vector",
+    "prompt": "digital transformation vector design {prompt} . digital revolution, technological progress, digital evolution",
+    "negative_prompt": "technological stagnation, digital regression, outdated technology"
+  },
+  {
+    "name": "Environmental Conservation Vector",
+    "prompt": "environmental conservation vector art {prompt} . eco-friendly initiatives, nature preservation, environmental awareness",
+    "negative_prompt": "environmental degradation, exploitation, environmental apathy"
+  },
+  {
+    "name": "Journey to the Stars Vector",
+    "prompt": "journey to the stars vector artwork {prompt} . interstellar voyages, cosmic exploration, celestial adventures",
+    "negative_prompt": "mundane space, uninspiring star journeys, uneventful cosmic travels"
+  },
+  {
+    "name": "Modern Architecture Vector",
+    "prompt": "modern architecture vector illustration {prompt} . contemporary buildings, architectural innovation, urban design",
+    "negative_prompt": "outdated architecture, architectural flaws, uninspiring cityscapes"
+  },
+  {
+    "name": "Ancient Myths Vector",
+    "prompt": "ancient myths vector design {prompt} . mythical tales, ancient legends, folklore, mythological culture",
+    "negative_prompt": "non-mythical stories, contemporary legends, uninspiring folklore"
+  },
+  {
+    "name": "AI-Powered Future Vector",
+    "prompt": "AI-powered future vector art {prompt} . AI-driven society, artificial intelligence, futuristic AI culture",
+    "negative_prompt": "non-AI future, human-centered future, uninspiring AI concepts"
+  },
+  {
+    "name": "Time Traveler's Journal Vector",
+    "prompt": "time traveler's journal vector artwork {prompt} . time-traveling adventures, historical insights, temporal journeys",
+    "negative_prompt": "time stagnation, uneventful history, time travel mishaps"
+  },
+  {
+    "name": "Jungle Exploration Vector",
+    "prompt": "jungle exploration vector illustration {prompt} . tropical jungles, exotic wildlife, adventure in the jungle",
+    "negative_prompt": "non-jungle settings, mundane forests, uninspiring jungle adventures"
+  },
+  {
+    "name": "Mythical Creatures Encyclopedia Vector",
+    "prompt": "mythical creatures encyclopedia vector design {prompt} . legendary beasts, mythical monsters, cryptozoology",
+    "negative_prompt": "non-mythical creatures, ordinary animals, uninspiring cryptids"
+  },
+  {
+    "name": "Virtual Reality Escapades Vector",
+    "prompt": "virtual reality escapades vector art {prompt} . VR adventures, immersive experiences, virtual world escapades",
+    "negative_prompt": "non-virtual escapades, real-world adventures, uninspiring VR experiences"
+  },
+  {
+    "name": "Fairy Tale Chronicles Vector",
+    "prompt": "fairy tale chronicles vector artwork {prompt} . fairy tales, legendary stories, magical chronicles",
+    "negative_prompt": "non-fairy tales, mundane stories, uninspiring chronicles"
+  },
+  {
+    "name": "Space Warfare Vector",
+    "prompt": "space warfare vector illustration {prompt} . epic space battles, interstellar conflicts, cosmic warfare",
+    "negative_prompt": "peaceful space, non-battle scenes, uneventful space conflicts"
+  },
+  {
+    "name": "Superhero Adventures Vector",
+    "prompt": "superhero adventures vector design {prompt} . superhero escapades, superpowers in action, heroic adventures",
+    "negative_prompt": "non-heroic adventures, ordinary individuals, uninspiring escapades"
+  },
+  {
+    "name": "Underwater Explorations Vector",
+    "prompt": "underwater explorations vector art {prompt} . marine discoveries, oceanic wonders, aquatic exploration",
+    "negative_prompt": "non-aquatic explorations, land-based discoveries, uninspiring underwater adventures"
+  },
+  {
+    "name": "Mythical Realms Chronicles Vector",
+    "prompt": "mythical realms chronicles vector artwork {prompt} . mythical dimensions, mystical stories, enchanted chronicles",
+    "negative_prompt": "non-mythical dimensions, ordinary tales, uninspiring chronicles"
+  },
+  {
+    "name": "Time-Lapse Adventures Vector",
+    "prompt": "time-lapse adventures vector design {prompt} . time-lapse experiences, temporal escapades, changing landscapes",
+    "negative_prompt": "real-time experiences, static scenes, uneventful timelines"
+  },
+  {
+    "name": "Futuristic City Chronicles Vector",
+    "prompt": "futuristic city chronicles vector illustration {prompt} . futuristic metropolises, cyberpunk urban tales",
+    "negative_prompt": "non-futuristic cities, historical towns, uninspiring urban chronicles"
+  },
+  {
+    "name": "Virtual Worlds Chronicles Vector",
+    "prompt": "virtual worlds chronicles vector art {prompt} . digital realms, virtual universe stories, cyberspace chronicles",
+    "negative_prompt": "non-virtual worlds, real-life stories, uninspiring virtual chronicles"
+  },
+  {
+    "name": "Medieval Fantasy Chronicles Vector",
+    "prompt": "medieval fantasy chronicles vector design {prompt} . medieval legends, mythical tales, fantasy chronicles",
+    "negative_prompt": "non-medieval tales, contemporary stories, uninspiring chronicles"
+  },
+  {
+    "name": "Artificial Intelligence Chronicles Vector",
+    "prompt": "artificial intelligence chronicles vector artwork {prompt} . AI stories, digital intelligence chronicles",
+    "negative_prompt": "non-AI stories, human-centered stories, uninspiring chronicles"
+  },
+  {
+    "name": "Ancient Civilizations Chronicles Vector",
+    "prompt": "ancient civilizations chronicles vector illustration {prompt} . ancient history tales, archaeological chronicles",
+    "negative_prompt": "non-ancient tales, modern history stories, uninspiring chronicles"
+  },
+  {
+    "name": "Time Traveler's Journal Chronicles Vector",
+    "prompt": "time traveler's journal chronicles vector art {prompt} . time-traveling stories, historical insights, temporal chronicles",
+    "negative_prompt": "time stagnation, uneventful history, uninspiring chronicles"
+  },
+  {
+    "name": "Jungle Exploration Chronicles Vector",
+    "prompt": "jungle exploration chronicles vector design {prompt} . tropical jungle tales, exotic adventures",
+    "negative_prompt": "non-jungle tales, mundane adventures, uninspiring chronicles"
+  },
+  {
+    "name": "Mythical Creatures Encyclopedia Chronicles Vector",
+    "prompt": "mythical creatures encyclopedia chronicles vector artwork {prompt} . legendary beast stories, mythical chronicles",
+    "negative_prompt": "non-mythical creature stories, ordinary chronicles, uninspiring tales"
+  },
+  {
+    "name": "Virtual Reality Escapades Chronicles Vector",
+    "prompt": "virtual reality escapades chronicles vector art {prompt} . VR adventure stories, immersive experiences",
+    "negative_prompt": "non-virtual adventure stories, real-world chronicles, uninspiring tales"
+  },
+  {
+    "name": "Fairy Tale Chronicles Chronicles Vector",
+    "prompt": "fairy tale chronicles chronicles vector illustration {prompt} . fairy tale stories, magical chronicles",
+    "negative_prompt": "non-fairy tale stories, mundane chronicles, uninspiring tales"
+  },
+  {
+    "name": "Space Warfare Chronicles Vector",
+    "prompt": "space warfare chronicles vector design {prompt} . space battle stories, cosmic conflicts",
+    "negative_prompt": "peaceful space stories, non-battle chronicles, uninspiring tales"
+  },
+  {
+    "name": "Superhero Adventures Chronicles Vector",
+    "prompt": "superhero adventures chronicles vector art {prompt} . superhero tales, superpowered chronicles",
+    "negative_prompt": "non-heroic chronicles, ordinary tales, uninspiring stories"
+  },
+  {
+    "name": "Underwater Explorations Chronicles Vector",
+    "prompt": "underwater explorations chronicles vector illustration {prompt} . marine discovery stories, oceanic chronicles",
+    "negative_prompt": "non-aquatic chronicles, land-based tales, uninspiring stories"
+  },
+  {
+    "name": "Mythical Realms Chronicles Chronicles Vector",
+    "prompt": "mythical realms chronicles chronicles vector design {prompt} . mythical dimension stories, enchanted chronicles",
+    "negative_prompt": "non-mythical dimension stories, ordinary chronicles, uninspiring tales"
+  },
+  {
+    "name": "Time-Lapse Adventures Chronicles Vector",
+    "prompt": "time-lapse adventures chronicles chronicles vector art {prompt} . time-lapse experiences stories, temporal chronicles",
+    "negative_prompt": "real-time experience stories, static chronicles, uninspiring tales"
+  },
+  {
+    "name": "Futuristic City Chronicles Chronicles Vector",
+    "prompt": "futuristic city chronicles chronicles vector illustration {prompt} . futuristic metropolis stories, cyberpunk urban tales",
+    "negative_prompt": "non-futuristic city stories, historical town chronicles, uninspiring tales"
+  },
+  {
+    "name": "Virtual Worlds Chronicles Chronicles Vector",
+    "prompt": "virtual worlds chronicles chronicles vector art {prompt} . digital realm stories, virtual universe chronicles",
+    "negative_prompt": "non-virtual world stories, real-life chronicles, uninspiring tales"
+  },
+  {
+    "name": "Medieval Fantasy Chronicles Chronicles Vector",
+    "prompt": "medieval fantasy chronicles chronicles vector design {prompt} . medieval legend stories, mythical tales",
+    "negative_prompt": "non-medieval legend stories, contemporary chronicles, uninspiring tales"
+  },
+  {
+    "name": "Artificial Intelligence Chronicles Chronicles Vector",
+    "prompt": "artificial intelligence chronicles chronicles vector artwork {prompt} . AI stories, digital intelligence chronicles",
+    "negative_prompt": "non-AI stories, human-centered chronicles, uninspiring tales"
+  },
+  {
+    "name": "Ancient Civilizations Chronicles Chronicles Vector",
+    "prompt": "ancient civilizations chronicles chronicles vector illustration {prompt} . ancient history tales, archaeological chronicles",
+    "negative_prompt": "non-ancient history stories, modern history chronicles, uninspiring tales"
+  },
+  {
+    "name": "Time Traveler's Journal Chronicles Chronicles Vector",
+    "prompt": "time traveler's journal chronicles chronicles vector art {prompt} . time-traveling stories, historical insights",
+    "negative_prompt": "time stagnation, uneventful history, uninspiring tales"
+  },
+  {
+    "name": "Jungle Exploration Chronicles Chronicles Vector",
+    "prompt": "jungle exploration chronicles chronicles vector design {prompt} . tropical jungle tales, exotic adventures",
+    "negative_prompt": "non-jungle tales, mundane adventures, uninspiring tales"
+  },
+  {
+    "name": "Mythical Creatures Encyclopedia Chronicles Chronicles Vector",
+    "prompt": "mythical creatures encyclopedia chronicles chronicles vector artwork {prompt} . legendary beast stories, mythical chronicles",
+    "negative_prompt": "non-mythical creature stories, ordinary chronicles, uninspiring tales"
+  },
+  {
+    "name": "Virtual Reality Escapades Chronicles Chronicles Vector",
+    "prompt": "virtual reality escapades chronicles chronicles vector art {prompt} . VR adventure stories, immersive experiences",
+    "negative_prompt": "non-virtual adventure stories, real-world chronicles, uninspiring tales"
+  },
+  {
+    "name": "Fairy Tale Chronicles Chronicles Chronicles Vector",
+    "prompt": "fairy tale chronicles chronicles chronicles vector illustration {prompt} . fairy tale stories, magical chronicles",
+    "negative_prompt": "non-fairy tale stories, mundane chronicles, uninspiring tales"
+  },
+  {
+    "name": "Space Warfare Chronicles Chronicles Vector",
+    "prompt": "space warfare chronicles chronicles chronicles vector design {prompt} . space battle stories, cosmic conflicts",
+    "negative_prompt": "peaceful space stories, non-battle chronicles, uninspiring tales"
+  },
+  {
+    "name": "Superhero Adventures Chronicles Chronicles Vector",
+    "prompt": "superhero adventures chronicles chronicles chronicles vector art {prompt} . superhero tales, superpowered chronicles",
+    "negative_prompt": "non-heroic chronicles, ordinary tales, uninspiring stories"
+  },
+  {
+    "name": "Underwater Explorations Chronicles Chronicles Vector",
+    "prompt": "underwater explorations chronicles chronicles chronicles vector illustration {prompt} . marine discovery stories, oceanic chronicles",
+    "negative_prompt": "non-aquatic chronicles, land-based tales, uninspiring stories"
+  },
+  {
+    "name": "Mythical Realms Chronicles Chronicles Chronicles Vector",
+    "prompt": "mythical realms chronicles chronicles chronicles vector design {prompt} . mythical dimension stories, enchanted chronicles",
+    "negative_prompt": "non-mythical dimension stories, ordinary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Time-Lapse Adventures Chronicles Chronicles Chronicles Vector",
+    "prompt": "time-lapse adventures chronicles chronicles chronicles vector art {prompt} . time-lapse experiences stories, temporal chronicles",
+    "negative_prompt": "real-time experience stories, static chronicles, uninspiring stories"
+  },
+  {
+    "name": "Futuristic City Chronicles Chronicles Chronicles Vector",
+    "prompt": "futuristic city chronicles chronicles chronicles vector illustration {prompt} . futuristic metropolis stories, cyberpunk urban tales",
+    "negative_prompt": "non-futuristic city stories, historical town chronicles, uninspiring stories"
+  },
+  {
+    "name": "Virtual Worlds Chronicles Chronicles Chronicles Vector",
+    "prompt": "virtual worlds chronicles chronicles chronicles vector art {prompt} . digital realm stories, virtual universe chronicles",
+    "negative_prompt": "non-virtual world stories, real-life chronicles, uninspiring stories"
+  },
+  {
+    "name": "Medieval Fantasy Chronicles Chronicles Chronicles Vector",
+    "prompt": "medieval fantasy chronicles chronicles chronicles vector design {prompt} . medieval legend stories, mythical tales",
+    "negative_prompt": "non-medieval legend stories, contemporary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Artificial Intelligence Chronicles Chronicles Chronicles Vector",
+    "prompt": "artificial intelligence chronicles chronicles chronicles vector artwork {prompt} . AI stories, digital intelligence chronicles",
+    "negative_prompt": "non-AI stories, human-centered chronicles, uninspiring stories"
+  },
+  {
+    "name": "Ancient Civilizations Chronicles Chronicles Chronicles Vector",
+    "prompt": "ancient civilizations chronicles chronicles chronicles vector illustration {prompt} . ancient history tales, archaeological chronicles",
+    "negative_prompt": "non-ancient history stories, modern history chronicles, uninspiring stories"
+  },
+  {
+    "name": "Time Traveler's Journal Chronicles Chronicles Chronicles Vector",
+    "prompt": "time traveler's journal chronicles chronicles chronicles vector art {prompt} . time-traveling stories, historical insights",
+    "negative_prompt": "time stagnation, uneventful history, uninspiring stories"
+  },
+  {
+    "name": "Jungle Exploration Chronicles Chronicles Chronicles Vector",
+    "prompt": "jungle exploration chronicles chronicles chronicles vector design {prompt} . tropical jungle tales, exotic adventures",
+    "negative_prompt": "non-jungle tales, mundane adventures, uninspiring stories"
+  },
+  {
+    "name": "Mythical Creatures Encyclopedia Chronicles Chronicles Chronicles Vector",
+    "prompt": "mythical creatures encyclopedia chronicles chronicles chronicles vector artwork {prompt} . legendary beast stories, mythical chronicles",
+    "negative_prompt": "non-mythical creature stories, ordinary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Virtual Reality Escapades Chronicles Chronicles Chronicles Vector",
+    "prompt": "virtual reality escapades chronicles chronicles chronicles vector art {prompt} . VR adventure stories, immersive experiences",
+    "negative_prompt": "non-virtual adventure stories, real-world chronicles, uninspiring stories"
+  },
+  {
+    "name": "Fairy Tale Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "fairy tale chronicles chronicles chronicles chronicles vector illustration {prompt} . fairy tale stories, magical chronicles",
+    "negative_prompt": "non-fairy tale stories, mundane chronicles, uninspiring stories"
+  },
+  {
+    "name": "Space Warfare Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "space warfare chronicles chronicles chronicles chronicles vector design {prompt} . space battle stories, cosmic conflicts",
+    "negative_prompt": "peaceful space stories, non-battle chronicles, uninspiring stories"
+  },
+  {
+    "name": "Superhero Adventures Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "superhero adventures chronicles chronicles chronicles chronicles vector art {prompt} . superhero tales, superpowered chronicles",
+    "negative_prompt": "non-heroic chronicles, ordinary tales, uninspiring stories"
+  },
+  {
+    "name": "Underwater Explorations Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "underwater explorations chronicles chronicles chronicles chronicles vector illustration {prompt} . marine discovery stories, oceanic chronicles",
+    "negative_prompt": "non-aquatic chronicles, land-based tales, uninspiring stories"
+  },
+  {
+    "name": "Mythical Realms Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "mythical realms chronicles chronicles chronicles chronicles vector design {prompt} . mythical dimension stories, enchanted chronicles",
+    "negative_prompt": "non-mythical dimension stories, ordinary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Time-Lapse Adventures Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "time-lapse adventures chronicles chronicles chronicles chronicles vector art {prompt} . time-lapse experiences stories, temporal chronicles",
+    "negative_prompt": "real-time experience stories, static chronicles, uninspiring stories"
+  },
+  {
+    "name": "Futuristic City Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "futuristic city chronicles chronicles chronicles chronicles vector illustration {prompt} . futuristic metropolis stories, cyberpunk urban tales",
+    "negative_prompt": "non-futuristic city stories, historical town chronicles, uninspiring stories"
+  },
+  {
+    "name": "Virtual Worlds Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "virtual worlds chronicles chronicles chronicles chronicles vector art {prompt} . digital realm stories, virtual universe chronicles",
+    "negative_prompt": "non-virtual world stories, real-life chronicles, uninspiring stories"
+  },
+  {
+    "name": "Medieval Fantasy Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "medieval fantasy chronicles chronicles chronicles chronicles vector design {prompt} . medieval legend stories, mythical tales",
+    "negative_prompt": "non-medieval legend stories, contemporary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Artificial Intelligence Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "artificial intelligence chronicles chronicles chronicles chronicles vector artwork {prompt} . AI stories, digital intelligence chronicles",
+    "negative_prompt": "non-AI stories, human-centered chronicles, uninspiring stories"
+  },
+  {
+    "name": "Ancient Civilizations Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "ancient civilizations chronicles chronicles chronicles chronicles vector illustration {prompt} . ancient history tales, archaeological chronicles",
+    "negative_prompt": "non-ancient history stories, modern history chronicles, uninspiring stories"
+  },
+  {
+    "name": "Time Traveler's Journal Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "time traveler's journal chronicles chronicles chronicles chronicles vector art {prompt} . time-traveling stories, historical insights",
+    "negative_prompt": "time stagnation, uneventful history, uninspiring stories"
+  },
+  {
+    "name": "Jungle Exploration Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "jungle exploration chronicles chronicles chronicles chronicles vector design {prompt} . tropical jungle tales, exotic adventures",
+    "negative_prompt": "non-jungle tales, mundane adventures, uninspiring stories"
+  },
+  {
+    "name": "Mythical Creatures Encyclopedia Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "mythical creatures encyclopedia chronicles chronicles chronicles chronicles vector artwork {prompt} . legendary beast stories, mythical chronicles",
+    "negative_prompt": "non-mythical creature stories, ordinary chronicles, uninspiring stories"
+  },
+  {
+    "name": "Virtual Reality Escapades Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "virtual reality escapades chronicles chronicles chronicles chronicles vector art {prompt} . VR adventure stories, immersive experiences",
+    "negative_prompt": "non-virtual adventure stories, real-world chronicles, uninspiring stories"
+  },
+  {
+    "name": "Fairy Tale Chronicles Chronicles Chronicles Chronicles Chronicles Vector",
+    "prompt": "fairy tale chronicles chronicles chronicles chronicles chronicles vector illustration {prompt} . fairy tale stories, magical chronicles",
+    "negative_prompt": "non-fairy tale stories, mundane chronicles, uninspiring stories"
+  },
+    {
+    "name": "Cute Fantasy Creatures",
+    "prompt": "cute fantasy creatures in 3D {prompt} . whimsical, magical, charming, fantasy world, adorable character design",
+    "negative_prompt": "frightening, grotesque, menacing, dark, sinister"
+  },
+  {
+    "name": "Cartoon Animals",
+    "prompt": "cartoon-style 3D animals {prompt} . animated, expressive, lovable animal characters, playful",
+    "negative_prompt": "realistic, lifeless, uninteresting, plain"
+  },
+  {
+    "name": "Kawaii 3D Characters",
+    "prompt": "kawaii 3D character art {prompt} . super cute, Japanese kawaii style, chibi characters, pastel colors",
+    "negative_prompt": "gritty, edgy, harsh, monotone"
+  },
+  {
+    "name": "Fairy Tale Characters",
+    "prompt": "fairy tale 3D characters {prompt} . fairy tale world, enchanting, storybook characters, adorable fantasy beings",
+    "negative_prompt": "boring, ordinary, mundane, unappealing"
+  },
+  {
+    "name": "Adorable Alien Beings",
+    "prompt": "adorable 3D alien characters {prompt} . extraterrestrial cuteness, otherworldly charm, friendly alien creatures",
+    "negative_prompt": "terrifying aliens, alien invaders, grotesque beings"
+  },
+  {
+    "name": "Baby Animals in 3D",
+    "prompt": "3D baby animals {prompt} . baby animal cuteness, tiny and adorable creatures, cute animal babies",
+    "negative_prompt": "adult animals, unattractive animals, scary animals"
+  },
+  {
+    "name": "Magical 3D Creatures",
+    "prompt": "magical 3D creatures {prompt} . mystical beings, enchanting creatures, cute magical entities",
+    "negative_prompt": "dull, unmagical, ordinary creatures"
+  },
+  {
+    "name": "Charming Fantasy Characters",
+    "prompt": "charming 3D fantasy characters {prompt} . fantasy world, lovable heroes, adorable fantasy adventures",
+    "negative_prompt": "mundane characters, uninteresting adventures"
+  },
+  {
+    "name": "Sweet 3D Monsters",
+    "prompt": "sweet 3D monsters {prompt} . lovable monsters, friendly creatures, cute monster design",
+    "negative_prompt": "terrifying monsters, evil creatures, nightmarish beings"
+  },
+  {
+    "name": "Adorable Robots",
+    "prompt": "adorable 3D robot characters {prompt} . cute robot design, charming mechanical beings, lovable robots",
+    "negative_prompt": "menacing robots, destructive machines"
+  },
+  {
+    "name": "Fuzzy Fantasy Beasts",
+    "prompt": "fuzzy 3D fantasy creatures {prompt} . cuddly fantasy beings, fluffy and adorable creatures",
+    "negative_prompt": "spiky, scary, unapproachable creatures"
+  },
+  {
+    "name": "Enchanted 3D Critters",
+    "prompt": "enchanted 3D critters {prompt} . magical critters, charming and mystical creatures",
+    "negative_prompt": "non-magical critters, boring animals"
+  },
+  {
+    "name": "Adorable 3D Avatars",
+    "prompt": "adorable 3D avatars {prompt} . cute virtual avatars, charming digital personas",
+    "negative_prompt": "unattractive avatars, unappealing digital identities"
+  },
+  {
+    "name": "Fantasy World Friends",
+    "prompt": "fantasy world friends in 3D {prompt} . lovable companions, cute fantasy sidekicks",
+    "negative_prompt": "unfriendly companions, dull sidekicks"
+  },  {
+    "name": "Watercolor Landscape",
+    "prompt": "watercolor landscape painting {prompt}. soft brushstrokes, vibrant colors, scenic view, natural beauty",
+    "negative_prompt": "digital, pixel art, abstract, messy, chaotic, non-representational"
+  },
+  {
+    "name": "Impressionist Landscape",
+    "prompt": "impressionist landscape artwork {prompt}. capturing light, brushwork, plein air, atmospheric, Claude Monet",
+    "negative_prompt": "realism, hyperrealism, geometric, symmetrical, lifeless, dull"
+  },
+  {
+    "name": "Abstract Landscape",
+    "prompt": "abstract landscape painting {prompt}. non-representational, expressive, shapes, colors, emotions",
+    "negative_prompt": "realistic, detailed, literal, uninspired, dull, lifeless"
+  },
+  {
+    "name": "Surreal Landscape",
+    "prompt": "surreal landscape illustration {prompt}. dreamlike, bizarre, juxtaposition, Salvador Dali",
+    "negative_prompt": "ordinary, straightforward, mundane, predictable"
+  },
+  {
+    "name": "Minimalist Landscape",
+    "prompt": "minimalist landscape art {prompt}. simplicity, clean lines, stark beauty, less is more",
+    "negative_prompt": "cluttered, busy, chaotic, overcomplicated"
+  },
+  {
+    "name": "Chinese Ink Landscape",
+    "prompt": "Chinese ink landscape painting {prompt}. traditional, flowing strokes, harmony, Zen",
+    "negative_prompt": "digital, Western, bright colors, chaotic"
+  },
+  {
+    "name": "Fantasy Landscape",
+    "prompt": "fantasy landscape illustration {prompt}. mythical creatures, magical realms, epic adventures",
+    "negative_prompt": "realistic, everyday, mundane, dull, lifeless"
+  },
+  {
+    "name": "Cubist Landscape",
+    "prompt": "cubist landscape artwork {prompt}. fragmented, geometric, Picasso, multiple perspectives",
+    "negative_prompt": "realistic, seamless, conventional, single perspective"
+  },
+  {
+    "name": "Pop Art Landscape",
+    "prompt": "pop art landscape painting {prompt}. bold colors, iconic imagery, Andy Warhol",
+    "negative_prompt": "subdued, muted, ordinary, unremarkable"
+  },
+  {
+    "name": "Digital Painting",
+    "prompt": "digital landscape art {prompt}. high-resolution, endless possibilities, digital medium",
+    "negative_prompt": "analog, traditional, limitations, low-resolution"
+  },
+  {
+    "name": "Realistic Landscape",
+    "prompt": "realistic landscape painting {prompt}. detailed, lifelike, natural scenery",
+    "negative_prompt": "abstract, surreal, distorted, exaggerated"
+  },
+  {
+    "name": "Gothic Landscape",
+    "prompt": "gothic landscape illustration {prompt}. dark, eerie, Gothic architecture, haunting beauty",
+    "negative_prompt": "bright, cheerful, modern, ordinary"
+  },
+  {
+    "name": "Fauvist Landscape",
+    "prompt": "Fauvist landscape artwork {prompt}. vibrant colors, wild brushwork, Henri Matisse",
+    "negative_prompt": "dull, muted, restrained, precise"
+  },
+  {
+    "name": "Romantic Landscape",
+    "prompt": "romantic landscape painting {prompt}. emotional, picturesque, sublime, Caspar David Friedrich",
+    "negative_prompt": "pragmatic, uninspired, unemotional, ordinary"
+  },
+  {
+    "name": "Landscape Collage",
+    "prompt": "landscape collage art {prompt}. mixed media, layered, textures, storytelling",
+    "negative_prompt": "single medium, flat, unlayered, non-textured"
+  },
+  {
+    "name": "Pointillism Landscape",
+    "prompt": "pointillism landscape painting {prompt}. dots, color theory, Georges Seurat",
+    "negative_prompt": "solid, continuous, colorless"
+  },
+  {
+    "name": "Graffiti Landscape",
+    "prompt": "graffiti-style landscape illustration {prompt}. urban, street art, rebellious",
+    "negative_prompt": "clean, polished, conformist"
+  },
+  {
+    "name": "Countryside Landscape",
+    "prompt": "countryside landscape painting {prompt}. rural, peaceful, idyllic, pastoral",
+    "negative_prompt": "urban, chaotic, industrial, noisy"
+  },
+  {
+    "name": "Digital Surrealism",
+    "prompt": "digital surrealism landscape {prompt}. dreamscapes, distorted reality, digital manipulation",
+    "negative_prompt": "conventional, straightforward, reality"
+  }, {
+    "name": "Vibrant Anime Colors",
+    "prompt": "vibrant anime colors in {prompt}. Bold and lively color palette, eye-catching hues, vivid characters",
+    "negative_prompt": "dull colors, lack of vibrancy, muted tones, uninteresting color choices"
+  },
+  {
+    "name": "Chibi Characters",
+    "prompt": "Chibi-style anime art featuring {prompt}. Cute and exaggerated chibi characters, adorable expressions, playful poses",
+    "negative_prompt": "realistic characters, lack of cuteness, stiff poses, unexpressive faces"
+  },
+  {
+    "name": "Fantasy Anime World",
+    "prompt": "immersive fantasy anime world with {prompt}. Enchanting landscapes, mythical creatures, epic adventures, rich world-building",
+    "negative_prompt": "lack of fantasy elements, generic landscapes, shallow world-building, unconvincing creatures"
+  },
+  {
+    "name": "Magical Girl Transformation",
+    "prompt": "magical girl transformation sequence with {prompt}. Sparkling transformations, magical auras, intricate outfits, stunning visual effects",
+    "negative_prompt": "bland transformations, lack of magic, uninspired outfits, poor visual effects"
+  },
+  {
+    "name": "Mecha Battle",
+    "prompt": "intense mecha battle scene featuring {prompt}. Gigantic robots, high-tech weaponry, dynamic combat, futuristic cityscapes",
+    "negative_prompt": "boring mecha designs, unexciting battles, lack of futuristic elements, unconvincing technology"
+  },
+  {
+    "name": "Samurai Duel",
+    "prompt": "samurai duel in {prompt}. Traditional katana clashes, honor-bound warriors, dramatic lighting, cherry blossoms",
+    "negative_prompt": "inauthentic samurai duels, lack of honor, unimpressive swordsmanship, absence of cultural elements"
+  },
+  {
+    "name": "Cyberpunk Anime",
+    "prompt": "cyberpunk anime featuring {prompt}. Neon-lit cityscapes, cybernetic enhancements, hackers, dystopian futures, futuristic fashion",
+    "negative_prompt": "lack of cyberpunk aesthetics, uninspired cityscapes, unconvincing technology, dull fashion"
+  },
+  {
+    "name": "Mystical Creatures",
+    "prompt": "mystical creatures in {prompt}. Enigmatic beasts, magical beings, otherworldly landscapes, hidden realms",
+    "negative_prompt": "unimpressive creatures, lack of mysticism, unconvincing landscapes, uninspired beings"
+  },
+  {
+    "name": "School Romance",
+    "prompt": "school romance anime with {prompt}. Heartfelt love stories, emotional moments, school uniforms, blushing characters",
+    "negative_prompt": "lack of romance, unconvincing relationships, emotionless characters, absence of school elements"
+  },{
+    "name": "Isekai Adventure",
+    "prompt": "isekai adventure anime with {prompt}. Transported to another world, fantasy races, epic quests, magical powers, charismatic heroes",
+    "negative_prompt": "lackluster isekai adventures, unconvincing fantasy worlds, uninspired quests, uninteresting magical elements"
+},
+{
+    "name": "Kawaii Food Art",
+    "prompt": "kawaii food art featuring {prompt}. Adorable food illustrations, smiling snacks, cute bento boxes, sweet treats",
+    "negative_prompt": "unappetizing food art, lack of cuteness, dull food illustrations, uncreative presentations"
+},
+{
+    "name": "Sci-Fi Space Opera",
+    "prompt": "sci-fi space opera anime set in {prompt}. Galactic wars, starships, alien civilizations, epic space battles, futuristic technology",
+    "negative_prompt": "uninspiring space operas, lack of futuristic elements, unconvincing alien races, dull space battles"
+},
+{
+    "name": "Historical Samurai Epic",
+    "prompt": "historical samurai epic in {prompt}. Feudal Japan, honorable warriors, political intrigue, katana duels, traditional architecture",
+    "negative_prompt": "inauthentic historical settings, dishonorable characters, unimpressive duels, lack of traditional elements"
+},
+{
+    "name": "Idol Music Performance",
+    "prompt": "idol music performance in {prompt}. Sparkling stage, idol groups, catchy songs, energetic choreography, fan excitement",
+    "negative_prompt": "forgettable music performances, lack of energy, uninspiring choreography, disinterested fans"
+},
+{
+    "name": "Mystical Forest",
+"prompt": "mystical forest scene in {prompt}. Enchanted woods, magical creatures, bioluminescent flora, hidden secrets",
+"negative_prompt": "ordinary forests, lack of enchantment, uninspiring creatures, dull vegetation"
+},
+{
+    "name": "Giant Mecha Monsters",
+"prompt": "giant mecha monsters in {prompt}. Colossal robotic beasts, destructive battles, epic clashes, urban destruction",
+"negative_prompt": "mediocre mecha monsters, lack of destruction, unimpressive battles, uninspiring robot designs"
+},
+{
+    "name": "Classic Shoujo Romance",
+"prompt": "classic shoujo romance anime with {prompt}. Blossoming love, romantic tension, elegant character designs, dreamy scenes",
+"negative_prompt": "lack of romance, unconvincing relationships, unattractive character designs, uninteresting scenes"
+},
+{
+    "name": "Superhero Team-Up",
+"prompt": "superhero team-up anime featuring {prompt}. Dynamic heroes, epic crossovers, powerful alliances, world-saving missions",
+"negative_prompt": "unimpressive heroes, lack of crossovers, weak alliances, unconvincing world-saving missions"
+},
+{
+    "name": "Mythical Beasts",
+"prompt": "mythical beasts in {prompt}. Legendary creatures, epic battles, ancient prophecies, mythical realms",
+"negative_prompt": "ordinary creatures, lack of legend, unimpressive battles, uninspired realms"
+},
+{
+    "name": "Kawaii Animals",
+"prompt": "kawaii animals in {prompt}. Cute and cuddly creatures, heartwarming scenes, adorable pets, lovable wildlife",
+"negative_prompt": "unattractive animals, lack of cuteness, uninteresting scenes, uninspired pets"
+},
+{
+    "name": "High School Slice of Life",
+"prompt": "high school slice of life anime in {prompt}. Everyday adventures, school friendships, heartwarming moments, relatable characters",
+"negative_prompt": "uninteresting high school life, lack of friendships, uninspiring moments, unrelatable characters"
+},
+{
+    "name": "Epic Fantasy Battles",
+"prompt": "epic fantasy battles in {prompt}. Heroic warriors, magical clashes, epic landscapes, destiny-defining moments",
+"negative_prompt": "unheroic battles, lack of magic, uninspiring landscapes, unconvincing destinies"
+},
+{
+    "name": "Mecha Racing",
+"prompt": "mecha racing anime featuring {prompt}. High-speed races, futuristic tracks, technologically advanced mecha, intense competition",
+"negative_prompt": "unexciting mecha races, lack of futuristic elements, uninspired tracks, uncompetitive atmosphere"
+},
+{
+    "name": "Mystical Artifacts",
+"prompt": "mystical artifacts in {prompt}. Powerful relics, ancient mysteries, supernatural powers, world-altering consequences",
+"negative_prompt": "ordinary artifacts, lack of mystery, uninspiring powers, unworldly consequences"
+},
+{
+    "name": "Magic Academy",
+"prompt": "magic academy anime set in {prompt}. Young wizards, magical training, enchanted classrooms, mystical creatures",
+"negative_prompt": "unimpressive magic academies, lack of wizardry, uninspiring training, unmagical creatures"
+},
+{
+    "name": "Time Travel Adventure",
+"prompt": "time travel adventure anime in {prompt}. Temporal anomalies, historical journeys, paradoxes, alternate realities",
+"negative_prompt": "uninteresting time travels, lack of history, uninspired paradoxes, unconvincing realities"
+},
+{
+    "name": "Futuristic Cityscapes",
+"prompt": "futuristic cityscapes in {prompt}. High-tech metropolis, neon lights, flying cars, advanced architecture",
+"negative_prompt": "unfuturistic cityscapes, lack of technology, uninspired lights, grounded cars, outdated architecture"
+},
+{
+    "name": "Kawaii Fashion",
+"prompt": "kawaii fashion in {prompt}. Cute outfits, stylish accessories, fashionable characters, trendsetting looks",
+"negative_prompt": "unstylish fashion, lack of cuteness, uninspiring outfits, outdated characters"
+},
+{
+    "name": "Post-Apocalyptic Survival",
+"prompt": "post-apocalyptic survival anime featuring {prompt}. Ravaged world, resilient survivors, scarce resources, desperate battles",
+"negative_prompt": "unimpressive post-apocalypses, lack of resilience, uninspiring resources, unconvincing battles"
+},
+{
+    "name": "Haunted House",
+"prompt": "haunted house scene in {prompt}. Ghostly apparitions, eerie atmosphere, spine-tingling chills, paranormal investigations",
+"negative_prompt": "unhaunted houses, lack of ghosts, uninspiring atmosphere, unspine-tingling scenes, amateur investigations"
+},
+{
+    "name": "Mythical Legends",
+"prompt": "mythical legends in {prompt}. Legendary heroes, epic quests, mythical creatures, divine interventions",
+"negative_prompt": "unlegendary heroes, lack of quests, uninspiring creatures, unconvincing divine interventions"
+},
+{
+    "name": "Giant Kaiju Battles",
+"prompt": "giant kaiju battles in {prompt}. Massive monsters, epic showdowns, city-destroying clashes, heroic defenders",
+"negative_prompt": "unimpressive kaiju, lack of showdowns, uninspiring destruction, unheroic defenders"
+},
+{
+    "name": "Dreamy Worlds",
+"prompt": "dreamy worlds in {prompt}. Surreal landscapes, imaginative realms, whimsical settings, fantastical adventures",
+"negative_prompt": "unsurreal worlds, lack of imagination, uninspiring realms, unwhimsical settings, unconvincing adventures"
+},
+{
+    "name": "Legendary Swords",
+"prompt": "legendary swords in {prompt}. Mythical blades, heroic wielders, epic battles, world-changing destinies",
+"negative_prompt": "unlegendary swords, lack of mythical blades, uninspiring wielders, unheroic battles, unworld-changing destinies"
+},
+{
+    "name": "Mystical Powers",
+"prompt": "mystical powers in {prompt}. Supernatural abilities, cosmic forces, magical phenomena, reality-bending feats",
+"negative_prompt": "unmystical powers, lack of supernatural abilities, uninspiring forces, unmagical phenomena, unreality-bending feats"
+},
+{
+    "name": "Superhuman Heroes",
+"prompt": "superhuman heroes in {prompt}. Extraordinary abilities, heroic feats, epic battles, secret identities",
+"negative_prompt": "unsuperhuman heroes, lack of extraordinary abilities, uninspiring feats, unheroic battles, revealed identities"
+},
+{
+    "name": "Kawaii Robots",
+"prompt": "kawaii robots in {prompt}. Cute and friendly robotic companions, heartwarming interactions, charming AI",
+"negative_prompt": "unfriendly robots, lack of cuteness, uninspiring interactions, charmless AI"
+},
+{
+    "name": "Haunted Forest",
+"prompt": "haunted forest scene in {prompt}. Ghostly apparitions, sinister trees, eerie atmosphere, chilling encounters",
+"negative_prompt": "unhaunted forests, lack of ghosts, uninspiring trees, unspooky atmosphere, unchilling encounters"
+},
+{
+    "name": "Mecha Pilots",
+"prompt": "mecha pilots in {prompt}. Skilled mech operators, epic battles, high-tech suits, futuristic combat",
+"negative_prompt": "unskilled mech operators, lack of epic battles, uninspiring suits, outdated combat"
+},
+{
+    "name": "Mysterious Aliens",
+"prompt": "mysterious aliens in {prompt}. Extraterrestrial beings, enigmatic encounters, interstellar mysteries, cosmic revelations",
+"negative_prompt": "unmysterious aliens, lack of extraterrestrial beings, uninspiring encounters, uninterstellar mysteries, uncognitive revelations"
+},
+{
+    "name": "Kawaii Fantasy Creatures",
+"prompt": "kawaii fantasy creatures in {prompt}. Adorable mythical beings, whimsical adventures, charming fantasy worlds",
+"negative_prompt": "unattractive fantasy creatures, lack of charm, uninspiring adventures, uncharming fantasy worlds"
+},
+{
+    "name": "Digital Fantasy Art",
+"prompt": "digital fantasy art of {prompt}. Immaculate digital illustrations, intricate details, stunning fantasy landscapes",
+"negative_prompt": "imperfect digital art, lack of intricate details, uninspiring landscapes"
+},
+  {
+    "name": "3D Model",
+    "prompt": "professional 3d model {prompt} . octane render, highly detailed, volumetric, dramatic lighting",
+    "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting"
+  },
+  {
+    "name": "Analog Film",
+    "prompt": "analog film photo {prompt} . faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage",
+    "negative_prompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
+  },
+  {
+    "name": "Anime",
+    "prompt": "anime artwork {prompt} . anime style, key visual, vibrant, studio anime,  highly detailed",
+    "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast"
+  },
+  {
+    "name": "Cinematic",
+    "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+    "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+  },
+  {
+    "name": "Comic Book",
+    "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+    "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo"
+  },
+  {
+    "name": "Craft Clay",
+    "prompt": "play-doh style {prompt} . sculpture, clay art, centered composition, Claymation",
+    "negative_prompt": "sloppy, messy, grainy, highly detailed, ultra textured, photo"
+  },
+  {
+    "name": "Digital Art",
+    "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+    "negative_prompt": "photo, photorealistic, realism, ugly"
+  },
+  {
+    "name": "Enhance",
+    "prompt": "breathtaking {prompt} . award-winning, professional, highly detailed",
+    "negative_prompt": "ugly, deformed, noisy, blurry, distorted, grainy"
+  },
+  {
+    "name": "Fantasy Art",
+    "prompt": "ethereal fantasy concept art of  {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+    "negative_prompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white"
+  },
+  {
+    "name": "Isometric Style",
+    "prompt": "isometric style {prompt} . vibrant, beautiful, crisp, detailed, ultra detailed, intricate",
+    "negative_prompt": "deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic"
+  },
+  {
+    "name": "Line Art",
+    "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+    "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic"
+  },
+  {
+    "name": "Lowpoly",
+    "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+    "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+  },
+  {
+    "name": "Neon Punk",
+    "prompt": "neonpunk style {prompt} . cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional",
+    "negative_prompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
+  },
+  {
+    "name": "Origami",
+    "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+    "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+  },
+  {
+    "name": "Photographic",
+    "prompt": "cinematic photo {prompt} . 35mm photograph, film, bokeh, professional, 4k, highly detailed",
+    "negative_prompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
+  },
+  {
+    "name": "Pixel Art",
+    "prompt": "pixel-art {prompt} . low-res, blocky, pixel art style, 8-bit graphics",
+    "negative_prompt": "sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic"
+  },
+  {
+    "name": "Texture",
+    "prompt": "texture {prompt} top down close-up",
+    "negative_prompt": "ugly, deformed, noisy, blurry"
+  },
+  {
+    "name": "Advertising",
+    "prompt": "Advertising poster style {prompt} . Professional, modern, product-focused, commercial, eye-catching, highly detailed",
+    "negative_prompt": "noisy, blurry, amateurish, sloppy, unattractive"
+  },
+  {
+    "name": "Food Photography",
+    "prompt": "Food photography style {prompt} . Appetizing, professional, culinary, high-resolution, commercial, highly detailed",
+    "negative_prompt": "unappetizing, sloppy, unprofessional, noisy, blurry"
+  },
+  {
+    "name": "Real Estate",
+    "prompt": "Real estate photography style {prompt} . Professional, inviting, well-lit, high-resolution, property-focused, commercial, highly detailed",
+    "negative_prompt": "dark, blurry, unappealing, noisy, unprofessional"
+  },
+  {
+    "name": "Abstract",
+    "prompt": "Abstract style {prompt} . Non-representational, colors and shapes, expression of feelings, imaginative, highly detailed",
+    "negative_prompt": "realistic, photographic, figurative, concrete"
+  },
+  {
+    "name": "Cubist",
+    "prompt": "Cubist artwork {prompt} . Geometric shapes, abstract, innovative, revolutionary",
+    "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+  },
+  {
+    "name": "Graffiti",
+    "prompt": "Graffiti style {prompt} . Street art, vibrant, urban, detailed, tag, mural",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+  },
+  {
+    "name": "Hyperrealism",
+    "prompt": "Hyperrealistic art {prompt} . Extremely high-resolution details, photographic, realism pushed to extreme, fine texture, incredibly lifelike",
+    "negative_prompt": "simplified, abstract, unrealistic, impressionistic, low resolution"
+  },
+  {
+    "name": "Impressionist",
+    "prompt": "Impressionist painting {prompt} . Loose brushwork, vibrant color, light and shadow play, captures feeling over form",
+    "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+  },
+  {
+    "name": "Pointillism",
+    "prompt": "Pointillism style {prompt} . Composed entirely of small, distinct dots of color, vibrant, highly detailed",
+    "negative_prompt": "line drawing, smooth shading, large color fields, simplistic"
+  },
+  {
+    "name": "Pop Art",
+    "prompt": "Pop Art style {prompt} . Bright colors, bold outlines, popular culture themes, ironic or kitsch",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, minimalist"
+  },
+  {
+    "name": "Psychedelic",
+    "prompt": "Psychedelic style {prompt} . Vibrant colors, swirling patterns, abstract forms, surreal, trippy",
+    "negative_prompt": "monochrome, black and white, low contrast, realistic, photorealistic, plain, simple"
+  },
+  {
+    "name": "Renaissance",
+    "prompt": "Renaissance style {prompt} . Realistic, perspective, light and shadow, religious or mythological themes, highly detailed",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
+  },
+  {
+    "name": "Steampunk",
+    "prompt": "Steampunk style {prompt} . Antique, mechanical, brass and copper tones, gears, intricate, detailed",
+    "negative_prompt": "deformed, glitch, noisy, low contrast, anime, photorealistic"
+  },
+  {
+    "name": "Surrealist",
+    "prompt": "Surrealist art {prompt} . Dreamlike, mysterious, provocative, symbolic, intricate, detailed",
+    "negative_prompt": "anime, photorealistic, realistic, deformed, glitch, noisy, low contrast"
+  },
+  {
+    "name": "Typography",
+    "prompt": "Typographic art {prompt} . Stylized, intricate, detailed, artistic, text-based",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+  },
+  {
+    "name": "Watercolor",
+    "prompt": "Watercolor painting {prompt} . Vibrant, beautiful, painterly, detailed, textural, artistic",
+    "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+  },
+  {
+    "name": "Fighting Game",
+    "prompt": "Fighting game style {prompt} . Dynamic, vibrant, action-packed, detailed character design, reminiscent of fighting video games",
+    "negative_prompt": "peaceful, calm, minimalist, photorealistic"
+  },
+  {
+    "name": "GTA",
+    "prompt": "GTA-style artwork {prompt} . Satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
+    "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed"
+  },
+  {
+    "name": "Super Mario",
+    "prompt": "Super Mario style {prompt} . Vibrant, cute, cartoony, fantasy, playful, reminiscent of Super Mario series",
+    "negative_prompt": "realistic, modern, horror, dystopian, violent"
+  },
+  {
+    "name": "Minecraft",
+    "prompt": "Minecraft style {prompt} . Blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
+    "negative_prompt": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed"
+  },
+  {
+    "name": "PokÃ©mon",
+    "prompt": "PokÃ©mon style {prompt} . Vibrant, cute, anime, fantasy, reminiscent of PokÃ©mon series",
+    "negative_prompt": "realistic, modern, horror, dystopian, violent"
+  },
+  {
+    "name": "Retro Arcade",
+    "prompt": "Retro arcade style {prompt} . 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
+    "negative_prompt": "modern, ultra-high resolution, photorealistic, 3D"
+  },
+  {
+    "name": "Retro Game",
+    "prompt": "Retro game art {prompt} . 16-bit, vibrant colors, pixelated, nostalgic, charming, fun",
+    "negative_prompt": "realistic, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+  },
+  {
+    "name": "RPG Fantasy Game",
+    "prompt": "Role-playing game (RPG) style fantasy {prompt} . Detailed, vibrant, immersive, reminiscent of high fantasy RPG games",
+    "negative_prompt": "sci-fi, modern, urban, futuristic, low detailed"
+  },
+  {
+    "name": "Strategy Game",
+    "prompt": "Strategy game style {prompt} . Overhead view, detailed map, units, reminiscent of real-time strategy video games",
+    "negative_prompt": "first-person view, modern, photorealistic"
+  },
+  {
+    "name": "Street Fighter",
+    "prompt": "Street Fighter style {prompt} . Vibrant, dynamic, arcade, 2D fighting game, highly detailed, reminiscent of Street Fighter series",
+    "negative_prompt": "3D, realistic, modern, photorealistic, turn-based strategy"
+  },
+  {
+    "name": "Legend of Zelda",
+    "prompt": "Legend of Zelda style {prompt} . Vibrant, fantasy, detailed, epic, heroic, reminiscent of The Legend of Zelda series",
+    "negative_prompt": "sci-fi, modern, realistic, horror"
+  },
+  {
+    "name": "Architectural",
+    "prompt": "Architectural style {prompt} . Clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+    "negative_prompt": "curved lines, ornate, baroque, abstract, grunge"
+  },
+  {
+    "name": "Disco",
+    "prompt": "Disco-themed {prompt} . Vibrant, groovy, retro 70s style, shiny disco balls, neon lights, dance floor, highly detailed",
+    "negative_prompt": "minimalist, rustic, monochrome, contemporary, simplistic"
+  },
+  {
+    "name": "Dreamscape",
+    "prompt": "Dreamscape {prompt} . Surreal, ethereal, dreamy, mysterious, fantasy, highly detailed",
+    "negative_prompt": "realistic, concrete, ordinary, mundane"
+  },
+  {
+    "name": "Dystopian",
+    "prompt": "Dystopian style {prompt} . Bleak, post-apocalyptic, somber, dramatic, highly detailed",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful"
+  },
+  {
+    "name": "Fairy Tale",
+    "prompt": "Fairy tale {prompt} . Magical, fantastical, enchanting, storybook style, highly detailed",
+    "negative_prompt": "realistic, modern, ordinary, mundane"
+  },
+  {
+    "name": "Gothic",
+    "prompt": "Gothic style {prompt} . Dark, mysterious, haunting, dramatic, ornate, detailed",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, cheerful, optimistic"
+  },
+  {
+    "name": "Grunge",
+    "prompt": "Grunge style {prompt} . Textured, distressed, vintage, edgy, punk rock vibe, dirty, noisy",
+    "negative_prompt": "smooth, clean, minimalist, sleek, modern, photorealistic"
+  },
+  {
+    "name": "Horror",
+    "prompt": "Horror-themed {prompt} . Eerie, unsettling, dark, spooky, suspenseful, grim, highly detailed",
+    "negative_prompt": "cheerful, bright, vibrant, light-hearted, cute"
+  },
+  {
+    "name": "Minimalist",
+    "prompt": "Minimalist style {prompt} . Simple, clean, uncluttered, modern, elegant",
+    "negative_prompt": "ornate, complicated, highly detailed, cluttered, disordered, messy, noisy"
+  },
+  {
+    "name": "Monochrome",
+    "prompt": "Monochrome {prompt} . Black and white, contrast, tone, texture, detailed",
+    "negative_prompt": "colorful, vibrant, noisy, blurry, deformed"
+  },
+  {
+    "name": "Nautical",
+    "prompt": "Nautical-themed {prompt} . Sea, ocean, ships, maritime, beach, marine life, highly detailed",
+    "negative_prompt": "landlocked, desert, mountains, urban, rustic"
+  },
+  {
+    "name": "Space",
+    "prompt": "Space-themed {prompt} . Cosmic, celestial, stars, galaxies, nebulas, planets, science fiction, highly detailed",
+    "negative_prompt": "earthly, mundane, ground-based, realism"
+  },
+  {
+    "name": "Stained Glass",
+    "prompt": "Stained glass style {prompt} . Vibrant, beautiful, translucent, intricate, detailed",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+  },
+  {
+    "name": "Techwear Fashion",
+    "prompt": "Techwear fashion {prompt} . Futuristic, cyberpunk, urban, tactical, sleek, dark, highly detailed",
+    "negative_prompt": "vintage, rural, colorful, low contrast, realism, sketch, watercolor"
+  },
+  {
+    "name": "Tribal",
+    "prompt": "Tribal style {prompt} . Indigenous, ethnic, traditional patterns, bold, natural colors, highly detailed",
+    "negative_prompt": "modern, futuristic, minimalist, pastel"
+  },
+  {
+    "name": "Zentangle",
+    "prompt": "Zentangle {prompt} . Intricate, abstract, monochrome, patterns, meditative, highly detailed",
+    "negative_prompt": "colorful, representative, simplistic, large fields of color"
+  },
+  {
+    "name": "Collage",
+    "prompt": "Collage style {prompt} . Mixed media, layered, textural, detailed, artistic",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+  },
+  {
+    "name": "Flat Papercut",
+    "prompt": "Flat papercut style {prompt} . Silhouette, clean cuts, paper, sharp edges, minimalist, color block",
+    "negative_prompt": "3D, high detail, noise, grainy, blurry, painting, drawing, photo, disfigured"
+  },
+  {
+    "name": "Kirigami",
+    "prompt": "Kirigami representation of {prompt} . 3D, paper folding, paper cutting, Japanese, intricate, symmetrical, precision, clean lines",
+    "negative_prompt": "painting, drawing, 2D, noisy, blurry, deformed"
+  },
+  {
+    "name": "Paper Mache",
+    "prompt": "Paper mache representation of {prompt} . 3D, sculptural, textured, handmade, vibrant, fun",
+    "negative_prompt": "2D, flat, photo, sketch, digital art, deformed, noisy, blurry"
+  },
+  {
+    "name": "Paper Quilling",
+    "prompt": "Paper quilling art of {prompt} . Intricate, delicate, curling, rolling, shaping, coiling, loops, 3D, dimensional, ornamental",
+    "negative_prompt": "photo, painting, drawing, 2D, flat, deformed, noisy, blurry"
+  },
+  {
+    "name": "Papercut Collage",
+    "prompt": "Papercut collage of {prompt} . Mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
+    "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured"
+  },
+  {
+    "name": "Papercut Shadow Box",
+    "prompt": "3D papercut shadow box of {prompt} . Layered, dimensional, depth, silhouette, shadow, papercut, handmade, high contrast",
+    "negative_prompt": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured"
+  },
+  {
+    "name": "Stacked Papercut",
+    "prompt": "Stacked papercut art of {prompt} . 3D, layered, dimensional, depth, precision cut, stacked layers, papercut, high contrast",
+    "negative_prompt": "2D, flat, noisy, blurry, painting, drawing, photo, deformed"
+  },
+  {
+    "name": "Thick Layered Papercut",
+    "prompt": "Thick layered papercut art of {prompt} . Deep 3D, volumetric, dimensional, depth, thick paper, high stack, heavy texture, tangible layers",
+    "negative_prompt": "2D, flat, thin paper, low stack, smooth texture, painting, drawing, photo, deformed"
+  },
+  {
+    "name": "Alien",
+    "prompt": "Alien-themed {prompt} . Extraterrestrial, cosmic, otherworldly, mysterious, sci-fi, highly detailed",
+    "negative_prompt": "earthly, mundane, common, realistic, simple"
+  },
+  {
+    "name": "Film Noir",
+    "prompt": "Film noir style {prompt} . Monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful"
+  },
+  {
+    "name": "HDR",
+    "prompt": "HDR photo of {prompt} . High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed",
+    "negative_prompt": "flat, low contrast, oversaturated, underexposed, overexposed, blurred, noisy"
+  },
+  {
+    "name": "Long Exposure",
+    "prompt": "Long exposure photo of {prompt} . Blurred motion, streaks of light, surreal, dreamy, ghosting effect, highly detailed",
+    "negative_prompt": "static, noisy, deformed, shaky, abrupt, flat, low contrast"
+  },
+  {
+    "name": "Neon Noir",
+    "prompt": "Neon noir {prompt} . Cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed",
+    "negative_prompt": "bright, sunny, daytime, low contrast, black and white, sketch, watercolor"
+  },
+  {
+    "name": "Silhouette",
+    "prompt": "Silhouette style {prompt} . High contrast, minimalistic, black and white, stark, dramatic",
+    "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, color, realism, photorealistic"
+  },
+  {
+    "name": "Tilt-Shift",
+    "prompt": "Tilt-shift photo of {prompt} . Selective focus, miniature effect, blurred background, highly detailed, vibrant, perspective control",
+    "negative_prompt": "blurry, noisy, deformed, flat, low contrast, unrealistic, oversaturated, underexposed"
+  },
+  
+   {
+        "name": "cinematic-default",
+        "prompt": "cinematic still {prompt} . emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+        "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },
+    {
+        "name": "sai-3d-model",
+        "prompt": "professional 3d model {prompt} . octane render, highly detailed, volumetric, dramatic lighting",
+        "negative_prompt": "ugly, deformed, noisy, low poly, blurry, painting"
+    },
+    {
+        "name": "sai-analog film",
+        "prompt": "analog film photo {prompt} . faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage",
+        "negative_prompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
+    },
+    {
+        "name": "sai-anime",
+        "prompt": "anime artwork {prompt} . anime style, key visual, vibrant, studio anime,  highly detailed",
+        "negative_prompt": "photo, deformed, black and white, realism, disfigured, low contrast"
+    },
+    {
+        "name": "sai-cinematic",
+        "prompt": "cinematic film still {prompt} . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+        "negative_prompt": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+    },
+    {
+        "name": "sai-comic book",
+        "prompt": "comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+        "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo"
+    },
+    {
+        "name": "sai-craft clay",
+        "prompt": "play-doh style {prompt} . sculpture, clay art, centered composition, Claymation",
+        "negative_prompt": "sloppy, messy, grainy, highly detailed, ultra textured, photo"
+    },
+    {
+        "name": "sai-digital art",
+        "prompt": "concept art {prompt} . digital artwork, illustrative, painterly, matte painting, highly detailed",
+        "negative_prompt": "photo, photorealistic, realism, ugly"
+    },
+    {
+        "name": "sai-enhance",
+        "prompt": "breathtaking {prompt} . award-winning, professional, highly detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, distorted, grainy"
+    },
+    {
+        "name": "sai-fantasy art",
+        "prompt": "ethereal fantasy concept art of  {prompt} . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy",
+        "negative_prompt": "photographic, realistic, realism, 35mm film, dslr, cropped, frame, text, deformed, glitch, noise, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, sloppy, duplicate, mutated, black and white"
+    },
+    {
+        "name": "sai-isometric",
+        "prompt": "isometric style {prompt} . vibrant, beautiful, crisp, detailed, ultra detailed, intricate",
+        "negative_prompt": "deformed, mutated, ugly, disfigured, blur, blurry, noise, noisy, realistic, photographic"
+    },
+    {
+        "name": "sai-line art",
+        "prompt": "line art drawing {prompt} . professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+        "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic"
+    },
+    {
+        "name": "sai-lowpoly",
+        "prompt": "low-poly style {prompt} . low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+        "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+    },
+    {
+        "name": "sai-neonpunk",
+        "prompt": "neonpunk style {prompt} . cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional",
+        "negative_prompt": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
+    },
+    {
+        "name": "sai-origami",
+        "prompt": "origami style {prompt} . paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+        "negative_prompt": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+    },
+    {
+        "name": "sai-photographic",
+        "prompt": "cinematic photo {prompt} . 35mm photograph, film, bokeh, professional, 4k, highly detailed",
+        "negative_prompt": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
+    },
+    {
+        "name": "sai-pixel art",
+        "prompt": "pixel-art {prompt} . low-res, blocky, pixel art style, 8-bit graphics",
+        "negative_prompt": "sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic"
+    },
+    {
+        "name": "sai-texture",
+        "prompt": "texture {prompt} top down close-up",
+        "negative_prompt": "ugly, deformed, noisy, blurry"
+    },
+    {
+        "name": "ads-advertising",
+        "prompt": "Advertising poster style {prompt} . Professional, modern, product-focused, commercial, eye-catching, highly detailed",
+        "negative_prompt": "noisy, blurry, amateurish, sloppy, unattractive"
+    },
+    {
+        "name": "ads-automotive",
+        "prompt": "Automotive advertisement style {prompt} . Sleek, dynamic, professional, commercial, vehicle-focused, high-resolution, highly detailed",
+        "negative_prompt": "noisy, blurry, unattractive, sloppy, unprofessional"
+    },
+    {
+        "name": "ads-corporate",
+        "prompt": "Corporate branding style {prompt} . Professional, clean, modern, sleek, minimalist, business-oriented, highly detailed",
+        "negative_prompt": "noisy, blurry, grungy, sloppy, cluttered, disorganized"
+    },
+    {
+        "name": "ads-fashion editorial",
+        "prompt": "Fashion editorial style {prompt} . High fashion, trendy, stylish, editorial, magazine style, professional, highly detailed",
+        "negative_prompt": "outdated, blurry, noisy, unattractive, sloppy"
+    },
+    {
+        "name": "ads-food photography",
+        "prompt": "Food photography style {prompt} . Appetizing, professional, culinary, high-resolution, commercial, highly detailed",
+        "negative_prompt": "unappetizing, sloppy, unprofessional, noisy, blurry"
+    },
+    {
+        "name": "ads-luxury",
+        "prompt": "Luxury product style {prompt} . Elegant, sophisticated, high-end, luxurious, professional, highly detailed",
+        "negative_prompt": "cheap, noisy, blurry, unattractive, amateurish"
+    },
+    {
+        "name": "ads-real estate",
+        "prompt": "Real estate photography style {prompt} . Professional, inviting, well-lit, high-resolution, property-focused, commercial, highly detailed",
+        "negative_prompt": "dark, blurry, unappealing, noisy, unprofessional"
+    },
+    {
+        "name": "ads-retail",
+        "prompt": "Retail packaging style {prompt} . Vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed",
+        "negative_prompt": "noisy, blurry, amateurish, sloppy, unattractive"
+    },
+    {
+        "name": "artstyle-abstract",
+        "prompt": "abstract style {prompt} . non-representational, colors and shapes, expression of feelings, imaginative, highly detailed",
+        "negative_prompt": "realistic, photographic, figurative, concrete"
+    },
+    {
+        "name": "artstyle-abstract expressionism",
+        "prompt": "abstract expressionist painting {prompt} . energetic brushwork, bold colors, abstract forms, expressive, emotional",
+        "negative_prompt": "realistic, photorealistic, low contrast, plain, simple, monochrome"
+    },
+    {
+        "name": "artstyle-art deco",
+        "prompt": "Art Deco style {prompt} . geometric shapes, bold colors, luxurious, elegant, decorative, symmetrical, ornate, detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist"
+    },
+    {
+        "name": "artstyle-art nouveau",
+        "prompt": "Art Nouveau style {prompt} . elegant, decorative, curvilinear forms, nature-inspired, ornate, detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist"
+    },
+    {
+        "name": "artstyle-constructivist",
+        "prompt": "constructivist style {prompt} . geometric shapes, bold colors, dynamic composition, propaganda art style",
+        "negative_prompt": "realistic, photorealistic, low contrast, plain, simple, abstract expressionism"
+    },
+    {
+        "name": "artstyle-cubist",
+        "prompt": "cubist artwork {prompt} . geometric shapes, abstract, innovative, revolutionary",
+        "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+    },
+    {
+        "name": "artstyle-expressionist",
+        "prompt": "expressionist {prompt} . raw, emotional, dynamic, distortion for emotional effect, vibrant, use of unusual colors, detailed",
+        "negative_prompt": "realism, symmetry, quiet, calm, photo"
+    },
+    {
+        "name": "artstyle-graffiti",
+        "prompt": "graffiti style {prompt} . street art, vibrant, urban, detailed, tag, mural",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+    },
+    {
+        "name": "artstyle-hyperrealism",
+        "prompt": "hyperrealistic art {prompt} . extremely high-resolution details, photographic, realism pushed to extreme, fine texture, incredibly lifelike",
+        "negative_prompt": "simplified, abstract, unrealistic, impressionistic, low resolution"
+    },
+    {
+        "name": "artstyle-impressionist",
+        "prompt": "impressionist painting {prompt} . loose brushwork, vibrant color, light and shadow play, captures feeling over form",
+        "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+    },
+    {
+        "name": "artstyle-pointillism",
+        "prompt": "pointillism style {prompt} . composed entirely of small, distinct dots of color, vibrant, highly detailed",
+        "negative_prompt": "line drawing, smooth shading, large color fields, simplistic"
+    },
+    {
+        "name": "artstyle-pop art",
+        "prompt": "Pop Art style {prompt} . bright colors, bold outlines, popular culture themes, ironic or kitsch",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, minimalist"
+    },
+    {
+        "name": "artstyle-psychedelic",
+        "prompt": "psychedelic style {prompt} . vibrant colors, swirling patterns, abstract forms, surreal, trippy",
+        "negative_prompt": "monochrome, black and white, low contrast, realistic, photorealistic, plain, simple"
+    },
+    {
+        "name": "artstyle-renaissance",
+        "prompt": "Renaissance style {prompt} . realistic, perspective, light and shadow, religious or mythological themes, highly detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
+    },
+    {
+        "name": "artstyle-steampunk",
+        "prompt": "steampunk style {prompt} . antique, mechanical, brass and copper tones, gears, intricate, detailed",
+        "negative_prompt": "deformed, glitch, noisy, low contrast, anime, photorealistic"
+    },
+    {
+        "name": "artstyle-surrealist",
+        "prompt": "surrealist art {prompt} . dreamlike, mysterious, provocative, symbolic, intricate, detailed",
+        "negative_prompt": "anime, photorealistic, realistic, deformed, glitch, noisy, low contrast"
+    },
+    {
+        "name": "artstyle-typography",
+        "prompt": "typographic art {prompt} . stylized, intricate, detailed, artistic, text-based",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+    },
+    {
+        "name": "artstyle-watercolor",
+        "prompt": "watercolor painting {prompt} . vibrant, beautiful, painterly, detailed, textural, artistic",
+        "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+    },
+    {
+        "name": "futuristic-biomechanical",
+        "prompt": "biomechanical style {prompt} . blend of organic and mechanical elements, futuristic, cybernetic, detailed, intricate",
+        "negative_prompt": "natural, rustic, primitive, organic, simplistic"
+    },
+    {
+        "name": "futuristic-biomechanical cyberpunk",
+        "prompt": "biomechanical cyberpunk {prompt} . cybernetics, human-machine fusion, dystopian, organic meets artificial, dark, intricate, highly detailed",
+        "negative_prompt": "natural, colorful, deformed, sketch, low contrast, watercolor"
+    },
+    {
+        "name": "futuristic-cybernetic",
+        "prompt": "cybernetic style {prompt} . futuristic, technological, cybernetic enhancements, robotics, artificial intelligence themes",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval"
+    },
+    {
+        "name": "futuristic-cybernetic robot",
+        "prompt": "cybernetic robot {prompt} . android, AI, machine, metal, wires, tech, futuristic, highly detailed",
+        "negative_prompt": "organic, natural, human, sketch, watercolor, low contrast"
+    },
+    {
+        "name": "futuristic-cyberpunk cityscape",
+        "prompt": "cyberpunk cityscape {prompt} . neon lights, dark alleys, skyscrapers, futuristic, vibrant colors, high contrast, highly detailed",
+        "negative_prompt": "natural, rural, deformed, low contrast, black and white, sketch, watercolor"
+    },
+    {
+        "name": "futuristic-futuristic",
+        "prompt": "futuristic style {prompt} . sleek, modern, ultramodern, high tech, detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vintage, antique"
+    },
+    {
+        "name": "futuristic-retro cyberpunk",
+        "prompt": "retro cyberpunk {prompt} . 80's inspired, synthwave, neon, vibrant, detailed, retro futurism",
+        "negative_prompt": "modern, desaturated, black and white, realism, low contrast"
+    },
+    {
+        "name": "futuristic-retro futurism",
+        "prompt": "retro-futuristic {prompt} . vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed",
+        "negative_prompt": "contemporary, realistic, rustic, primitive"
+    },
+    {
+        "name": "futuristic-sci-fi",
+        "prompt": "sci-fi style {prompt} . futuristic, technological, alien worlds, space themes, advanced civilizations",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval"
+    },
+    {
+        "name": "futuristic-vaporwave",
+        "prompt": "vaporwave style {prompt} . retro aesthetic, cyberpunk, vibrant, neon colors, vintage 80s and 90s style, highly detailed",
+        "negative_prompt": "monochrome, muted colors, realism, rustic, minimalist, dark"
+    },
+    {
+        "name": "game-bubble bobble",
+        "prompt": "Bubble Bobble style {prompt} . 8-bit, cute, pixelated, fantasy, vibrant, reminiscent of Bubble Bobble game",
+        "negative_prompt": "realistic, modern, photorealistic, violent, horror"
+    },
+    {
+        "name": "game-cyberpunk game",
+        "prompt": "cyberpunk game style {prompt} . neon, dystopian, futuristic, digital, vibrant, detailed, high contrast, reminiscent of cyberpunk genre video games",
+        "negative_prompt": "historical, natural, rustic, low detailed"
+    },
+    {
+        "name": "game-fighting game",
+        "prompt": "fighting game style {prompt} . dynamic, vibrant, action-packed, detailed character design, reminiscent of fighting video games",
+        "negative_prompt": "peaceful, calm, minimalist, photorealistic"
+    },
+    {
+        "name": "game-gta",
+        "prompt": "GTA-style artwork {prompt} . satirical, exaggerated, pop art style, vibrant colors, iconic characters, action-packed",
+        "negative_prompt": "realistic, black and white, low contrast, impressionist, cubist, noisy, blurry, deformed"
+    },
+    {
+        "name": "game-mario",
+        "prompt": "Super Mario style {prompt} . vibrant, cute, cartoony, fantasy, playful, reminiscent of Super Mario series",
+        "negative_prompt": "realistic, modern, horror, dystopian, violent"
+    },
+    {
+        "name": "game-minecraft",
+        "prompt": "Minecraft style {prompt} . blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
+        "negative_prompt": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed"
+    },
+    {
+        "name": "game-pokemon",
+        "prompt": "PokÃ©mon style {prompt} . vibrant, cute, anime, fantasy, reminiscent of PokÃ©mon series",
+        "negative_prompt": "realistic, modern, horror, dystopian, violent"
+    },
+    {
+        "name": "game-retro arcade",
+        "prompt": "retro arcade style {prompt} . 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
+        "negative_prompt": "modern, ultra-high resolution, photorealistic, 3D"
+    },
+    {
+        "name": "game-retro game",
+        "prompt": "retro game art {prompt} . 16-bit, vibrant colors, pixelated, nostalgic, charming, fun",
+        "negative_prompt": "realistic, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+    },
+    {
+        "name": "game-rpg fantasy game",
+        "prompt": "role-playing game (RPG) style fantasy {prompt} . detailed, vibrant, immersive, reminiscent of high fantasy RPG games",
+        "negative_prompt": "sci-fi, modern, urban, futuristic, low detailed"
+    },
+    {
+        "name": "game-strategy game",
+        "prompt": "strategy game style {prompt} . overhead view, detailed map, units, reminiscent of real-time strategy video games",
+        "negative_prompt": "first-person view, modern, photorealistic"
+    },
+    {
+        "name": "game-streetfighter",
+        "prompt": "Street Fighter style {prompt} . vibrant, dynamic, arcade, 2D fighting game, highly detailed, reminiscent of Street Fighter series",
+        "negative_prompt": "3D, realistic, modern, photorealistic, turn-based strategy"
+    },
+    {
+        "name": "game-zelda",
+        "prompt": "Legend of Zelda style {prompt} . vibrant, fantasy, detailed, epic, heroic, reminiscent of The Legend of Zelda series",
+        "negative_prompt": "sci-fi, modern, realistic, horror"
+    },
+    {
+        "name": "misc-architectural",
+        "prompt": "architectural style {prompt} . clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+        "negative_prompt": "curved lines, ornate, baroque, abstract, grunge"
+    },
+    {
+        "name": "misc-disco",
+        "prompt": "disco-themed {prompt} . vibrant, groovy, retro 70s style, shiny disco balls, neon lights, dance floor, highly detailed",
+        "negative_prompt": "minimalist, rustic, monochrome, contemporary, simplistic"
+    },
+    {
+        "name": "misc-dreamscape",
+        "prompt": "dreamscape {prompt} . surreal, ethereal, dreamy, mysterious, fantasy, highly detailed",
+        "negative_prompt": "realistic, concrete, ordinary, mundane"
+    },
+    {
+        "name": "misc-dystopian",
+        "prompt": "dystopian style {prompt} . bleak, post-apocalyptic, somber, dramatic, highly detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful"
+    },
+    {
+        "name": "misc-fairy tale",
+        "prompt": "fairy tale {prompt} . magical, fantastical, enchanting, storybook style, highly detailed",
+        "negative_prompt": "realistic, modern, ordinary, mundane"
+    },
+    {
+        "name": "misc-gothic",
+        "prompt": "gothic style {prompt} . dark, mysterious, haunting, dramatic, ornate, detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, cheerful, optimistic"
+    },
+    {
+        "name": "misc-grunge",
+        "prompt": "grunge style {prompt} . textured, distressed, vintage, edgy, punk rock vibe, dirty, noisy",
+        "negative_prompt": "smooth, clean, minimalist, sleek, modern, photorealistic"
+    },
+    {
+        "name": "misc-horror",
+        "prompt": "horror-themed {prompt} . eerie, unsettling, dark, spooky, suspenseful, grim, highly detailed",
+        "negative_prompt": "cheerful, bright, vibrant, light-hearted, cute"
+    },
+    {
+        "name": "misc-kawaii",
+        "prompt": "kawaii style {prompt} . cute, adorable, brightly colored, cheerful, anime influence, highly detailed",
+        "negative_prompt": "dark, scary, realistic, monochrome, abstract"
+    },
+    {
+        "name": "misc-lovecraftian",
+        "prompt": "lovecraftian horror {prompt} . eldritch, cosmic horror, unknown, mysterious, surreal, highly detailed",
+        "negative_prompt": "light-hearted, mundane, familiar, simplistic, realistic"
+    },
+    {
+        "name": "misc-macabre",
+        "prompt": "macabre style {prompt} . dark, gothic, grim, haunting, highly detailed",
+        "negative_prompt": "bright, cheerful, light-hearted, cartoonish, cute"
+    },
+    {
+        "name": "misc-manga",
+        "prompt": "manga style {prompt} . vibrant, high-energy, detailed, iconic, Japanese comic style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, Western comic style"
+    },
+    {
+        "name": "misc-metropolis",
+        "prompt": "metropolis-themed {prompt} . urban, cityscape, skyscrapers, modern, futuristic, highly detailed",
+        "negative_prompt": "rural, natural, rustic, historical, simple"
+    },
+    {
+        "name": "misc-minimalist",
+        "prompt": "minimalist style {prompt} . simple, clean, uncluttered, modern, elegant",
+        "negative_prompt": "ornate, complicated, highly detailed, cluttered, disordered, messy, noisy"
+    },
+    {
+        "name": "misc-monochrome",
+        "prompt": "monochrome {prompt} . black and white, contrast, tone, texture, detailed",
+        "negative_prompt": "colorful, vibrant, noisy, blurry, deformed"
+    },
+    {
+        "name": "misc-nautical",
+        "prompt": "nautical-themed {prompt} . sea, ocean, ships, maritime, beach, marine life, highly detailed",
+        "negative_prompt": "landlocked, desert, mountains, urban, rustic"
+    },
+    {
+        "name": "misc-space",
+        "prompt": "space-themed {prompt} . cosmic, celestial, stars, galaxies, nebulas, planets, science fiction, highly detailed",
+        "negative_prompt": "earthly, mundane, ground-based, realism"
+    },
+    {
+        "name": "misc-stained glass",
+        "prompt": "stained glass style {prompt} . vibrant, beautiful, translucent, intricate, detailed",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+    },
+    {
+        "name": "misc-techwear fashion",
+        "prompt": "techwear fashion {prompt} . futuristic, cyberpunk, urban, tactical, sleek, dark, highly detailed",
+        "negative_prompt": "vintage, rural, colorful, low contrast, realism, sketch, watercolor"
+    },
+    {
+        "name": "misc-tribal",
+        "prompt": "tribal style {prompt} . indigenous, ethnic, traditional patterns, bold, natural colors, highly detailed",
+        "negative_prompt": "modern, futuristic, minimalist, pastel"
+    },
+    {
+        "name": "misc-zentangle",
+        "prompt": "zentangle {prompt} . intricate, abstract, monochrome, patterns, meditative, highly detailed",
+        "negative_prompt": "colorful, representative, simplistic, large fields of color"
+    },
+    {
+        "name": "papercraft-collage",
+        "prompt": "collage style {prompt} . mixed media, layered, textural, detailed, artistic",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+    },
+    {
+        "name": "papercraft-flat papercut",
+        "prompt": "flat papercut style {prompt} . silhouette, clean cuts, paper, sharp edges, minimalist, color block",
+        "negative_prompt": "3D, high detail, noise, grainy, blurry, painting, drawing, photo, disfigured"
+    },
+    {
+        "name": "papercraft-kirigami",
+        "prompt": "kirigami representation of {prompt} . 3D, paper folding, paper cutting, Japanese, intricate, symmetrical, precision, clean lines",
+        "negative_prompt": "painting, drawing, 2D, noisy, blurry, deformed"
+    },
+    {
+        "name": "papercraft-paper mache",
+        "prompt": "paper mache representation of {prompt} . 3D, sculptural, textured, handmade, vibrant, fun",
+        "negative_prompt": "2D, flat, photo, sketch, digital art, deformed, noisy, blurry"
+    },
+    {
+        "name": "papercraft-paper quilling",
+        "prompt": "paper quilling art of {prompt} . intricate, delicate, curling, rolling, shaping, coiling, loops, 3D, dimensional, ornamental",
+        "negative_prompt": "photo, painting, drawing, 2D, flat, deformed, noisy, blurry"
+    },
+    {
+        "name": "papercraft-papercut collage",
+        "prompt": "papercut collage of {prompt} . mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
+        "negative_prompt": "photo, 3D, realistic, drawing, painting, high detail, disfigured"
+    },
+    {
+        "name": "papercraft-papercut shadow box",
+        "prompt": "3D papercut shadow box of {prompt} . layered, dimensional, depth, silhouette, shadow, papercut, handmade, high contrast",
+        "negative_prompt": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured"
+    },
+    {
+        "name": "papercraft-stacked papercut",
+        "prompt": "stacked papercut art of {prompt} . 3D, layered, dimensional, depth, precision cut, stacked layers, papercut, high contrast",
+        "negative_prompt": "2D, flat, noisy, blurry, painting, drawing, photo, deformed"
+    },
+    {
+        "name": "papercraft-thick layered papercut",
+        "prompt": "thick layered papercut art of {prompt} . deep 3D, volumetric, dimensional, depth, thick paper, high stack, heavy texture, tangible layers",
+        "negative_prompt": "2D, flat, thin paper, low stack, smooth texture, painting, drawing, photo, deformed"
+    },
+    {
+        "name": "photo-alien",
+        "prompt": "alien-themed {prompt} . extraterrestrial, cosmic, otherworldly, mysterious, sci-fi, highly detailed",
+        "negative_prompt": "earthly, mundane, common, realistic, simple"
+    },
+    {
+        "name": "photo-film noir",
+        "prompt": "film noir style {prompt} . monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful"
+    },
+    {
+        "name": "photo-hdr",
+        "prompt": "HDR photo of {prompt} . High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed",
+        "negative_prompt": "flat, low contrast, oversaturated, underexposed, overexposed, blurred, noisy"
+    },
+    {
+        "name": "photo-long exposure",
+        "prompt": "long exposure photo of {prompt} . Blurred motion, streaks of light, surreal, dreamy, ghosting effect, highly detailed",
+        "negative_prompt": "static, noisy, deformed, shaky, abrupt, flat, low contrast"
+    },
+    {
+        "name": "photo-neon noir",
+        "prompt": "neon noir {prompt} . cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed",
+        "negative_prompt": "bright, sunny, daytime, low contrast, black and white, sketch, watercolor"
+    },
+    {
+        "name": "photo-silhouette",
+        "prompt": "silhouette style {prompt} . high contrast, minimalistic, black and white, stark, dramatic",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, color, realism, photorealistic"
+    },
+    {
+        "name": "photo-tilt-shift",
+        "prompt": "tilt-shift photo of {prompt} . Selective focus, miniature effect, blurred background, highly detailed, vibrant, perspective control",
+        "negative_prompt": "blurry, noisy, deformed, flat, low contrast, unrealistic, oversaturated, underexposed"
+    },
+    {
+        "name": "cinematic-diva",
+        "prompt": "UHD, 8K, ultra detailed, a cinematic photograph of {prompt}, beautiful lighting, great composition",
+        "negative_prompt": "ugly, deformed, noisy, blurry, NSFW"
+    },
+    {
+        "name": "Abstract Expressionism",
+        "prompt": "Abstract Expressionism Art, {prompt}, High contrast, minimalistic, colorful, stark, dramatic, expressionism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+    },
+    {
+        "name": "Academia",
+        "prompt": "Academia, {prompt}, preppy Ivy League style, stark, dramatic, chic boarding school, academia",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, grunge, sloppy, unkempt"
+    },
+    {
+        "name": "Action Figure",
+        "prompt": "Action Figure, {prompt}, plastic collectable action figure, collectable toy action figure",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Adorable 3D Character",
+        "prompt": "Adorable 3D Character, {prompt}, 3D render, adorable character, 3D art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, grunge, sloppy, unkempt, photograph, photo, realistic"
+    },
+    {
+        "name": "Adorable Kawaii",
+        "prompt": "Adorable Kawaii, {prompt}, pretty, cute, adorable, kawaii",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, gothic, dark, moody, monochromatic"
+    },
+    {
+        "name": "Art Deco",
+        "prompt": "Art Deco, {prompt}, sleek, geometric forms, art deco style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Art Nouveau",
+        "prompt": "Art Nouveau, beautiful art, {prompt}, sleek, organic forms, long, sinuous, art nouveau style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, industrial, mechanical"
+    },
+    {
+        "name": "Astral Aura",
+        "prompt": "Astral Aura, {prompt}, astral, colorful aura, vibrant energy",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Avant-garde",
+        "prompt": "Avant-garde, {prompt}, unusual, experimental, avant-garde art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Baroque",
+        "prompt": "Baroque, {prompt}, dramatic, exuberant, grandeur, baroque art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Bauhaus-Style Poster",
+        "prompt": "Bauhaus-Style Poster, {prompt}, simple geometric shapes, clean lines, primary colors, Bauhaus-Style Poster",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Blueprint Schematic Drawing",
+        "prompt": "Blueprint Schematic Drawing, {prompt}, technical drawing, blueprint, schematic",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Caricature",
+        "prompt": "Caricature, {prompt}, exaggerated, comical, caricature",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realistic"
+    },
+    {
+        "name": "Cel Shaded Art",
+        "prompt": "Cel Shaded Art, {prompt}, 2D, flat color, toon shading, cel shaded style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Character Design Sheet",
+        "prompt": "Character Design Sheet, {prompt}, character reference sheet, character turn around",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Classicism Art",
+        "prompt": "Classicism Art, {prompt}, inspired by Roman and Greek culture, clarity, harmonious, classicism art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Color Field Painting",
+        "prompt": "Color Field Painting, {prompt}, abstract, simple, geometic, color field painting style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Colored Pencil Art",
+        "prompt": "Colored Pencil Art, {prompt}, colored pencil strokes, light color, visible paper texture, colored pencil art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Conceptual Art",
+        "prompt": "Conceptual Art, {prompt}, concept art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Constructivism",
+        "prompt": "Constructivism Art, {prompt}, minimalistic, geometric forms, constructivism art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Cubism",
+        "prompt": "Cubism Art, {prompt}, flat geometric forms, cubism art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Dadaism",
+        "prompt": "Dadaism Art, {prompt}, satirical, nonsensical, dadaism art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Dark Fantasy",
+        "prompt": "Dark Fantasy Art, {prompt}, dark, moody, dark fantasy style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, bright, sunny"
+    },
+    {
+        "name": "Dark Moody Atmosphere",
+        "prompt": "Dark Moody Atmosphere, {prompt}, dramatic, mysterious, dark moody atmosphere",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, vibrant, colorful, bright"
+    },
+    {
+        "name": "DMT Art Style",
+        "prompt": "DMT Art Style, {prompt}, bright colors, surreal visuals, swirling patterns, DMT art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Doodle Art",
+        "prompt": "Doodle Art Style, {prompt}, drawing, freeform, swirling patterns, doodle art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Double Exposure",
+        "prompt": "Double Exposure Style, {prompt}, double image ghost effect, image combination, double exposure style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Dripping Paint Splatter Art",
+        "prompt": "Dripping Paint Splatter Art, {prompt}, dramatic, paint drips, splatters, dripping paint",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Expressionism",
+        "prompt": "Expressionism Art Style, {prompt}, movement, contrast, emotional, exaggerated forms, expressionism art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Faded Polaroid Photo",
+        "prompt": "Faded Polaroid Photo, {prompt}, analog, old faded photo, old polaroid",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, vibrant, colorful"
+    },
+    {
+        "name": "Fauvism",
+        "prompt": "Fauvism Art, {prompt}, painterly, bold colors, textured brushwork, fauvism art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Flat 2D Art",
+        "prompt": "Flat 2D Art, {prompt}, simple flat color, 2-dimensional, Flat 2D Art Style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, 3D, photo, realistic"
+    },
+    {
+        "name": "Fortnite Art Style",
+        "prompt": "Fortnite Art Style, {prompt}, 3D cartoon, colorful, Fortnite Art Style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+    },
+    {
+        "name": "Futurism",
+        "prompt": "Futurism Art Style, {prompt}, dynamic, dramatic, Futurism Art Style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Glitchcore",
+        "prompt": "Glitchcore Art Style, {prompt}, dynamic, dramatic, distorted, vibrant colors, glitchcore art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Glo-fi",
+        "prompt": "Glo-fi Art Style, {prompt}, dynamic, dramatic, vibrant colors, glo-fi art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Googie Art Style",
+        "prompt": "Googie Art Style, {prompt}, dynamic, dramatic, 1950's futurism, bold boomerang angles, Googie art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Graffiti Art",
+        "prompt": "Graffiti Art Style, {prompt}, dynamic, dramatic, vibrant colors, graffiti art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Harlem Renaissance Art",
+        "prompt": "Harlem Renaissance Art Style, {prompt}, dynamic, dramatic, 1920s African American culture, Harlem Renaissance art style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "High Fashion",
+        "prompt": "High Fashion, {prompt}, dynamic, dramatic, haute couture, elegant, ornate clothing, High Fashion",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Idyllic",
+        "prompt": "Idyllic, {prompt}, peaceful, happy, pleasant, happy, harmonious, picturesque, charming",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Impressionism",
+        "prompt": "Impressionism, {prompt}, painterly, small brushstrokes, visible brushstrokes, impressionistic style",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Infographic Drawing",
+        "prompt": "Infographic Drawing, {prompt}, diagram, infographic",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Ink Dripping Drawing",
+        "prompt": "Ink Dripping Drawing, {prompt}, ink drawing, dripping ink",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant"
+    },
+    {
+        "name": "Japanese Ink Drawing",
+        "prompt": "Japanese Ink Drawing, {prompt}, ink drawing, inkwash, Japanese Ink Drawing",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant"
+    },
+    {
+        "name": "Knolling Photography",
+        "prompt": "Knolling Photography, {prompt}, flat lay photography, object arrangment, knolling photography",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Light Cheery Atmosphere",
+        "prompt": "Light Cheery Atmosphere, {prompt}, happy, joyful, cheerful, carefree, gleeful, lighthearted, pleasant atmosphere",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, monochromatic, dark, moody"
+    },
+    {
+        "name": "Logo Design",
+        "prompt": "Logo Design, {prompt}, dynamic graphic art, vector art, minimalist, professional logo design",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Luxurious Elegance",
+        "prompt": "Luxurious Elegance, {prompt}, extravagant, ornate, designer, opulent, picturesque, lavish",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Macro Photography",
+        "prompt": "Macro Photography, {prompt}, close-up, macro 100mm, macro photography",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Mandola Art",
+        "prompt": "Mandola art style, {prompt}, complex, circular design, mandola",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Marker Drawing",
+        "prompt": "Marker Drawing, {prompt}, bold marker lines, visibile paper texture, marker drawing",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic"
+    },
+    {
+        "name": "Medievalism",
+        "prompt": "Medievalism, {prompt}, inspired by The Middle Ages, medieval art, elaborate patterns and decoration, Medievalism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Minimalism",
+        "prompt": "Minimalism, {prompt}, abstract, simple geometic shapes, hard edges, sleek contours, Minimalism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Neo-Baroque",
+        "prompt": "Neo-Baroque, {prompt}, ornate and elaborate, dynaimc, Neo-Baroque",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Neo-Byzantine",
+        "prompt": "Neo-Byzantine, {prompt}, grand decorative religious style, Orthodox Christian inspired, Neo-Byzantine",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Neo-Futurism",
+        "prompt": "Neo-Futurism, {prompt}, high-tech, curves, spirals, flowing lines, idealistic future, Neo-Futurism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Neo-Impressionism",
+        "prompt": "Neo-Impressionism, {prompt}, tiny dabs of color, Pointillism, painterly, Neo-Impressionism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic"
+    },
+    {
+        "name": "Neo-Rococo",
+        "prompt": "Neo-Rococo, {prompt}, curved forms, naturalistic ornamentation, elaborate, decorative, gaudy, Neo-Rococo",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Neoclassicism",
+        "prompt": "Neoclassicism, {prompt}, ancient Rome and Greece inspired, idealic, sober colors, Neoclassicism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Op Art",
+        "prompt": "Op Art, {prompt}, optical illusion, abstract, geometric pattern, impression of movement, Op Art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Ornate and Intricate",
+        "prompt": "Ornate and Intricate, {prompt}, decorative, highly detailed, elaborate, ornate, intricate",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Pencil Sketch Drawing",
+        "prompt": "Pencil Sketch Drawing, {prompt}, black and white drawing, graphite drawing",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Pop Art 2",
+        "prompt": "Pop Art, {prompt}, vivid colors, flat color, 2D, strong lines, Pop Art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+    },
+    {
+        "name": "Rococo",
+        "prompt": "Rococo, {prompt}, flamboyant, pastel colors, curved lines, elaborate detail, Rococo",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Silhouette Art",
+        "prompt": "Silhouette Art, {prompt}, high contrast, well defined, Silhouette Art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Simple Vector Art",
+        "prompt": "Simple Vector Art, {prompt}, 2D flat, simple shapes, minimalistic, professional graphic, flat color, high contrast, Simple Vector Art",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, 3D, photo, realistic"
+    },
+    {
+        "name": "Sketchup",
+        "prompt": "Sketchup, {prompt}, CAD, professional design, Sketchup",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photo, photograph"
+    },
+    {
+        "name": "Steampunk 2",
+        "prompt": "Steampunk, {prompt}, retrofuturistic science fantasy, steam-powered tech, vintage industry, gears, neo-victorian, steampunk",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Surrealism",
+        "prompt": "Surrealism, {prompt}, expressive, dramatic, organic lines and forms, dreamlike and mysterious, Surrealism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realistic"
+    },
+    {
+        "name": "Suprematism",
+        "prompt": "Suprematism, {prompt}, abstract, limited color palette, geometric forms, Suprematism",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, realistic"
+    },
+    {
+        "name": "Terragen",
+        "prompt": "Terragen, {prompt}, beautiful massive landscape, epic scenery, Terragen",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Tranquil Relaxing Atmosphere",
+        "prompt": "Tranquil Relaxing Atmosphere, {prompt}, calming style, soothing colors, peaceful, idealic, Tranquil Relaxing Atmosphere",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, oversaturated"
+    },
+    {
+        "name": "Sticker Designs",
+        "prompt": "Vector Art Stickers, {prompt}, professional vector design, sticker designs, Sticker Sheet",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Vibrant Rim Light",
+        "prompt": "Vibrant Rim Light, {prompt}, bright rim light, high contrast, bold edge light",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Volumetric Lighting",
+        "prompt": "Volumetric Lighting, {prompt}, light depth, dramatic atmospheric lighting, Volumetric Lighting",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast"
+    },
+    {
+        "name": "Watercolor 2",
+        "prompt": "Watercolor style painting, {prompt}, visible paper texture, colorwash, watercolor",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+    },
+    {
+        "name": "Whimsical and Playful",
+        "prompt": "Whimsical and Playful, {prompt}, imaginative, fantastical, bight colors, stylized, happy, Whimsical and Playful",
+        "negative_prompt": "ugly, deformed, noisy, blurry, low contrast, drab, boring, moody"
+    },{
         "name": "mre-cinematic-dynamic",
         "prompt": "epic cinematic shot of dynamic {prompt} in motion. main subject of high budget action movie. raw photo, motion blur. best quality, high resolution",
         "negative_prompt": "static, still, motionless, sluggish. drawing, painting, illustration, rendered. low budget. low quality, low resolution"
